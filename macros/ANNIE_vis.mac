@@ -1,0 +1,97 @@
+/glg4debug/glg4param omit_muon_processes  1.0
+/glg4debug/glg4param omit_hadronic_processes  1.0
+
+#/tracking/verbose 0
+#/tracking/storeTrajectory 1
+#/tracking/discardParticleTrajectory opticalphoton
+
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config12.geo"
+/rat/db/load ANNIE/ANNIE_MRD_FACC.geo
+
+/run/initialize
+
+#/process/activate Cerenkov
+#/glg4scint/on
+
+#/vis/open OGL
+#
+#/vis/open RayTracer
+#/vis/rayTracer/lightDirection 1 1 1
+#/vis/rayTracer/column 800
+#/vis/rayTracer/row 1000
+## This is degrees per 100 pixels
+#/vis/rayTracer/span 1 deg
+#/vis/rayTracer/target 0 0 0 mm  
+#/vis/rayTracer/eyePosition 60000.0 -10.0 30000.0 mm
+## For some reason 270 is upright?
+#/vis/rayTracer/headAngle 270 deg
+#/vis/rayTracer/trace raytrace.jpg
+#/vis/viewer/flush
+
+
+#initialize the visualizer
+/vis/open OGLIQt
+/vis/scene/create
+
+/vis/scene/add/volume
+/vis/scene/add/trajectories
+/vis/viewer/reset
+/vis/viewer/set/style surface
+/vis/drawVolume
+
+/vis/viewer/set/viewpointVector 0.1 0.1 0.0001
+/vis/viewer/zoom 1.5
+/vis/viewer/pan 0.5 0.2 m  # this finally works !
+/vis/viewer/set/upVector 0 1 0
+#
+######################
+## BEGIN EVENT LOOP
+#
+#/rat/proc simpledaq
+#/rat/proc count
+#/rat/procset update 10
+#/rat/proc fitcentroid
+#/rat/proc prune
+#/rat/procset prune "mc.track:opticalphoton"
+#
+## Use IO.default_output_filename
+#/rat/proclast outroot
+#
+#/generator/add combo gun:point
+#/generator/pos/set 0.1 -33.8 1749.4
+#/generator/vtx/set neutron 0 0 0 2.5e-8
+#/run/beamOn 10
+#
+#/generator/vtx/set e- 0 0 1 40
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 0 0 1 30
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 0 0 1 20
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 0 0 1 10
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 0 -1 0 10
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 0 1 0 10
+#/run/beamOn 1
+#
+#/generator/vtx/set e- -1 0 0 10
+#/run/beamOn 1
+#
+#/generator/vtx/set e- 1 0 0 10
+#/run/beamOn 1
+#
+##END EVENT LOOP
+######################
+#
+/vis/viewer/refresh
+#/vis/viewer/flush
+
+
+

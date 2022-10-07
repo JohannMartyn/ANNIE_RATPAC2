@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export ANNIEDATA=@ANNIESHARE@
+export PATH=@ANNIEROOT@/bin:$PATH
