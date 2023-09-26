@@ -1,0 +1,14 @@
+{
+name: "MATERIAL",
+index: "wbls1pct_ly95_SANDI",
+valid_begin: [0,0],
+valid_end: [0,0],
+density: 1.0,
+nelements: 0,
+ 
+nmaterials: 3,
+materials: ["lab", "ppo", "water"],
+matprop: [0.009977, 2.3e-05, 0.99]
+}
+
+
