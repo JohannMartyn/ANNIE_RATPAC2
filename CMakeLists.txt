@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11...3.14)
 project(annie VERSION 1.0.0
-  DESCRIPTION "ANNIE Simulations"
+  DESCRIPTION "Annie Simulations"
   LANGUAGES C CXX)
 
 ###########################################################
@@ -36,12 +36,11 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 ###########################################################
 # External libraries and dependencies
 set(TENSORFLOW_Enabled 0)
-find_library(TENSORFLOW_LIBRARIES tensorflow)
+find_library(TENSORFLOW_LIBRARIES tensorflow NO_DEFAULT_PATH)
 if(TENSORFLOW_LIBRARIES)
   message(STATUS "Compiling with Tensorflow")
   set(TENSORFLOW_Enabled 1)
 else()
-  message(WARNING "Tensorflow Not Found")
   set(TENSORFLOW_LIBRARIES "")
 endif()
 
@@ -64,7 +63,7 @@ include(${ROOT_USE_FILE})
 
 find_package(Geant4 REQUIRED COMPONENTS qt)
 include(${Geant4_USE_FILE})
-include_directories($ENV{CLHEP_INC})
+include_directories(${Geant4_INCLUDE_DIRS})
 
 find_package(Threads REQUIRED)
 find_package(Ratpac REQUIRED)
@@ -72,8 +71,8 @@ find_package(Ratpac REQUIRED)
 ###########################################################
 # Configure header with our version information
 configure_file(${CMAKE_SOURCE_DIR}/config/Config.hh.in
-  ${CMAKE_SOURCE_DIR}/src/include/Config.hh
-  @ONLY NEWLINE_STYLE UNIX)
+    ${CMAKE_SOURCE_DIR}/src/include/Config.hh
+    @ONLY NEWLINE_STYLE UNIX)
 
 # Configure local scripts
 set(ANNIEROOT ${CMAKE_INSTALL_PREFIX})
@@ -103,12 +102,12 @@ install(DIRECTORY ratdb/ DESTINATION ${ANNIESHARE}/ratdb
 #  PATTERN "models/*")
 
 # Install the python files
-install(DIRECTORY utilities/ DESTINATION ${ANNIESHARE}/utilities
-  PATTERN "utilities/*")
+#install(DIRECTORY utilities/ DESTINATION ${ANNIESHARE}/utilities
+#  PATTERN "utilities/*")
 
 # Install the mac files
-install(DIRECTORY macros/ DESTINATION ${ANNIESHARE}/macros
-  PATTERN "macros/*")
+#install(DIRECTORY macros/ DESTINATION ${ANNIESHARE}/macros
+#  PATTERN "macros/*")
 
 # Install env files
 install(FILES ${ANNIE_BINARY_DIR}/annie.sh
