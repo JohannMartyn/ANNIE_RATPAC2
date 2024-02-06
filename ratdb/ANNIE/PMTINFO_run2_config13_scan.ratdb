@@ -1,0 +1,189 @@
+{
+name: "PMTINFO_config13_scan_bottomgrid",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-643.413, -247.685, -775.424, -445.549, -577.56, 191.253, 76.6569, -319.072, 389.117, -121.207, -188.205, 148.044, -49.8202, 345.909, -386.069, 274.521, 593.255, 472.386, 791.119, 670.25, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-354.517, 42.2073, 137.676, -156.155, 336.039, -814.463, -274.873, -671.598, -616.1, -473.236, 731.792, 438.932, 240.569, 637.294, 533.43, -76.5113, -416.869, 121.851, -218.507, 320.213, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [204.538, 204.538, 204.538, 204.538, 213.251, 204.538, 204.538, 204.538, 207.872, 204.538, 202.81, 204.538, 204.538, 199.814, 204.538, 204.538, 204.538, 204.538, 213.556, 204.538, ],
+
+dir_x: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_1",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-1047.02, -931.738, -1041.35, -269.358, 263.914, 546.784, 274.19, -270.47, -545.454, 920.851, 1037.73, 1045.04, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-290.736, 501.209, 238.057, -1080.02, -1079.64, 898.888, 1013.42, 1003.4, -962.158, -598.969, -318.583, 227.438, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [613.116, 606.26, 606.26, 600.301, 600.463, 614.813, 613.416, 608.573, 612.013, 607.344, 607.344, 609.739, ],
+
+dir_x: [0.92373, 0.922269, 0.922269, 0.385307, -0.377388, -0.376565, -0.376565, 0.386303, 0.385307, -0.921558, -0.921558, -0.924964, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.383045, -0.386549, -0.386549, 0.922788, 0.926055, -0.92639, -0.92639, -0.922372, 0.922788, 0.388241, 0.388241, -0.380055, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_2_1",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [549.892, -263.883, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-962.747, -1084.17, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [1039.81, 1042.9, ],
+
+dir_x: [-0.377388, 0.385307, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.926055, 0.922788, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_2_2",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [549.892, -263.883, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-962.747, -1084.17, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [1039.81, 1042.9, ],
+
+dir_x: [-0.377388, 0.385307, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.926055, 0.922788, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_3",
+//r5912_hqe_ANNIE 2
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [1105.96, 971.03, 1112.34, 977.565, 268.284, -267.38, 594.112, -595.399, -978.412, -1117.26, -1112.94, -980.099, 273.247, 598.326, -583.612, -268.969, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-309.911, -641.806, 236.411, 563.664, 1083.97, 1082.88, 949.566, 945.201, 553.91, -296.629, 236.421, -621.217, -1151.46, -1009.63, -1016.8, -1151.63, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [1485.56, 1493.41, 1497.11, 1488.4, 1498.38, 1505.45, 1488.3, 1503.87, 1495.36, 1484.61, 1490.91, 1489.17, 1499.09, 1496.38, 1486.46, 1489.97, ],
+
+dir_x: [-0.921558, -0.921558, -0.924964, -0.924964, -0.376565, 0.386303, -0.376565, 0.386303, 0.922269, 0.92373, 0.922269, 0.92373, -0.377388, -0.377388, 0.385307, 0.385307, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.388241, 0.388241, -0.380055, -0.380055, -0.92639, -0.922372, -0.92639, -0.922372, -0.386549, 0.383045, -0.386549, 0.383045, 0.926055, 0.926055, 0.922788, 0.922788, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_4_1",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-931.738, -1047.02, -1045.61, -266.62, -270.47, 272.017, 546.784, 920.851, 1039.86, 1045.04, 264.898, -545.454, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [501.209, -290.736, 230.629, -1082.1, 1003.4, 1016.54, 898.888, -598.969, -326.551, 227.438, -1078.13, -962.158, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [1912.24, 1908.71, 1905.64, 1908.4, 1911.55, 1910.46, 1910.46, 1920.22, 1912.66, 1908.53, 1908.89, 1908.4, ],
+
+dir_x: [0.922269, 0.92373, 0.922269, 0.385307, 0.386303, -0.376565, -0.376565, -0.921558, -0.921558, -0.924964, -0.377388, 0.385307, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [-0.386549, 0.383045, -0.386549, 0.922788, -0.922372, -0.92639, -0.92639, 0.388241, 0.388241, -0.380055, 0.926055, 0.922788, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_4_2",
+//r7081_hqe_ANNIE 3
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [930.834, -544.125, -928.566, 549.892, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [514.151, 894.032, -585.076, -962.747, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [1908.53, 1911.55, 1908.71, 1908.89, ],
+
+dir_x: [-0.924964, 0.386303, 0.92373, -0.377388, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [-0.380055, -0.922372, 0.383045, 0.926055, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_5",
+//r5912_hqe_ANNIE 2
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [970.78, 1112.02, 1105.96, 977.565, 268.284, -597.943, -265.519, 592.808, -1116.25, -1112.94, -980.099, -977.188, -268.969, -588.518, 598.326, 268.005, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-641.316, 237.017, -309.911, 563.664, 1083.97, 940.83, 1084.2, 950.294, -294.359, 236.421, -621.217, 558.949, -1151.63, -1013.8, -1009.63, -1150.78, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [2357.54, 2356.14, 2357.54, 2356.14, 2357.65, 2360.76, 2358.5, 2357.65, 2356.28, 2356.69, 2356.28, 2356.69, 2356.04, 2356.04, 2356.42, 2356.42, ],
+
+dir_x: [-0.921558, -0.924964, -0.921558, -0.924964, -0.376565, 0.386303, 0.386303, -0.376565, 0.92373, 0.922269, 0.92373, 0.922269, 0.385307, 0.385307, -0.377388, -0.377388, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.388241, -0.380055, 0.388241, -0.380055, -0.92639, -0.922372, -0.922372, -0.92639, 0.383045, -0.386549, 0.383045, -0.386549, 0.922788, 0.922788, 0.926055, 0.926055, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_side_ring_6",
+//r7081_ANNIE 0
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-1041.35, -931.738, -1047.02, -928.566, 265.883, 272.017, 546.784, -545.139, -270.47, -545.454, 1045.04, 1037.73, 930.834, 920.851, -266.62, 549.892, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [238.057, 501.209, -290.736, -585.076, -1076.62, 1016.54, 898.888, 884.689, 1003.4, -962.158, 227.438, -318.583, 514.151, -598.969, -1082.1, -962.747, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [2761.94, 2761.94, 2761.42, 2761.42, 2764.98, 2763.17, 2763.17, 2766.82, 2766.45, 2759.97, 2761.24, 2763.03, 2761.24, 2763.03, 2761.11, 2761.6, ],
+
+dir_x: [0.922269, 0.922269, 0.92373, 0.92373, -0.377388, -0.376565, -0.376565, 0.386303, 0.386303, 0.385307, -0.924964, -0.921558, -0.924964, -0.921558, 0.385307, -0.377388, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [-0.386549, -0.386549, 0.383045, 0.383045, 0.926055, -0.92639, -0.92639, -0.922372, -0.922372, 0.922788, -0.380055, 0.388241, -0.380055, 0.388241, 0.922788, 0.926055, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+}
+
+{
+name: "PMTINFO_config13_scan_topgrid",
+//d784kflb 1
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-152.392, -813.383, 468.804, -478.02, -679.305, -815.81, -685.076, -151.149, -468.627, 483.502, 814.633, 154.679, 294.472, 813.602, 677.824, 683.524, -5.71435, 150.493, -26.8918, -296.992, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-850.524, -185.272, -702.847, -718.966, -511.572, 101.478, 428.513, 778.22, 631.452, 642.697, 108.337, 783.467, -56.0052, -184.082, -509.055, 435.894, 256.243, -848.342, -335.221, -34.8277, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [3227.15, 3228.56, 3233.69, 3232.14, 3232.89, 3228.56, 3228.56, 3228.56, 3233.14, 3231.62, 3228.56, 3230.63, 3228.56, 3228.56, 3228.56, 3230.52, 3228.56, 3228.56, 3228.56, 3228.56, ],
+
+dir_x: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, ],
+}
