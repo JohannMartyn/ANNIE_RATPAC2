@@ -1,0 +1,56 @@
+/glg4debug/glg4param omit_muon_processes 1.0
+/glg4debug/glg4param omit_hadronic_processes 1.0
+
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+#/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo
+#/rat/db/load ANNIE/ANNIE_MRD_FACC.geo
+
+/run/initialize
+
+/vis/open RayTracer
+/vis/viewer/set/background 0 0 0
+/vis/viewer/panTo 0 0
+#/vis/viewer/set/upVector 0 1 0
+/vis/viewer/zoom 1.5
+/vis/drawVolume
+
+
+/vis/viewer/set/viewpointThetaPhi 0 0
+/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 45 0
+#/vis/viewer/flush
+
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 135 -135
+#/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 180 -135
+#/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 215 -135
+#/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 270 -135
+#/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 315 -135
+#/vis/viewer/flush
+
+/vis/viewer/set/viewpointThetaPhi 90 -45
+/vis/viewer/flush
+
+/vis/viewer/set/viewpointThetaPhi 90 90
+/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 45 135
+#/vis/viewer/flush
+
+/vis/viewer/set/viewpointThetaPhi 90 -90
+/vis/viewer/flush
+
+#/vis/viewer/set/viewpointThetaPhi 90 -135
+#/vis/viewer/flush
