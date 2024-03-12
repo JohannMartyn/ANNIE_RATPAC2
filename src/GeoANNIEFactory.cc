@@ -38,7 +38,7 @@ namespace RAT {
         DBLinkPtr dbinfo = DB::Get()->GetLink("GEO","InnerStructure_Holders_Blacksheets");
 
         vector<G4double> inner_structure_center = dbinfo->GetDArray("inner_structure_center"); // InnerStructure center
-        G4int enable_structure = dbinfo->GetI("enable_inner_structure");
+        G4int enable_inner_structure = dbinfo->GetI("enable_inner_structure");
         G4String gdml_file = dbinfo->GetS("inner_structure_gdml_file");
         G4double rot_angle = dbinfo->GetD("inner_structure_rotation_angle");
         G4String wrapper_material = dbinfo->GetS("inner_structure_wrapper_material"); //tyvek?
@@ -51,6 +51,47 @@ namespace RAT {
 
         G4GDMLParser parser;
         
+
+        G4ThreeVector StructureCenter(inner_structure_center[0],inner_structure_center[1],inner_structure_center[2]);  
+        G4RotationMatrix* rotm = new G4RotationMatrix();
+        rotm->rotateZ(rot_angle*CLHEP::deg);
+        
+        // Get structure from GDML file
+        G4VPhysicalVolume* innerstructure_phys;
+        G4LogicalVolume* innerstructure_log;
+        G4VPhysicalVolume* innerstructure_phys_placement;
+
+
+        if(enable_inner_structure != 0){
+            parser.Read(gdml_file);
+            innerstructure_phys = parser.GetWorldVolume();
+
+            innerstructure_log = innerstructure_phys->GetLogicalVolume();
+            innerstructure_phys_placement = new G4PVPlacement(rotm, StructureCenter, innerstructure_log, "innerstructure_phys", motherLog, false, 0, false);
+
+            
+            try {
+                std::vector<double> color = dbinfo->GetDArray("inner_structure_color");
+                if (color.size() != 3 && color.size() != 4){  // RGB
+                    warn << "GeoANNIEFactory error: " << dbinfo->GetName() << "[" << dbinfo->GetIndex() << "].color must have 3 or 4 components" << newline;
+                }
+                else{
+                    innerstructure_log->SetVisAttributes(G4Color(color[0], color[1], color[2], 1.0)); //Opacity must always be 1 for the gdml file inner structure, otherwise we get warnings
+                }
+            }
+            catch (DBNotFoundError &e) {};
+
+            try {
+                int invisible = dbinfo->GetI("inner_structure_invisible");
+                if (invisible != 0){
+                    innerstructure_log->SetVisAttributes(G4VisAttributes::GetInvisible());
+                }
+            }
+            catch (DBNotFoundError &e) {};
+            
+            G4LogicalSkinSurface* InnerStructureSurface_log = new G4LogicalSkinSurface( "innerStructureSurface", innerstructure_log, Materials::optical_surface[wrapper_material]);               
+        }
+
         if(enable_annieholders != 0){
             std::vector<double> color(4);
             color[0] = 0.2; color[1] = 0.2; color[3] = 0.2; color[4] = 0.2;
@@ -110,64 +151,7 @@ namespace RAT {
             G4cout<<"GDML file "<<gdml_out_file<<" written"<<G4endl;
         }
 
-        if(enable_structure != 0){
-            // Get structure from GDML file
-            G4VPhysicalVolume* innerstructure_phys;
-            G4LogicalVolume* innerstructure_log;
-            G4VPhysicalVolume* innerstructure_phys_placement;
-            
-            G4ThreeVector StructureCenter(inner_structure_center[0],inner_structure_center[1],inner_structure_center[2]);  
-            G4RotationMatrix* rotm = new G4RotationMatrix();
-            rotm->rotateZ(rot_angle*CLHEP::deg);
-
-            parser.Read(gdml_file);
-            innerstructure_phys = parser.GetWorldVolume();
-
-            innerstructure_log = innerstructure_phys->GetLogicalVolume();
-            innerstructure_phys_placement = new G4PVPlacement(rotm, StructureCenter, innerstructure_log, "innerstructure_phys", motherLog, false, 0, false);
-
-
-            G4LogicalSkinSurface* InnerStructureSurface_log = new G4LogicalSkinSurface( "innerStructureSurface", innerstructure_log, Materials::optical_surface[wrapper_material]);
-
-            // Optional visualization parts
-            G4VisAttributes *vis = new G4VisAttributes();
-            try {
-                const std::vector<double> &color = dbinfo->GetDArray("inner_structure_color");
-                if (color.size() == 3){  // RGB
-                    vis->SetColour(G4Colour(color[0], color[1], color[2]));
-                }
-                else if (color.size() == 4){ // RGBA
-                    vis->SetColour(G4Colour(color[0], color[1], color[2], color[3]));
-                }
-                else{
-                    warn << "GeoANNIEFactory error: " << dbinfo->GetName() << "[" << dbinfo->GetIndex() << "].color must have 3 or 4 components" << newline;
-                }
-            }
-            catch (DBNotFoundError &e) {};
-
-            //try {
-            //    std::string drawstyle = dbinfo->GetS("drawstyle");
-            //    if (drawstyle == "wireframe"){
-            //        vis->SetForceWireframe(true);
-            //    }
-            //    else if (drawstyle == "solid"){
-            //        vis->SetForceSolid(true);
-            //    }
-            //    else{
-            //        warn << "GeoSolidFactory error: " << dbinfo->GetName() << "[" << dbinfo->GetIndex() << "].drawstyle must be either \"wireframe\" or \"solid\".";
-            //    }
-            //}
-            //catch (DBNotFoundError &e) {};
-
-            // Check for invisible flag last
-            try {
-                int invisible = dbinfo->GetI("inner_structure_invisible");
-                if (invisible != 0) innerstructure_log->SetVisAttributes(G4VisAttributes::GetInvisible());
-            }
-            catch (DBNotFoundError &e) {};
-
-            innerstructure_log->SetVisAttributes(vis);
-
+        if(enable_inner_structure != 0){
             return innerstructure_phys_placement;
         }
         else {
@@ -200,15 +184,13 @@ namespace RAT {
         G4LogicalVolume *logANNIEHolder = new G4LogicalVolume(solidANNIEHolder,G4Material::GetMaterial("acrylic_white"),"WCANNIEHolder",0,0,0);
         G4LogicalSkinSurface* ANNIEHolderSurface_log = new G4LogicalSkinSurface("ANNIEHolderSurface", logANNIEHolder, Materials::optical_surface["acrylic_white"]);
 
-        G4VisAttributes *vis = new G4VisAttributes();
         if (color.size() == 3){  // RGB
-            vis->SetColour(G4Colour(color[0], color[1], color[2]));
+            logANNIEHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
         }
         else if (color.size() == 4){ // RGBA
-            vis->SetColour(G4Colour(color[0], color[1], color[2], color[3]));
+            logANNIEHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
         }
         if (invisible != 0) logANNIEHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
-        logANNIEHolder->SetVisAttributes(vis);
 
         //G4double dist_pmt_holder = 10.84;     //Holder is 20cm away from the front face of the ANNIE PMTs, WCSim center is 9.16cm away from front --> 10.84cm distance
         G4double dist_pmt_holder = 7.84;        //Reduce distance by 3cm to prevent geometry overlaps
@@ -257,7 +239,7 @@ namespace RAT {
                 holder_y = (168.1-pmt_z)*CLHEP::cm;
                 holder_z = ((pmt_y+14.45))*CLHEP::cm;
 
-                G4cout <<HolderID <<"\t" << panel_nr <<"\t" << holder_x<<","<<holder_y<<","<<holder_z<<G4endl;
+                //G4cout <<HolderID <<"\t" << panel_nr <<"\t" << holder_x<<","<<holder_y<<","<<holder_z<<G4endl;
                 
                 G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
                 G4VPhysicalVolume *physicalHolder = new G4PVPlacement(holder_rot,   //its rotation
@@ -337,19 +319,19 @@ namespace RAT {
         //Create Rotation matrix for PMT holders
         G4RotationMatrix* WCPMTRotation = new G4RotationMatrix;
 
-        G4VisAttributes *vis = new G4VisAttributes();
         if (color.size() == 3){  // RGB
-            vis->SetColour(G4Colour(color[0], color[1], color[2]));
+            logLUXHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
+            logETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
         }
         else if (color.size() == 4){ // RGBA
-            vis->SetColour(G4Colour(color[0], color[1], color[2], color[3]));
+            logLUXHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
+            logETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
         }
         if (invisible != 0){
             logLUXHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
             logETELHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
         }
-        logLUXHolder->SetVisAttributes(vis);
-        logETELHolder->SetVisAttributes(vis);
+
 
         //Select only ETEL + LUX PMTs and propagate their position up-/downwards to get central holder position
         std::ifstream pmt_position_file("PMTPositions_Scan.txt");
@@ -492,17 +474,15 @@ namespace RAT {
                                 0,0,0);
         G4LogicalSkinSurface* WCBarrelCellBlackSheetSurface_log = new G4LogicalSkinSurface( "WCBarrelCellBlackSheetSurface_log", logicWCBarrelCellBlackSheet, Materials::optical_surface["polyethylene_black"]);
 
-        G4VisAttributes *vis = new G4VisAttributes();
         if (color.size() == 3){  // RGB
-            vis->SetColour(G4Colour(color[0], color[1], color[2]));
+            logicWCBarrelCellBlackSheet->SetVisAttributes(G4Color(color[0], color[1], color[2]));
         }
         else if (color.size() == 4){ // RGBA
-            vis->SetColour(G4Colour(color[0], color[1], color[2], color[3]));
+            logicWCBarrelCellBlackSheet->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
         }
         if (invisible != 0){
             logicWCBarrelCellBlackSheet->SetVisAttributes(G4VisAttributes::GetInvisible());
         }
-        logicWCBarrelCellBlackSheet->SetVisAttributes(vis);
 
         G4VPhysicalVolume* physiWCBarrelCellBlackSheet =
             new G4PVPlacement(0,
@@ -589,10 +569,15 @@ namespace RAT {
 
             }
             
+            if (color.size() == 3){  // RGB
+                logicWCCapBlackSheet->SetVisAttributes(G4Color(color[0], color[1], color[2]));
+            }
+            else if (color.size() == 4){ // RGBA
+                logicWCCapBlackSheet->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
+            }
             if (invisible != 0){
                 logicWCCapBlackSheet->SetVisAttributes(G4VisAttributes::GetInvisible());
             }
-            logicWCCapBlackSheet->SetVisAttributes(vis);
 
             G4double capAssemblyHeight = mainAnnulusHeight/2+1*CLHEP::mm+WCBlackSheetThickness;
             
