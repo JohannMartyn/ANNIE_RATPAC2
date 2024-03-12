@@ -38,21 +38,21 @@ dir_z: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
 
 {
 name: "PMTINFO_config13_scan_side_ring_2_1",
-//r7081_ANNIE 0
+//r5912_hqe_ANNIE 2
 valid_begin: [0, 0],
 valid_end: [0, 0],
 
-x: [549.892, -263.883, ],
+x: [970.531, 1111.71, -263.657, 591.503, -1115.23, -975.964, -593.424, 262.764, ],
 //The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
-y: [-962.747, -1084.17, ],
+y: [-640.826, 237.624, 1085.51, 951.022, -292.089, 563.987, -1010.8, -1150.11, ],
 //The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
-z: [1039.81, 1042.9, ],
+z: [1070.55, 1073.97, 1073.32, 1068.39, 1061.97, 1070.44, 1037.52, 1061.51, ],
 
-dir_x: [-0.377388, 0.385307, ],
+dir_x: [-0.921558, -0.924964, 0.386303, -0.376565, 0.92373, 0.922269, 0.385307, -0.377388, ],
 //The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
-dir_y: [0.926055, 0.922788, ],
+dir_y: [0.388241, -0.380055, -0.922372, -0.92639, 0.383045, -0.386549, 0.922788, 0.926055, ],
 //The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
-dir_z: [0, 0, ],
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, ],
 }
 
 {
@@ -61,17 +61,17 @@ name: "PMTINFO_config13_scan_side_ring_2_2",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 
-x: [549.892, -263.883, ],
+x: [-1037.09, -928.566, -543.11, 269.844, 549.892, -263.883, 1035.59, 930.834, ],
 //The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
-y: [-962.747, -1084.17, ],
+y: [245.485, -585.076, 903.375, 1019.67, -962.747, -1084.17, -310.615, 514.151, ],
 //The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
-z: [1039.81, 1042.9, ],
+z: [1041.17, 1038.85, 1049.11, 1041.99, 1039.81, 1042.9, 1042.85, 1048.13, ],
 
-dir_x: [-0.377388, 0.385307, ],
+dir_x: [0.922269, 0.92373, 0.386303, -0.376565, -0.377388, 0.385307, -0.921558, -0.924964, ],
 //The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
-dir_y: [0.926055, 0.922788, ],
+dir_y: [-0.386549, 0.383045, -0.922372, -0.92639, 0.926055, 0.922788, 0.388241, -0.380055, ],
 //The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
-dir_z: [0, 0, ],
+dir_z: [0, 0, 0, 0, 0, 0, 0, 0, ],
 }
 
 {
