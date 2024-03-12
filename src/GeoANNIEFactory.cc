@@ -43,6 +43,7 @@ namespace RAT {
         G4double rot_angle = dbinfo->GetD("inner_structure_rotation_angle");
         G4String wrapper_material = dbinfo->GetS("inner_structure_wrapper_material"); //tyvek?
 
+        G4String pmt_pos_file_name = dbinfo->GetS("pmt_position_file");
         G4int enable_annieholders = dbinfo->GetI("enable_annie_holders");
         G4int enable_luxetelholders = dbinfo->GetI("enable_luxetel_holders");
         G4int enable_blacksheets = dbinfo->GetI("enable_black_sheets");
@@ -60,7 +61,6 @@ namespace RAT {
         G4VPhysicalVolume* innerstructure_phys;
         G4LogicalVolume* innerstructure_log;
         G4VPhysicalVolume* innerstructure_phys_placement;
-
 
         if(enable_inner_structure != 0){
             parser.Read(gdml_file);
@@ -92,6 +92,13 @@ namespace RAT {
             G4LogicalSkinSurface* InnerStructureSurface_log = new G4LogicalSkinSurface( "innerStructureSurface", innerstructure_log, Materials::optical_surface[wrapper_material]);               
         }
 
+        if ( !std::ifstream(pmt_pos_file_name.c_str()).is_open() ){
+            enable_annieholders = 0;
+            enable_luxetelholders = 0;
+            enable_blacksheets = 0;
+            G4cout<<"Could not open PMTPositions_Scan.txt!"<<G4endl;
+        }
+
         if(enable_annieholders != 0){
             std::vector<double> color(4);
             color[0] = 0.2; color[1] = 0.2; color[3] = 0.2; color[4] = 0.2;
@@ -107,7 +114,7 @@ namespace RAT {
                 invisible = dbinfo->GetI("annie_holders_invisible");
             }
             catch (DBNotFoundError &e) {};
-            ConstructANNIEHolders(motherLog, color, invisible);
+            ConstructANNIEHolders(motherLog, pmt_pos_file_name, color, invisible);
         }
         if(enable_luxetelholders != 0){
             std::vector<double> color(4);
@@ -124,7 +131,7 @@ namespace RAT {
                 invisible = dbinfo->GetI("luxetel_holders_invisible");
             }
             catch (DBNotFoundError &e) {};
-            ConstructLUXETELHolders(motherLog, color, invisible);
+            ConstructLUXETELHolders(motherLog, pmt_pos_file_name, color, invisible);
         }
         if(enable_blacksheets != 0){
             std::vector<double> color(4);
@@ -141,7 +148,7 @@ namespace RAT {
                 invisible = dbinfo->GetI("black_sheet_invisible");
             }
             catch (DBNotFoundError &e) {};
-            ConstructBlackSheet(motherLog, color, invisible);
+            ConstructBlackSheet(motherLog, pmt_pos_file_name, color, invisible);
         }
 
         if(write_gdml != 0){
@@ -159,7 +166,7 @@ namespace RAT {
         }
     }
     
-    void GeoANNIEFactory::ConstructANNIEHolders(G4LogicalVolume *motherLog, const std::vector<double> &color, const G4int invisible){
+    void GeoANNIEFactory::ConstructANNIEHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible){
 
         //Code copied fromWCSim and adopted to RATPAC
 
@@ -217,7 +224,7 @@ namespace RAT {
         holder_rotation_matrices.push_back(WCTopCapRotation);
 
         //Select only ANNIE PMTs and propagate their position outwards to get central holder position
-        std::ifstream pmt_position_file("PMTPositions_Scan.txt");
+        std::ifstream pmt_position_file(file_name.c_str());
         std::string next_pmt;
         G4double pmt_x, pmt_y, pmt_z, pmt_dirx, pmt_diry, pmt_dirz;
         G4double holder_x, holder_y, holder_z;
@@ -256,7 +263,7 @@ namespace RAT {
 
     }
 
-    void GeoANNIEFactory::ConstructLUXETELHolders(G4LogicalVolume *motherLog, const std::vector<double> &color, const G4int invisible){
+    void GeoANNIEFactory::ConstructLUXETELHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible){
 
         //Code copied fromWCSim and adopted to RATPAC
 
@@ -334,7 +341,7 @@ namespace RAT {
 
 
         //Select only ETEL + LUX PMTs and propagate their position up-/downwards to get central holder position
-        std::ifstream pmt_position_file("PMTPositions_Scan.txt");
+        std::ifstream pmt_position_file(file_name.c_str());
         std::string next_pmt;
         double pmt_x, pmt_y, pmt_z, pmt_dirx, pmt_diry, pmt_dirz;
         double holder_x, holder_y, holder_z;
@@ -414,7 +421,7 @@ namespace RAT {
         pmt_position_file.close();
     }
 
-    void GeoANNIEFactory::ConstructBlackSheet(G4LogicalVolume *motherLog, const std::vector<double> &color, const G4int invisible){
+    void GeoANNIEFactory::ConstructBlackSheet(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible){
 
         //Code copied fromWCSim and adopted to RATPAC
 
@@ -522,7 +529,7 @@ namespace RAT {
             G4SubtractionSolid* solidWCCapBlackSheetHole = (G4SubtractionSolid*) solidWCCapBlackSheet;
             if (zflip == 1){
                 //Select only ETEL + LUX PMTs and propagate their position up-/downwards to get central holder position
-                std::ifstream pmt_position_file("PMTPositions_Scan.txt");
+                std::ifstream pmt_position_file(file_name.c_str());
                 std::string next_pmt;
                 double pmt_x, pmt_y, pmt_z, pmt_dirx, pmt_diry, pmt_dirz;
                 double hole_x, hole_y, hole_z;

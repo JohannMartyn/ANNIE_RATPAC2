@@ -279,12 +279,13 @@ valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "detector",
 enable_inner_structure: 1, // setting this to 0 enables faster loading but no inner structure of course
-inner_structure_gdml_file: "annie_phase2_structure.gdml",
+inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1981.2],
 inner_structure_rotation_angle: 157.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC
 inner_structure_wrapper_material: "tyvek", //could be something different, which is defined in the OPTICS_ANNIE.ratdb
 inner_structure_color: [1.0, 0.0, 0.0, 1.0],
 inner_structure_invisible: 0,
+pmt_position_file:"../share/annie/ratdb/ANNIE/PMTPositions_Scan.txt",
 enable_annie_holders: 1, //ANNIE holders on the side; code copied from WCSim 
 annie_holders_color: [1.0, 1.0, 1.0, 0.5],
 annie_holders_invisible: 0,
@@ -292,7 +293,7 @@ enable_luxetel_holders: 1, //ANNIE holders on the top and bottom; code copied fr
 luxetel_holders_color: [1.0, 1.0, 1.0, 0.5],
 luxetel_holders_invisible: 0,
 enable_black_sheets: 1, //Black sheet for optical insulation; octagonal shape; code copied from WCSim 
-black_sheet_color: [0.0, 1.0, 0.0, 0.5],
+black_sheet_color: [0.0, 1.0, 0.0, 0.2],
 black_sheet_invisible: 0,
 write_gdml: 0, //Write a gdml file to check the geometry by eye with a CAD program
 gdml_out_file: "test_output.gdml",
