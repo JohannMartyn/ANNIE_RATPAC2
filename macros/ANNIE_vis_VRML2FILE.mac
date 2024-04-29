@@ -11,26 +11,27 @@
 
 /rat/db/set DETECTOR experiment "ANNIE"
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo
 
 /run/initialize
 
-/rat/proc simpledaq
-/rat/proc count
-/rat/procset update 10
-/rat/proc fitcentroid
+#/rat/proc simpledaq
+#/rat/proc count
+#/rat/procset update 10
+#/rat/proc fitcentroid
 
-/rat/proclast outroot
+#/rat/proclast outroot
 
-/generator/add combo gun:point
-/generator/vtx/set mu- 0 0 1 1000.0
-/generator/pos/set 0.0 -133.3 1724
+#/generator/add combo gun:point
+#/generator/vtx/set mu- 0 0 1 1000.0
+#/generator/pos/set 0.0 -133.3 1724
 
 /vis/open VRML2FILE
 /vis/drawVolume
 /vis/viewer/flush
 
-/vis/scene/add/trajectories
-/vis/scene/endOfEventAction accumulate 10
+#/vis/scene/add/trajectories
+#/vis/scene/endOfEventAction accumulate 1
 
-/run/beamOn 10
-/vis/viewer/flush
+#/run/beamOn 1
+#/vis/viewer/flush

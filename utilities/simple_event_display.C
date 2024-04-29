@@ -34,6 +34,7 @@
 #include <RAT/DS/MC.hh>
 #include <RAT/DS/Calib.hh>
 #include <RAT/DS/EV.hh>
+#include <RAT/DS/LAPPD.hh>
 #include <RAT/DS/PMT.hh>
 #include <RAT/DS/PMTInfo.hh>
 #include <RAT/DS/RunStore.hh>

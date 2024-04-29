@@ -386,7 +386,7 @@ rotation: [0.0, 0.0, 0.0], // X, Y, Z axis rotations (deg) of element about its 
 material: "water_gdS_0p2",
 color: [0.6, 0.8, 1.0, 0.1],
 drawstyle: "solid",
-invisible: 1,
+invisible: 0,
 }
 /////////////////////////////////////////////////////////////////////
 ////////////********** End of WbLS volumes ***********////////////////

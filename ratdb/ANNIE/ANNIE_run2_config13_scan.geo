@@ -294,7 +294,7 @@ luxetel_holders_color: [1.0, 1.0, 1.0, 0.5],
 luxetel_holders_invisible: 0,
 enable_black_sheets: 1, //Black sheet for optical insulation; octagonal shape; code copied from WCSim 
 black_sheet_color: [0.0, 1.0, 0.0, 0.2],
-black_sheet_invisible: 0,
+black_sheet_invisible: 1,
 write_gdml: 0, //Write a gdml file to check the geometry by eye with a CAD program
 gdml_out_file: "test_output.gdml",
 type: "annieInnerStructures", //see the geo factory
