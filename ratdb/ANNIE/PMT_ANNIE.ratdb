@@ -47,7 +47,8 @@ z_edge: [ 96.7, 40.0, 0.0, -40.0, -90.0, -142.0 ],
 rho_edge: [ 0.0, 122.1, 143.0, 122.1, 46.48, 46.48 ], // unknown dimensions, I just increased the rho_size of a r7081 (10") by a factor 11/10
 z_origin: [ -40.0, 0.0, 0.0, 40.0, -142.0 ],
 
-noise_rate: 10000.0, // Hz
+noise_rate: 3000.0, // Hz, 
+//Copied 3kHz from WCSim, which reads: (//Ref??R7081 HQE?? (need verification) //TODO: Add PMT-wise dark rate)
 
 }
 
@@ -100,7 +101,8 @@ z_edge:   [ 75.00, 53.06,   0.00, -53.06, -73.86,  -85.00, -215.00],
 rho_edge: [  0.00, 72.58, 101.00,  72.58,  44.32,   42.00, 42.00],
 z_origin: [-56.00,  0.00,   0.00,  56.00, -85.00, -215.00],
 
-noise_rate: 10000.0, // Hz
+noise_rate: 3000.0, // Hz
+//Copied 3kHz from WCSim, which reads: (//R-7081?? //TODO: Set PMT-wise dark rate values)
 }
 
 {
@@ -126,7 +128,8 @@ z_edge: [ 96.7d, 40.0d, 0.0d, -40.0d, -90.0d, -142.0d ],
 rho_edge: [ 0.0d, 111.0d, 130.0d, 111.0d, 42.25d, 42.25d ],
 z_origin: [ -40.0d, 0.0d, 0.0d, 40.0d, -142.0d ],
 
-noise_rate: 10000.0, // Hz
+noise_rate: 3000.0, // Hz
+//Copied 3kHz from WCSim, which reads: (//R-7081?? //TODO: Set PMT-wise dark rate values)
 }
 
 {
@@ -152,7 +155,8 @@ z_edge: [ 96.7d, 40.0d, 0.0d, -40.0d, -90.0d, -142.0d ],
 rho_edge: [ 0.0d, 111.0d, 130.0d, 111.0d, 42.25d, 42.25d ],
 z_origin: [ -40.0d, 0.0d, 0.0d, 40.0d, -142.0d ],
 
-noise_rate: 10000.0, // Hz
+noise_rate: 8000.0, // Hz
+//Copied 8kHz from WCSim, which reads: (// datasheet says 8kHz //TODO: Set PMT wise dark rates)
 }
 
 {
