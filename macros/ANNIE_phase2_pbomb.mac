@@ -1,0 +1,45 @@
+/glg4debug/glg4param omit_muon_processes  0.0
+/glg4debug/glg4param omit_hadronic_processes  1.0
+
+/tracking/verbose 0
+/event/verbose 0
+
+/tracking/storeTrajectory 1
+#/tracking/discardParticleTrajectory opticalphoton
+
+
+#/rat/proc prune
+#/rat/procset prune "mc.track:opticalphoton"
+#/rat/procset prune "mc.track:e-"
+#/rat/procset prune "mc.track:neutron"
+
+
+
+
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+#/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo
+
+/run/initialize
+
+
+/rat/proc splitevdaq
+/rat/proc count
+/rat/procset update 10
+/rat/proc fitcentroid
+
+#/rat/proclast outroot
+#/rat/procset file "ANNIE_michel_electron_test.root"
+
+/rat/proclast outntuple
+/rat/procset file "ANNIE_pbomb_400nm_test.ntuple.root"
+
+#/generator/add combo gun:point
+#/generator/vtx/set e- 0 0 0 50.0
+#/generator/pos/set 0.0 -33.8 1749.4
+
+/generator/add combo pbomb:point
+/generator/vtx/set 100 400
+/generator/pos/set 0.0 -33.8 1749.4
+
+/run/beamOn 1

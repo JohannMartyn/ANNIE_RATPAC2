@@ -1,0 +1,37 @@
+/rat/db/set DETECTOR experiment "ANNIE" 
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
+/run/initialize
+/rat/proc simpledaq
+/rat/proclast outntuple
+/rat/procset file "ANNIE_throughmuon_1GeV_1.0xQE_line1to10.ntuple.root" 
+/generator/add combo gun:point
+/generator/vtx/set mu- 0.128267 -0.978322 0.162584 1000.0
+/generator/pos/set -982.652 3310 -1006.01
+/run/beamOn 1
+/generator/vtx/set mu- 0.0588547 -0.924521 -0.37656 1000.0
+/generator/pos/set -787.546 3310 1166.95
+/run/beamOn 1
+/generator/vtx/set mu- -0.0448263 -0.923241 0.381598 1000.0
+/generator/pos/set 653.977 3310 -1671.47
+/run/beamOn 1
+/generator/vtx/set mu- 0.0643254 -0.996318 -0.056678 1000.0
+/generator/pos/set 428.313 3310 144.606
+/run/beamOn 1
+/generator/vtx/set mu- 0.0946425 -0.945121 -0.312712 1000.0
+/generator/pos/set 378.612 3310 1868.96
+/run/beamOn 1
+/generator/vtx/set mu- -0.318268 -0.948001 -2.87486e-08 1000.0
+/generator/pos/set 924.822 3310 758.1
+/run/beamOn 1
+/generator/vtx/set mu- -0.00377207 -0.987784 0.155785 1000.0
+/generator/pos/set 631.706 3310 -178.359
+/run/beamOn 1
+/generator/vtx/set mu- -0.00381869 -0.999993 -1.05789e-11 1000.0
+/generator/pos/set 631.706 3310 1367.1
+/run/beamOn 1
+/generator/vtx/set mu- -3.74438e-06 -0.993285 0.115693 1000.0
+/generator/pos/set 1421.02 3310 270.315
+/run/beamOn 1
+/generator/vtx/set mu- 0 -0.949305 0.314356 1000.0
+/generator/pos/set 0.0 3310 -591.608
+/run/beamOn 1
