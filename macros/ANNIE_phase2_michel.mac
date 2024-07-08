@@ -19,7 +19,7 @@
 
 /run/initialize
 
-/rat/proc simpledaq
+/rat/proc splitevdaq
 /rat/proc count
 /rat/procset update 10
 /rat/proc fitcentroid
@@ -36,4 +36,4 @@
 
 #/generator/vtx/set e- 0.0 0.0 0.0 1.0
 
-/run/beamOn 2
+/run/beamOn 1
