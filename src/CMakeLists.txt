@@ -2,6 +2,7 @@ add_library( annieobj OBJECT
   # Append each .cc file
   Annie.cc
   GeoANNIEFactory.cc
+  OutANNIEClusterProc.cc
 )
 
 target_include_directories( annieobj PUBLIC

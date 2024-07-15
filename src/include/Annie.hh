@@ -7,6 +7,7 @@
 #include <RAT/ProcBlockManager.hh>
 #include <RAT/Rat.hh>
 #include <GeoANNIEFactory.hh>
+#include <OutANNIEClusterProc.hh>
 
 namespace ANNIE {
 	class Annie : public RAT::Rat {

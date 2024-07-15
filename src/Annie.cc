@@ -12,6 +12,8 @@ Annie::Annie(RAT::AnyParse *p, int argc, char **argv)
   // Initialize a geometry factory
   new RAT::GeoANNIEFactory();
   // Include a new type of processor
+  RAT::ProcBlockManager::AppendProcessor<RAT::OutANNIEClusterProc>();
+  //procAllocators["outanniecluster"] = new ProcAllocatorTmpl<OutANNIEClusterProc>;
   // Add a unique component to the datastructure
 }
 } // namespace ANNIE
