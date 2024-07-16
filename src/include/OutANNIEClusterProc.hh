@@ -4,7 +4,7 @@
 #include <RAT/DS/Run.hh>
 #include <RAT/Processor.hh>
 #include <functional>
-#include <TInterpreter.h>
+//#include <TInterpreter.h>
 
 class TFile;
 class TTree;
@@ -162,6 +162,7 @@ class OutANNIEClusterProc : public Processor {
   void SetBranchValue(std::string name, bool *value);
 
   //Adapted from ToolAnalysis ClusterFinder
+  /*
   int numClusters;
   std::vector<double> clusterCharge;
   std::vector<double> clusterChargeBalance; //double charge_balance  = sqrt((total_QSquared)/(total_Q*total_Q) - (1./121.)); Change 121 to value from ratdb file
@@ -172,6 +173,18 @@ class OutANNIEClusterProc : public Processor {
   std::vector<std::vector<double> > clusterHitsPMTTime;
   std::vector<std::vector<int> > clusterHitsNPE;
   std::vector<std::vector<double> > clusterHitsPMTCharge;
+  */
+  int numClusters;
+  double clusterCharge;
+  double clusterChargeBalance; //double charge_balance  = sqrt((total_QSquared)/(total_Q*total_Q) - (1./121.)); Change 121 to value from ratdb file
+  int clusterNPE;
+  double clusterTime;
+  int numClusteredPMTHits;
+  std::vector<int> clusterHitsPMTID;
+  std::vector<double> clusterHitsPMTTime;
+  std::vector<int> clusterHitsNPE;
+  std::vector<double> clusterHitsPMTCharge;
+
   bool ClusterFinder(DS::MC *mc);
   //std::vector<std::vector<double> > v_datalike_time;
   //std::vector<std::vector<double> > v_datalike_charge;
