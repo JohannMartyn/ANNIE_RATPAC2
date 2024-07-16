@@ -177,6 +177,8 @@ bool OutANNIEClusterProc::OpenFile(std::string filename) {
     metaTree->Branch("processCodeMap", &processCodeMap);
   }
   if (options.clusteredhits) {
+    gInterpreter->GenerateDictionary("std::vector<std::vector<double> >", "vector");
+    gInterpreter->GenerateDictionary("std::vector<std::vector<int> >", "vector");
     outputTree->Branch("numClusters", &numClusters);
     outputTree->Branch("clusterCharge", &clusterCharge);
     outputTree->Branch("clusterChargeBalance", &clusterChargeBalance);
@@ -773,6 +775,8 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
   }
 
   if (options.clusteredhits) {
+    //gInterpreter->GenerateDictionary("std::vector<std::vector<double> >", "vector");
+    //gInterpreter->GenerateDictionary("std::vector<std::vector<int> >", "vector");
     numClusters = 0;
     clusterCharge.clear();
     clusterChargeBalance.clear();

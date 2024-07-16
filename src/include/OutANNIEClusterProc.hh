@@ -4,6 +4,7 @@
 #include <RAT/DS/Run.hh>
 #include <RAT/Processor.hh>
 #include <functional>
+#include <TInterpreter.h>
 
 class TFile;
 class TTree;

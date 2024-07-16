@@ -25,8 +25,8 @@
 #/process/eLoss/StepFunction 0.01 0.01 mm
 /run/initialize
 
-#/rat/proc splitevdaq
-/rat/proc simpledaq
+/rat/proc splitevdaq
+#/rat/proc simpledaq
 #/rat/proc count
 #/rat/procset update 10
 #/rat/proc fitcentroid
@@ -35,7 +35,7 @@
 #/rat/procset file "ANNIE_michel_electron_test.root"
 
 /rat/proclast outanniecluster
-/rat/procset file "ANNIE_electron_clusters_test.ntuple.root"
+/rat/procset file "ANNIE_electron_splitevdaq_test.ntuple.root"
 
 /generator/add combo gun:point
 /generator/vtx/set e- 0 0 0 50.0
