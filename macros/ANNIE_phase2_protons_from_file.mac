@@ -1,0 +1,3009 @@
+/tracking/storeTrajectory 1
+/tracking/discardParticleTrajectory opticalphoton
+/rat/db/set DETECTOR experiment "ANNIE" 
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
+/run/initialize
+/rat/proc splitevdaq
+/rat/proclast outanniecluster
+/rat/procset file "ANNIE_protons_McihelChargeTunedQE_0.8xR_line1to1000.ntuple.root" 
+/generator/add combo gun:point
+/generator/vtx/set proton 0.57363 -0.18159 0.79873 263.993
+/generator/pos/set -155.53 -1279.52 2665.27
+/run/beamOn 1
+/generator/vtx/set proton 0.10776 -0.94559 0.307 190.815
+/generator/pos/set 135.8 375.7 1255.23
+/run/beamOn 1
+/generator/vtx/set proton 0.03917 0.83149 0.55416 278.189
+/generator/pos/set 82.64 -1204.01 1118.41
+/run/beamOn 1
+/generator/vtx/set proton 0.3782 -0.88694 0.26516 442.198
+/generator/pos/set 854.17 301.27 1965.08
+/run/beamOn 1
+/generator/vtx/set proton -0.24769 -0.94231 0.22517 459.696
+/generator/pos/set 444.99 403.68 2372.01
+/run/beamOn 1
+/generator/vtx/set proton 0.57981 0.47964 0.65861 237.457
+/generator/pos/set -55.18 -416.14 2336.54
+/run/beamOn 1
+/generator/vtx/set proton -0.60184 0.79651 0.05802 76.2425
+/generator/pos/set 510.3 -574.13 2168.24
+/run/beamOn 1
+/generator/vtx/set proton -0.22413 -0.29053 0.93025 87.1376
+/generator/pos/set -641.22 871.13 1543.12
+/run/beamOn 1
+/generator/vtx/set proton -0.24763 -0.81393 -0.52555 253.005
+/generator/pos/set 307.85 -872.37 890.11
+/run/beamOn 1
+/generator/vtx/set proton 0.59636 -0.2045 -0.77623 178.943
+/generator/pos/set -215.61 43.84 2408.35
+/run/beamOn 1
+/generator/vtx/set proton 0.13417 0.33661 -0.93204 79.1381
+/generator/pos/set 792.2 757.83 1828.99
+/run/beamOn 1
+/generator/vtx/set proton 0.64856 0.07075 -0.75786 162.342
+/generator/pos/set 667.3 -274.9 1916.31
+/run/beamOn 1
+/generator/vtx/set proton 0.39908 0.13233 0.90732 476.217
+/generator/pos/set -901.85 3.81 1780.25
+/run/beamOn 1
+/generator/vtx/set proton 0.88504 -0.42704 0.18532 257.084
+/generator/pos/set 127.86 17.88 1933.01
+/run/beamOn 1
+/generator/vtx/set proton 0.98058 -0.19124 -0.04357 268.564
+/generator/pos/set 696.22 -1422.82 1468.37
+/run/beamOn 1
+/generator/vtx/set proton 0.21361 -0.11378 0.97027 947.467
+/generator/pos/set 206.66 1036.67 2268.73
+/run/beamOn 1
+/generator/vtx/set proton 0.57875 0.75505 0.30815 283.314
+/generator/pos/set -274.31 551.74 1684.22
+/run/beamOn 1
+/generator/vtx/set proton 0.92757 -0.18031 0.32726 496.102
+/generator/pos/set 20.92 1075.2 2589.2
+/run/beamOn 1
+/generator/vtx/set proton 0.32264 0.62457 0.71121 692.481
+/generator/pos/set 223.56 456.77 2558.48
+/run/beamOn 1
+/generator/vtx/set proton -0.75695 0.60001 0.25889 727.885
+/generator/pos/set -319.86 1141.21 2139.41
+/run/beamOn 1
+/generator/vtx/set proton -0.42848 0.17509 0.88643 761.471
+/generator/pos/set -395.21 1114.3 1903.04
+/run/beamOn 1
+/generator/vtx/set proton -0.16397 0.69005 0.70495 302.185
+/generator/pos/set -260.31 -1112.86 2219.94
+/run/beamOn 1
+/generator/vtx/set proton 0.87494 -0.09322 0.47517 172.24
+/generator/pos/set -727.77 -1255.61 1093.58
+/run/beamOn 1
+/generator/vtx/set proton -0.01223 0.27458 0.96149 932.728
+/generator/pos/set 264.5 1189.05 1011.88
+/run/beamOn 1
+/generator/vtx/set proton -0.48126 -0.64806 0.59026 135.811
+/generator/pos/set 478.01 1173.34 2500.01
+/run/beamOn 1
+/generator/vtx/set proton 0.39724 0.89394 -0.20753 145.861
+/generator/pos/set 178.63 1251.17 2705.7
+/run/beamOn 1
+/generator/vtx/set proton -0.63139 0.62615 0.45748 335.506
+/generator/pos/set 911.98 423.53 1687.04
+/run/beamOn 1
+/generator/vtx/set proton -0.39477 -0.43501 -0.80927 170.364
+/generator/pos/set -803.79 1284.8 2028.47
+/run/beamOn 1
+/generator/vtx/set proton 0.87934 0.09396 -0.46684 373.622
+/generator/pos/set 521.9 -253.8 1876.65
+/run/beamOn 1
+/generator/vtx/set proton -0.96934 -0.22093 -0.10761 288.715
+/generator/pos/set -727.77 -1255.61 1093.58
+/run/beamOn 1
+/generator/vtx/set proton 0.28835 -0.44406 0.84833 135.562
+/generator/pos/set -262.38 254.4 1785.47
+/run/beamOn 1
+/generator/vtx/set proton -0.9638 0.07101 0.25701 202.826
+/generator/pos/set -256.68 167.15 2134.55
+/run/beamOn 1
+/generator/vtx/set proton 0.88741 0.33641 0.31517 192.008
+/generator/pos/set -821.6 -234.08 2054.97
+/run/beamOn 1
+/generator/vtx/set proton -0.87377 0.47808 -0.08925 554.534
+/generator/pos/set -267.68 395.07 1536.03
+/run/beamOn 1
+/generator/vtx/set proton 0.96811 0.20347 0.14616 392.769
+/generator/pos/set -229.64 -1234.84 1562.54
+/run/beamOn 1
+/generator/vtx/set proton 0.85099 -0.23664 -0.46885 84.3819
+/generator/pos/set -33.61 -3.08 2173.58
+/run/beamOn 1
+/generator/vtx/set proton 0.0058 -0.61601 0.78771 171.458
+/generator/pos/set -287.66 -839.38 1978.31
+/run/beamOn 1
+/generator/vtx/set proton -0.18758 0.95727 -0.2201 204.152
+/generator/pos/set -801.31 666.93 1493.98
+/run/beamOn 1
+/generator/vtx/set proton -0.05145 0.95808 0.28184 340.611
+/generator/pos/set -560.42 606.03 2001.13
+/run/beamOn 1
+/generator/vtx/set proton -0.44528 -0.21251 0.86981 364.984
+/generator/pos/set -164.68 1015.82 1058.04
+/run/beamOn 1
+/generator/vtx/set proton 0.71802 -0.43367 0.5444 127.076
+/generator/pos/set 539.5 -545.28 1604.05
+/run/beamOn 1
+/generator/vtx/set proton -0.73397 0.06665 0.6759 218.653
+/generator/pos/set 668.08 -702.52 1734.94
+/run/beamOn 1
+/generator/vtx/set proton -0.01324 0.23002 -0.9731 368.79
+/generator/pos/set -951.37 910.58 1826.11
+/run/beamOn 1
+/generator/vtx/set proton 0.84718 -0.28937 0.44559 446.284
+/generator/pos/set 758.72 -196.4 2010.79
+/run/beamOn 1
+/generator/vtx/set proton 0.56591 0.56019 0.60492 557.986
+/generator/pos/set -122.03 -954.9 796.91
+/run/beamOn 1
+/generator/vtx/set proton -0.06613 0.79872 0.59806 188.961
+/generator/pos/set -588.44 -1173.19 2432.31
+/run/beamOn 1
+/generator/vtx/set proton -0.24582 0.69783 0.67276 255.473
+/generator/pos/set -660.41 506.5 1873.28
+/run/beamOn 1
+/generator/vtx/set proton -0.78844 0.51119 -0.34214 206.294
+/generator/pos/set 227.85 1118.47 1622.71
+/run/beamOn 1
+/generator/vtx/set proton -0.98158 0.05985 0.18143 136.551
+/generator/pos/set -719.74 -1202.54 2309.12
+/run/beamOn 1
+/generator/vtx/set proton 0.04646 0.15538 0.98676 337.598
+/generator/pos/set 503.75 -1467.93 2549.28
+/run/beamOn 1
+/generator/vtx/set proton 0.19472 0.26642 0.94398 1139.7
+/generator/pos/set -302.78 897.46 1867.37
+/run/beamOn 1
+/generator/vtx/set proton 0.4174 -0.83353 0.36193 120.738
+/generator/pos/set 553.69 1162.74 2376.14
+/run/beamOn 1
+/generator/vtx/set proton 0.22326 0.5424 0.80991 621.265
+/generator/pos/set 750.9 411.78 1258.45
+/run/beamOn 1
+/generator/vtx/set proton 0.08561 0.44831 0.88977 255.55
+/generator/pos/set 958.93 286.46 1987.93
+/run/beamOn 1
+/generator/vtx/set proton 0.7062 0.60635 0.36554 27.9197
+/generator/pos/set -180.37 890.64 1832.42
+/run/beamOn 1
+/generator/vtx/set proton 0.52379 -0.7927 0.31189 321.87
+/generator/pos/set 536.15 -874.55 1430.7
+/run/beamOn 1
+/generator/vtx/set proton -0.11747 -0.78958 0.6023 359.905
+/generator/pos/set -879.91 1234.94 1497.23
+/run/beamOn 1
+/generator/vtx/set proton -0.27335 0.49131 0.82698 252.549
+/generator/pos/set 252.24 -1451.99 2058.53
+/run/beamOn 1
+/generator/vtx/set proton 0.76426 0.0227 0.64451 720.438
+/generator/pos/set 678.52 -1431.13 1085.24
+/run/beamOn 1
+/generator/vtx/set proton 0.68376 0.55704 0.47136 213.925
+/generator/pos/set 161.45 -424.98 2732.89
+/run/beamOn 1
+/generator/vtx/set proton 0.23436 -0.38731 0.89167 188.254
+/generator/pos/set 415.57 -293.34 2411.31
+/run/beamOn 1
+/generator/vtx/set proton -0.19804 -0.62558 0.7546 496.192
+/generator/pos/set 643.28 -360.45 1951.43
+/run/beamOn 1
+/generator/vtx/set proton 0.03951 -0.99792 -0.05089 224.3
+/generator/pos/set -742.87 1185.9 1152.34
+/run/beamOn 1
+/generator/vtx/set proton 0.48839 -0.66461 -0.56548 85.8009
+/generator/pos/set -577.71 510.99 1070.6
+/run/beamOn 1
+/generator/vtx/set proton 0.02525 -0.78903 0.61384 424.368
+/generator/pos/set -179.17 -84.88 2161.94
+/run/beamOn 1
+/generator/vtx/set proton 0.38055 0.31203 -0.87053 273.987
+/generator/pos/set 252.57 1199.65 834.64
+/run/beamOn 1
+/generator/vtx/set proton 0.83041 0.41377 0.37311 53.5167
+/generator/pos/set -726.4 533.17 1439.39
+/run/beamOn 1
+/generator/vtx/set proton -0.62553 0.18189 0.7587 87.3021
+/generator/pos/set 577.49 1367.46 2416.66
+/run/beamOn 1
+/generator/vtx/set proton -0.50547 0.66164 0.55383 395.364
+/generator/pos/set 907.39 -765.59 1657.81
+/run/beamOn 1
+/generator/vtx/set proton -0.80278 -0.03435 -0.59529 103.057
+/generator/pos/set -696.49 218.92 2150.86
+/run/beamOn 1
+/generator/vtx/set proton 0.86407 -0.49802 0.07323 385.801
+/generator/pos/set 65.33 21.47 1091.71
+/run/beamOn 1
+/generator/vtx/set proton 0.60696 0.34618 0.71538 422.718
+/generator/pos/set -529.55 632.52 1824.35
+/run/beamOn 1
+/generator/vtx/set proton -0.82322 0.04312 0.56609 299.708
+/generator/pos/set 759.8 -667.27 2042.73
+/run/beamOn 1
+/generator/vtx/set proton 0.45959 0.29765 -0.83677 295.982
+/generator/pos/set -423.04 -909.78 1794.67
+/run/beamOn 1
+/generator/vtx/set proton -0.33368 0.88663 0.32023 254.064
+/generator/pos/set -772.76 1306.41 1959.26
+/run/beamOn 1
+/generator/vtx/set proton -0.09345 0.6475 0.75631 534.37
+/generator/pos/set 764.37 426.23 1276.25
+/run/beamOn 1
+/generator/vtx/set proton -0.29969 -0.72578 -0.61921 444.524
+/generator/pos/set 172.67 520.13 2506.77
+/run/beamOn 1
+/generator/vtx/set proton 0.8577 -0.43662 0.27148 415.039
+/generator/pos/set -31.25 -839.86 855.11
+/run/beamOn 1
+/generator/vtx/set proton 0.60285 0.72963 0.32281 305.31
+/generator/pos/set 229.91 -1431.42 2160.99
+/run/beamOn 1
+/generator/vtx/set proton -0.08771 -0.3078 0.9474 1245.81
+/generator/pos/set -5.94 171.25 2463.08
+/run/beamOn 1
+/generator/vtx/set proton 0.38993 -0.50676 0.76886 331.074
+/generator/pos/set 562.78 169.44 1618.22
+/run/beamOn 1
+/generator/vtx/set proton -0.34418 -0.86607 0.36259 305.891
+/generator/pos/set 109.83 114.75 2268.35
+/run/beamOn 1
+/generator/vtx/set proton 0.87857 0.12099 0.46204 447.283
+/generator/pos/set 798.7 -161.86 1301.93
+/run/beamOn 1
+/generator/vtx/set proton -0.54858 -0.82354 0.14434 169.299
+/generator/pos/set 266.58 341.03 1073.92
+/run/beamOn 1
+/generator/vtx/set proton 0.28438 0.66593 0.68969 199.673
+/generator/pos/set -836.84 256.45 1667.65
+/run/beamOn 1
+/generator/vtx/set proton 0.81323 0.32309 0.48402 384.334
+/generator/pos/set 92.83 378.34 1481.78
+/run/beamOn 1
+/generator/vtx/set proton 0.96908 0.08667 -0.23103 36.6812
+/generator/pos/set -661.89 575.55 2414.35
+/run/beamOn 1
+/generator/vtx/set proton -0.35693 0.09605 0.92918 122.001
+/generator/pos/set 301.14 -1434.23 2364.25
+/run/beamOn 1
+/generator/vtx/set proton 0.09117 0.34443 0.93437 1394.76
+/generator/pos/set 358.58 483.27 1521.52
+/run/beamOn 1
+/generator/vtx/set proton 0.90462 -0.39967 0.14807 334.829
+/generator/pos/set 445.18 -1475.51 2337.68
+/run/beamOn 1
+/generator/vtx/set proton 0.53395 0.28847 -0.79479 643.607
+/generator/pos/set 324.47 1163.12 2308.52
+/run/beamOn 1
+/generator/vtx/set proton -0.15038 0.57675 0.80296 306.993
+/generator/pos/set 160 537.87 1666.32
+/run/beamOn 1
+/generator/vtx/set proton -0.35626 0.67185 0.64938 125.66
+/generator/pos/set 131.31 778.9 1018.8
+/run/beamOn 1
+/generator/vtx/set proton -0.94724 0.17812 0.26646 226.895
+/generator/pos/set 414.63 1338.93 1975.33
+/run/beamOn 1
+/generator/vtx/set proton -0.65549 -0.01364 -0.75508 107.931
+/generator/pos/set -151.48 753.79 2685.93
+/run/beamOn 1
+/generator/vtx/set proton 0.75128 0.5679 0.33625 19.3475
+/generator/pos/set -270.12 -1202.78 1674.76
+/run/beamOn 1
+/generator/vtx/set proton -0.04338 0.58174 0.81222 380.857
+/generator/pos/set 323.93 337.84 1152.56
+/run/beamOn 1
+/generator/vtx/set proton -0.14544 0.25231 0.95665 938.174
+/generator/pos/set -152.1 213.9 1492.27
+/run/beamOn 1
+/generator/vtx/set proton -0.17258 0.1661 0.97089 1557.24
+/generator/pos/set -387.9 244.14 2160.18
+/run/beamOn 1
+/generator/vtx/set proton 0.25892 -0.2386 0.93596 748.354
+/generator/pos/set -239 -896.95 1529.12
+/run/beamOn 1
+/generator/vtx/set proton -0.70555 -0.6703 0.22999 103.599
+/generator/pos/set 551.86 -1058.59 2555.17
+/run/beamOn 1
+/generator/vtx/set proton -0.40271 0.67044 0.62316 334.422
+/generator/pos/set -729.5 877.32 2041.83
+/run/beamOn 1
+/generator/vtx/set proton -0.79701 0.21751 0.56343 211.365
+/generator/pos/set 977.42 -1135.94 1747.27
+/run/beamOn 1
+/generator/vtx/set proton 0.15717 0.06079 -0.9857 234.261
+/generator/pos/set 114.99 124.63 796.28
+/run/beamOn 1
+/generator/vtx/set proton -0.68157 0.72841 0.06988 183.531
+/generator/pos/set -493.22 -685.59 957.09
+/run/beamOn 1
+/generator/vtx/set proton 0.93282 0.35691 0.04951 107.594
+/generator/pos/set -272.88 1001.82 2299.53
+/run/beamOn 1
+/generator/vtx/set proton -0.09474 -0.33726 0.93663 560.659
+/generator/pos/set -391.71 -184.55 2544.43
+/run/beamOn 1
+/generator/vtx/set proton 0.40526 0.10435 0.90822 142.287
+/generator/pos/set 406.01 -774.41 2644.59
+/run/beamOn 1
+/generator/vtx/set proton 0.30524 0.3237 0.89557 541.241
+/generator/pos/set 924.77 -501.79 1430.05
+/run/beamOn 1
+/generator/vtx/set proton 0.55081 0.70436 -0.44776 298.149
+/generator/pos/set 906.25 -979.12 1774.9
+/run/beamOn 1
+/generator/vtx/set proton 0.18427 -0.35093 0.91809 546.41
+/generator/pos/set -326.01 14.84 2329.13
+/run/beamOn 1
+/generator/vtx/set proton 0.36192 0.62579 0.69094 502.495
+/generator/pos/set 301.45 -177.68 1296.55
+/run/beamOn 1
+/generator/vtx/set proton 0.18763 0.82859 0.52748 169.964
+/generator/pos/set -387.13 726.53 1861.36
+/run/beamOn 1
+/generator/vtx/set proton -0.45806 -0.03637 0.88818 694.211
+/generator/pos/set 249.24 562.84 842.04
+/run/beamOn 1
+/generator/vtx/set proton 0.44286 -0.43757 0.78256 537.613
+/generator/pos/set -596.84 -652.06 1888.16
+/run/beamOn 1
+/generator/vtx/set proton -0.69496 0.147 0.70386 509.1
+/generator/pos/set -428.64 -908.41 2263.9
+/run/beamOn 1
+/generator/vtx/set proton -0.84353 0.11577 0.52446 484.153
+/generator/pos/set 669.13 -123.05 2385.89
+/run/beamOn 1
+/generator/vtx/set proton 0.60255 -0.7412 0.29589 460.613
+/generator/pos/set -175.92 600.92 2589.84
+/run/beamOn 1
+/generator/vtx/set proton 0.52577 0.67411 0.51879 610.96
+/generator/pos/set 75.01 -341.96 2576.52
+/run/beamOn 1
+/generator/vtx/set proton -0.07026 -0.79168 -0.60688 582.015
+/generator/pos/set 497.01 54.36 1347.73
+/run/beamOn 1
+/generator/vtx/set proton -0.26737 -0.72997 0.62901 213.697
+/generator/pos/set 783.78 -45.9 1853.95
+/run/beamOn 1
+/generator/vtx/set proton 0.51139 -0.00558 0.85933 1117.92
+/generator/pos/set -418.54 -467.19 1868.74
+/run/beamOn 1
+/generator/vtx/set proton -0.92048 0.38673 -0.05614 270.431
+/generator/pos/set 338.63 -1122.01 919.86
+/run/beamOn 1
+/generator/vtx/set proton 0.21947 0.1697 0.96075 54.6481
+/generator/pos/set 787.42 185.81 1177.61
+/run/beamOn 1
+/generator/vtx/set proton 0.9024 -0.18942 0.38703 432.623
+/generator/pos/set -346.73 917.8 2513.96
+/run/beamOn 1
+/generator/vtx/set proton -0.3432 0.91568 0.20915 449.168
+/generator/pos/set 62.17 -295.25 2737.9
+/run/beamOn 1
+/generator/vtx/set proton 0.45951 -0.09127 0.88347 618.398
+/generator/pos/set -660.5 -1345.74 1084.03
+/run/beamOn 1
+/generator/vtx/set proton -0.97075 -0.22437 0.08546 284.884
+/generator/pos/set -450.8 -548.51 1662.66
+/run/beamOn 1
+/generator/vtx/set proton -0.62757 0.61735 0.47437 664.036
+/generator/pos/set -709.51 -186.95 1142.29
+/run/beamOn 1
+/generator/vtx/set proton 0.64 -0.51915 0.56647 452.129
+/generator/pos/set -359.63 438.52 1924.66
+/run/beamOn 1
+/generator/vtx/set proton 0.88876 -0.4464 0.10406 205.918
+/generator/pos/set 406.55 -354.44 1400.69
+/run/beamOn 1
+/generator/vtx/set proton -0.02358 -0.18331 0.98277 96.9044
+/generator/pos/set -823.9 366.49 1412.49
+/run/beamOn 1
+/generator/vtx/set proton 0.21365 0.56601 0.79624 474.28
+/generator/pos/set 457.49 882.21 2245
+/run/beamOn 1
+/generator/vtx/set proton -0.87605 -0.28296 0.39047 741.884
+/generator/pos/set -533.88 872.86 2048.92
+/run/beamOn 1
+/generator/vtx/set proton -0.20387 -0.90594 -0.37109 20.5297
+/generator/pos/set 517.2 156.4 1503.02
+/run/beamOn 1
+/generator/vtx/set proton -0.24921 0.7679 -0.5901 42.5165
+/generator/pos/set 293.23 -1029.71 1643.1
+/run/beamOn 1
+/generator/vtx/set proton 0.80655 0.44651 0.38743 128.317
+/generator/pos/set -132.95 1388.61 866.93
+/run/beamOn 1
+/generator/vtx/set proton -0.57004 -0.17013 0.80381 661.327
+/generator/pos/set -177.79 593.21 2528.15
+/run/beamOn 1
+/generator/vtx/set proton -0.73477 0.66421 -0.13762 193.873
+/generator/pos/set 18.1 778.89 1747.88
+/run/beamOn 1
+/generator/vtx/set proton 0.1674 -0.281 -0.945 106.188
+/generator/pos/set -32.37 401.41 1948.25
+/run/beamOn 1
+/generator/vtx/set proton -0.3923 0.41011 0.82335 430.029
+/generator/pos/set -562.96 -916.61 1361.36
+/run/beamOn 1
+/generator/vtx/set proton 0.26764 0.84899 0.45561 490.497
+/generator/pos/set 174.54 -78.39 1176.34
+/run/beamOn 1
+/generator/vtx/set proton -0.50817 -0.81904 0.26634 221.19
+/generator/pos/set -525.08 -1054.51 2140.68
+/run/beamOn 1
+/generator/vtx/set proton -0.70425 -0.70995 -0.00155 203.807
+/generator/pos/set 847.03 -1430.01 1914.9
+/run/beamOn 1
+/generator/vtx/set proton 0.98997 0.08818 0.11042 214.14
+/generator/pos/set -476.5 95.29 1442.04
+/run/beamOn 1
+/generator/vtx/set proton 0.4635 0.78572 -0.40963 161.03
+/generator/pos/set -857.68 -155.59 2189.43
+/run/beamOn 1
+/generator/vtx/set proton -0.22402 -0.78359 0.57949 781.593
+/generator/pos/set 125.66 -1463.33 1548.07
+/run/beamOn 1
+/generator/vtx/set proton 0.02879 -0.22549 0.97382 526.073
+/generator/pos/set -5.5 865.58 2355.47
+/run/beamOn 1
+/generator/vtx/set proton 0.43891 -0.00323 0.89852 364.671
+/generator/pos/set 576.59 -1309.83 1521.37
+/run/beamOn 1
+/generator/vtx/set proton 0.72385 -0.31923 0.61167 480.971
+/generator/pos/set 916.1 -801.41 2009.36
+/run/beamOn 1
+/generator/vtx/set proton -0.08324 -0.97564 0.20299 89.0391
+/generator/pos/set -197.93 277.28 1635.65
+/run/beamOn 1
+/generator/vtx/set proton 0.65253 -0.35228 -0.6709 339.788
+/generator/pos/set -514.61 652.01 2486.53
+/run/beamOn 1
+/generator/vtx/set proton 0.78638 -0.57712 -0.22032 555.523
+/generator/pos/set 694.71 -1134.43 1371.53
+/run/beamOn 1
+/generator/vtx/set proton 0.1658 0.08048 0.98287 1016.42
+/generator/pos/set -488.02 252.09 2098.35
+/run/beamOn 1
+/generator/vtx/set proton -0.50303 -0.12778 0.85477 273.021
+/generator/pos/set -795.34 -209.93 2111.86
+/run/beamOn 1
+/generator/vtx/set proton -0.13857 0.45234 -0.88101 198.059
+/generator/pos/set -59.89 1106.03 2400.44
+/run/beamOn 1
+/generator/vtx/set proton 0.16452 0.86922 0.46624 517.156
+/generator/pos/set -220.12 -116.13 2661.59
+/run/beamOn 1
+/generator/vtx/set proton -0.40193 0.48003 -0.77976 554.601
+/generator/pos/set 550.95 -307.76 1716.3
+/run/beamOn 1
+/generator/vtx/set proton 0.86812 -0.12014 -0.48159 102.323
+/generator/pos/set -95.22 -826.63 1142.96
+/run/beamOn 1
+/generator/vtx/set proton 0.68367 -0.34585 0.64264 424.121
+/generator/pos/set -535.55 59.86 1274.06
+/run/beamOn 1
+/generator/vtx/set proton -0.47508 -0.82618 0.30286 262.702
+/generator/pos/set -394.85 249.31 1744.43
+/run/beamOn 1
+/generator/vtx/set proton 0.42394 0.86398 -0.27168 138.953
+/generator/pos/set -301.03 874.38 1779.45
+/run/beamOn 1
+/generator/vtx/set proton 0.31742 -0.64697 0.69331 339.245
+/generator/pos/set -614.94 -54.44 2245.39
+/run/beamOn 1
+/generator/vtx/set proton 0.65546 0.31711 0.68543 259.344
+/generator/pos/set -424.82 354.69 2443.85
+/run/beamOn 1
+/generator/vtx/set proton 0.20213 -0.39844 0.89465 249.312
+/generator/pos/set 688.59 804.54 1170.78
+/run/beamOn 1
+/generator/vtx/set proton -0.80738 0.59003 -0.00296 483.879
+/generator/pos/set -34.54 -1096.49 2471.57
+/run/beamOn 1
+/generator/vtx/set proton 0.44751 -0.78384 0.4305 195.006
+/generator/pos/set -122.98 -294.92 1934.1
+/run/beamOn 1
+/generator/vtx/set proton 0.05718 -0.32541 0.94384 694.387
+/generator/pos/set 368.14 915.91 2100.81
+/run/beamOn 1
+/generator/vtx/set proton -0.52449 0.84854 0.06985 220.101
+/generator/pos/set 511.98 1026.57 1022.6
+/run/beamOn 1
+/generator/vtx/set proton 0.81418 0.47167 0.33859 231.461
+/generator/pos/set 324.02 -681.9 2208.47
+/run/beamOn 1
+/generator/vtx/set proton -0.08646 -0.39771 0.91343 489.519
+/generator/pos/set -947.25 669.77 1884.52
+/run/beamOn 1
+/generator/vtx/set proton -0.08303 0.10945 0.99052 152.41
+/generator/pos/set -588.64 -413.75 2436.66
+/run/beamOn 1
+/generator/vtx/set proton -0.11878 0.56055 0.81955 191.363
+/generator/pos/set -371.89 -336.13 1723.55
+/run/beamOn 1
+/generator/vtx/set proton 0.67622 0.61475 0.40597 330.161
+/generator/pos/set -611.89 679.58 2305.46
+/run/beamOn 1
+/generator/vtx/set proton 0.37389 -0.91334 0.16132 183.779
+/generator/pos/set -104.21 698.03 799.46
+/run/beamOn 1
+/generator/vtx/set proton -0.99511 0.00763 -0.09844 230.422
+/generator/pos/set -51.84 -978.11 1577.48
+/run/beamOn 1
+/generator/vtx/set proton -0.2792 -0.68075 -0.67722 183.403
+/generator/pos/set -280.4 1029.3 1601.73
+/run/beamOn 1
+/generator/vtx/set proton -0.26465 -0.95336 0.14513 290.005
+/generator/pos/set -144.03 1262.75 2331.83
+/run/beamOn 1
+/generator/vtx/set proton -0.16213 0.79816 0.58022 127.432
+/generator/pos/set 708.98 -1458.64 1098.53
+/run/beamOn 1
+/generator/vtx/set proton 0.95708 0.20603 0.20384 123.977
+/generator/pos/set -903.69 -298.89 1893.25
+/run/beamOn 1
+/generator/vtx/set proton 0.08732 -0.95824 -0.27231 114.089
+/generator/pos/set -337.07 -600.6 1933.49
+/run/beamOn 1
+/generator/vtx/set proton 0.23889 0.60671 0.75818 748.637
+/generator/pos/set -450.86 -1345.27 2355.73
+/run/beamOn 1
+/generator/vtx/set proton -0.39435 0.71456 -0.57783 111.681
+/generator/pos/set -277.72 1000.17 1312.57
+/run/beamOn 1
+/generator/vtx/set proton 0.00371 -0.58335 0.81221 552.639
+/generator/pos/set 413.63 204.2 1688.57
+/run/beamOn 1
+/generator/vtx/set proton -0.8735 -0.40207 0.27446 523.493
+/generator/pos/set -574.36 -1422.85 2094.81
+/run/beamOn 1
+/generator/vtx/set proton -0.71101 0.60402 0.36003 399.964
+/generator/pos/set 87.23 -1074.61 2250.42
+/run/beamOn 1
+/generator/vtx/set proton -0.06172 0.73137 0.67918 254.325
+/generator/pos/set 108.22 494.19 2648.48
+/run/beamOn 1
+/generator/vtx/set proton 0.98457 -0.16479 0.05887 485.561
+/generator/pos/set 730.63 -179.17 1638.79
+/run/beamOn 1
+/generator/vtx/set proton -0.37985 0.60631 -0.69865 465.824
+/generator/pos/set 125.14 -688.55 1954.21
+/run/beamOn 1
+/generator/vtx/set proton -0.51432 -0.44313 0.73424 367.222
+/generator/pos/set -482.45 -563.92 909.97
+/run/beamOn 1
+/generator/vtx/set proton -0.5517 -0.80041 -0.23447 55.6681
+/generator/pos/set -452.85 -1438.66 1991.85
+/run/beamOn 1
+/generator/vtx/set proton -0.05705 0.81773 0.57277 580.193
+/generator/pos/set 586.94 147.18 1330.14
+/run/beamOn 1
+/generator/vtx/set proton -0.59399 0.34201 -0.72815 186.577
+/generator/pos/set 708.94 -34.91 1861.64
+/run/beamOn 1
+/generator/vtx/set proton -0.05888 0.62326 -0.7798 382.825
+/generator/pos/set 266.96 -426.01 1076.9
+/run/beamOn 1
+/generator/vtx/set proton -0.01575 0.6733 0.7392 403.683
+/generator/pos/set 722.86 54.11 1067.48
+/run/beamOn 1
+/generator/vtx/set proton 0.5779 0.39036 0.71669 345.247
+/generator/pos/set 582.78 -1209 1374.85
+/run/beamOn 1
+/generator/vtx/set proton -0.52221 0.6949 0.49438 420.054
+/generator/pos/set 372.43 -404.84 1196.97
+/run/beamOn 1
+/generator/vtx/set proton -0.09455 -0.2928 0.95149 29.9225
+/generator/pos/set -566.57 -820.02 1596.97
+/run/beamOn 1
+/generator/vtx/set proton -0.01858 0.99727 -0.07151 501.708
+/generator/pos/set 619.67 -537.29 1351.35
+/run/beamOn 1
+/generator/vtx/set proton -0.59662 0.69201 0.40641 345.077
+/generator/pos/set -859.48 1387.36 1702.59
+/run/beamOn 1
+/generator/vtx/set proton 0.12965 0.39622 0.90896 306.257
+/generator/pos/set 684.41 -1174.07 2162.07
+/run/beamOn 1
+/generator/vtx/set proton 0.13343 -0.51015 0.84968 823.717
+/generator/pos/set -366.2 -257.87 1615.15
+/run/beamOn 1
+/generator/vtx/set proton -0.28737 -0.49653 0.81907 180.296
+/generator/pos/set -217.59 -1459.7 1745.35
+/run/beamOn 1
+/generator/vtx/set proton 0.563 0.79381 -0.22998 184.497
+/generator/pos/set -396.6 -723.92 989.75
+/run/beamOn 1
+/generator/vtx/set proton 0.5854 0.06627 0.80803 103.514
+/generator/pos/set 872.33 18.22 1973.45
+/run/beamOn 1
+/generator/vtx/set proton 0.21157 -0.89896 0.38356 596.421
+/generator/pos/set -400.25 -17.61 993.27
+/run/beamOn 1
+/generator/vtx/set proton 0.23794 0.01217 0.9712 716.653
+/generator/pos/set -77.56 -368.47 1189.55
+/run/beamOn 1
+/generator/vtx/set proton -0.84235 0.46585 0.27097 41.2969
+/generator/pos/set -604.33 -73.54 1862.93
+/run/beamOn 1
+/generator/vtx/set proton -0.27785 0.46832 0.83873 850.838
+/generator/pos/set -717.67 -783.4 1264.58
+/run/beamOn 1
+/generator/vtx/set proton -0.56701 0.51315 0.64435 391.713
+/generator/pos/set -600.79 -361.39 1056.8
+/run/beamOn 1
+/generator/vtx/set proton 0.82952 -0.50945 0.22883 378.777
+/generator/pos/set 77.53 -57.92 2719.55
+/run/beamOn 1
+/generator/vtx/set proton -0.58959 0.70741 -0.3898 178.194
+/generator/pos/set -411.44 1001.61 1487.23
+/run/beamOn 1
+/generator/vtx/set proton -0.39627 0.81455 -0.42364 450.58
+/generator/pos/set 390.49 -437.16 2531.03
+/run/beamOn 1
+/generator/vtx/set proton 0.3254 0.02709 0.94519 538.566
+/generator/pos/set -593.64 368.21 2071.51
+/run/beamOn 1
+/generator/vtx/set proton -0.76673 0.20024 0.60994 140.973
+/generator/pos/set 244.67 -1477.54 959.42
+/run/beamOn 1
+/generator/vtx/set proton -0.93277 0.14476 -0.33013 240.028
+/generator/pos/set 728.14 402.05 1886.02
+/run/beamOn 1
+/generator/vtx/set proton -0.59902 0.45132 0.66143 538.279
+/generator/pos/set -363.8 36.25 2643.8
+/run/beamOn 1
+/generator/vtx/set proton 0.53908 0.7933 0.28296 417.759
+/generator/pos/set -335.52 -1225.86 2421.07
+/run/beamOn 1
+/generator/vtx/set proton 0.15769 -0.13778 0.97783 226.663
+/generator/pos/set -616.21 -1121.44 2364.92
+/run/beamOn 1
+/generator/vtx/set proton -0.26936 0.21375 0.93902 323.462
+/generator/pos/set 204.47 -1244.15 1478.3
+/run/beamOn 1
+/generator/vtx/set proton -0.08519 -0.59478 0.79936 139.445
+/generator/pos/set -968.29 -386.4 1745.67
+/run/beamOn 1
+/generator/vtx/set proton -0.65434 0.69159 -0.30584 117.798
+/generator/pos/set 23.74 -219.31 2655.01
+/run/beamOn 1
+/generator/vtx/set proton -0.37962 -0.91609 0.12914 97.7384
+/generator/pos/set 21.28 297.67 2624.68
+/run/beamOn 1
+/generator/vtx/set proton 0.09628 0.5132 0.85285 419.179
+/generator/pos/set -458.87 -469.58 2160.47
+/run/beamOn 1
+/generator/vtx/set proton -0.78185 -0.08734 0.61732 414.044
+/generator/pos/set -154.29 622.76 2218.26
+/run/beamOn 1
+/generator/vtx/set proton 0.17562 0.32357 -0.92976 463.323
+/generator/pos/set 184.24 959.39 1107.53
+/run/beamOn 1
+/generator/vtx/set proton 0.65653 -0.36626 -0.65941 141.021
+/generator/pos/set 759.8 -667.27 2042.73
+/run/beamOn 1
+/generator/vtx/set proton -0.77049 -0.21371 -0.60056 88.6603
+/generator/pos/set 918.29 367.78 1678.47
+/run/beamOn 1
+/generator/vtx/set proton -0.87734 -0.32596 0.35217 169.243
+/generator/pos/set -200.49 -462.32 1363.26
+/run/beamOn 1
+/generator/vtx/set proton 0.14242 0.49349 0.85801 726.564
+/generator/pos/set -387.82 -717.03 1952.24
+/run/beamOn 1
+/generator/vtx/set proton -0.27286 0.31903 0.90762 586.852
+/generator/pos/set 896.44 227.34 1934.28
+/run/beamOn 1
+/generator/vtx/set proton 0.63571 -0.5383 0.55327 495.071
+/generator/pos/set -457.38 -233.95 1331.88
+/run/beamOn 1
+/generator/vtx/set proton 0.7274 -0.65293 0.21113 111.324
+/generator/pos/set 72.59 1000.32 798.99
+/run/beamOn 1
+/generator/vtx/set proton 0.19894 0.73458 0.6487 319.334
+/generator/pos/set 224.24 -1474.13 1354.56
+/run/beamOn 1
+/generator/vtx/set proton 0.01612 -0.07175 0.99729 435.572
+/generator/pos/set 636.14 -1162.83 1643.47
+/run/beamOn 1
+/generator/vtx/set proton 0.0569 0.53435 0.84335 480.341
+/generator/pos/set 631.87 850.75 1545.22
+/run/beamOn 1
+/generator/vtx/set proton 0.49036 -0.66818 0.55953 770.547
+/generator/pos/set -178.09 -905.98 1896.04
+/run/beamOn 1
+/generator/vtx/set proton -0.50323 -0.46206 0.73025 728.643
+/generator/pos/set 169.61 238.21 1576.5
+/run/beamOn 1
+/generator/vtx/set proton -0.4802 0.13202 0.86717 93.517
+/generator/pos/set -308.69 1139.68 2680.84
+/run/beamOn 1
+/generator/vtx/set proton 0.26592 0.43334 0.86111 783.277
+/generator/pos/set -595.95 54.12 2080.22
+/run/beamOn 1
+/generator/vtx/set proton 0.47045 0.20761 0.85766 1266.65
+/generator/pos/set 148.76 243.06 1454.03
+/run/beamOn 1
+/generator/vtx/set proton 0.75982 -0.39066 -0.51967 237.099
+/generator/pos/set 667.5 -303.9 1846.59
+/run/beamOn 1
+/generator/vtx/set proton -0.97431 -0.21597 0.06383 207.285
+/generator/pos/set -367.11 -1136.01 2546.92
+/run/beamOn 1
+/generator/vtx/set proton 0.78532 0.49807 -0.3677 524.428
+/generator/pos/set -488.23 -467.93 880.02
+/run/beamOn 1
+/generator/vtx/set proton 0.98227 -0.16317 -0.09229 242.695
+/generator/pos/set 421.76 -607.53 1076.86
+/run/beamOn 1
+/generator/vtx/set proton -0.80754 0.58706 0.05684 112.025
+/generator/pos/set 626.14 1368.5 1461.47
+/run/beamOn 1
+/generator/vtx/set proton -0.68526 0.47256 0.55417 242.689
+/generator/pos/set -261.5 1351.09 993.64
+/run/beamOn 1
+/generator/vtx/set proton 0.78738 0.49264 0.3706 381.828
+/generator/pos/set -570.67 -1183.33 1320.53
+/run/beamOn 1
+/generator/vtx/set proton 0.67284 -0.60443 -0.42655 145.676
+/generator/pos/set -941.53 886.85 1608.88
+/run/beamOn 1
+/generator/vtx/set proton 0.00851 -0.51756 -0.8556 112.843
+/generator/pos/set -390.48 -1215.94 1304.11
+/run/beamOn 1
+/generator/vtx/set proton -0.6157 -0.61763 0.48933 737.632
+/generator/pos/set -72.59 770.23 772.7
+/run/beamOn 1
+/generator/vtx/set proton 0.64156 -0.23703 0.72953 746.94
+/generator/pos/set 715.77 1228.86 2265.98
+/run/beamOn 1
+/generator/vtx/set proton 0.52902 -0.45934 0.71354 92.5466
+/generator/pos/set 188.98 -1461.95 1911.02
+/run/beamOn 1
+/generator/vtx/set proton 0.07661 0.91552 -0.39492 170.945
+/generator/pos/set 215.98 1340.12 977.87
+/run/beamOn 1
+/generator/vtx/set proton 0.38986 -0.03021 0.92038 130.826
+/generator/pos/set -13.27 -196.67 1122.38
+/run/beamOn 1
+/generator/vtx/set proton -0.19911 -0.32133 0.9258 547.63
+/generator/pos/set -499.4 695.65 2344.81
+/run/beamOn 1
+/generator/vtx/set proton 0.38804 0.32942 0.86076 207.888
+/generator/pos/set 562.42 -146.79 1091.33
+/run/beamOn 1
+/generator/vtx/set proton -0.29664 0.57569 0.76196 227.254
+/generator/pos/set 392.97 -1334.36 2069.55
+/run/beamOn 1
+/generator/vtx/set proton -0.65649 0.01247 0.75423 320.587
+/generator/pos/set -582.05 -1083.3 1479.68
+/run/beamOn 1
+/generator/vtx/set proton -0.63947 0.76831 0.02767 294.475
+/generator/pos/set -565.33 -325.53 1306.2
+/run/beamOn 1
+/generator/vtx/set proton -0.22831 0.85301 0.46931 422.95
+/generator/pos/set 879.11 -215.21 1317.43
+/run/beamOn 1
+/generator/vtx/set proton -0.75684 -0.58441 0.29266 201.628
+/generator/pos/set -885.37 1254.58 1860.61
+/run/beamOn 1
+/generator/vtx/set proton 0.20962 0.01368 0.97769 551.007
+/generator/pos/set 783.52 49.36 1661.41
+/run/beamOn 1
+/generator/vtx/set proton 0.51549 -0.27747 0.81073 370.18
+/generator/pos/set -729.24 35.08 1870.31
+/run/beamOn 1
+/generator/vtx/set proton 0.30525 -0.16614 0.93767 938.36
+/generator/pos/set -418.24 -1411.95 1698.7
+/run/beamOn 1
+/generator/vtx/set proton -0.35091 -0.63042 0.69241 639.143
+/generator/pos/set -689.07 722.12 1460
+/run/beamOn 1
+/generator/vtx/set proton -0.77377 -0.30775 0.55369 360.472
+/generator/pos/set -126.37 -1080.81 1549.72
+/run/beamOn 1
+/generator/vtx/set proton -0.48571 0.66763 0.56423 333.562
+/generator/pos/set 602.42 -678.18 2542.92
+/run/beamOn 1
+/generator/vtx/set proton 0.12826 0.07122 0.98918 814.441
+/generator/pos/set 98.57 -228.87 1604.85
+/run/beamOn 1
+/generator/vtx/set proton -0.24983 -0.90839 0.33528 204.354
+/generator/pos/set 282.26 963.92 1695.04
+/run/beamOn 1
+/generator/vtx/set proton 0.88323 -0.39765 0.24855 168.841
+/generator/pos/set 326.92 -101.2 1831.82
+/run/beamOn 1
+/generator/vtx/set proton -0.06625 0.55306 0.8305 158.812
+/generator/pos/set 641.84 811.36 2283.64
+/run/beamOn 1
+/generator/vtx/set proton -0.87567 0.12429 0.46665 173.627
+/generator/pos/set 499.78 1058 2078.26
+/run/beamOn 1
+/generator/vtx/set proton -0.29857 -0.66202 0.68745 239.266
+/generator/pos/set 467.72 574.76 2135.86
+/run/beamOn 1
+/generator/vtx/set proton 0.9058 0.07561 0.4169 191.457
+/generator/pos/set -217.65 90.39 2091.77
+/run/beamOn 1
+/generator/vtx/set proton -0.72562 -0.32768 0.60507 536.013
+/generator/pos/set 103.77 -63.19 1160.11
+/run/beamOn 1
+/generator/vtx/set proton -0.74051 0.14291 -0.65668 339.752
+/generator/pos/set 104.83 -265.72 1502.7
+/run/beamOn 1
+/generator/vtx/set proton 0.76542 0.06926 0.63979 553.949
+/generator/pos/set 728.42 1132.94 1554.44
+/run/beamOn 1
+/generator/vtx/set proton -0.80734 0.20462 0.55347 319.281
+/generator/pos/set -516.08 -589.01 2491.55
+/run/beamOn 1
+/generator/vtx/set proton -0.76089 -0.6002 -0.24657 317.462
+/generator/pos/set -228.91 759.36 2052.56
+/run/beamOn 1
+/generator/vtx/set proton -0.66135 -0.15806 0.73323 285.276
+/generator/pos/set -701.94 -444.84 1621.03
+/run/beamOn 1
+/generator/vtx/set proton 0.5169 -0.18846 0.83505 925.525
+/generator/pos/set -290.8 403.2 940.33
+/run/beamOn 1
+/generator/vtx/set proton 0.07671 0.8283 0.55501 206.979
+/generator/pos/set 390.79 691.21 1711.69
+/run/beamOn 1
+/generator/vtx/set proton 0.37688 0.15669 0.91291 647.423
+/generator/pos/set 358.26 879.08 828.43
+/run/beamOn 1
+/generator/vtx/set proton 0.36041 -0.27968 0.88988 687.961
+/generator/pos/set -500.21 -1454.82 1742.62
+/run/beamOn 1
+/generator/vtx/set proton -0.35727 -0.05398 0.93244 473.905
+/generator/pos/set 122.02 -1132.78 1172.72
+/run/beamOn 1
+/generator/vtx/set proton 0.34318 -0.23862 0.90845 228.376
+/generator/pos/set -151.43 438.9 1696.59
+/run/beamOn 1
+/generator/vtx/set proton 0.15589 0.40942 0.89893 838.953
+/generator/pos/set 47.92 -1073.91 2647.25
+/run/beamOn 1
+/generator/vtx/set proton -0.56002 0.03543 0.82772 977.153
+/generator/pos/set -333.28 480.72 1722.05
+/run/beamOn 1
+/generator/vtx/set proton 0.0024 -0.47772 0.87851 697.878
+/generator/pos/set 522.93 264.78 2208.39
+/run/beamOn 1
+/generator/vtx/set proton 0.02171 0.67057 0.74153 761.817
+/generator/pos/set -656.98 377.42 2250.86
+/run/beamOn 1
+/generator/vtx/set proton 0.73408 -0.43473 -0.52167 112.588
+/generator/pos/set -472.46 622.68 2376.13
+/run/beamOn 1
+/generator/vtx/set proton 0.55886 -0.1602 0.81364 515.515
+/generator/pos/set 264.84 149.03 2592.83
+/run/beamOn 1
+/generator/vtx/set proton 0.42521 0.32272 0.84561 1274.24
+/generator/pos/set -440.27 852.05 1261.54
+/run/beamOn 1
+/generator/vtx/set proton -0.1811 -0.77552 0.6048 359.3
+/generator/pos/set -794.09 -582.37 1293.64
+/run/beamOn 1
+/generator/vtx/set proton 0.66502 0.38189 0.6418 637.277
+/generator/pos/set 850.88 -1228.39 1854.61
+/run/beamOn 1
+/generator/vtx/set proton 0.52352 0.52332 0.67235 455.905
+/generator/pos/set -558.83 -287.02 2162.61
+/run/beamOn 1
+/generator/vtx/set proton -0.04428 0.85481 -0.51705 158.683
+/generator/pos/set -488.34 1175.61 1996.77
+/run/beamOn 1
+/generator/vtx/set proton 0.82997 -0.36164 -0.4247 135.941
+/generator/pos/set 141.97 -864.73 1782.12
+/run/beamOn 1
+/generator/vtx/set proton -0.01356 -0.96959 -0.24435 149.877
+/generator/pos/set -393.55 -1054.38 1265.7
+/run/beamOn 1
+/generator/vtx/set proton -0.50619 -0.8274 -0.24326 128.057
+/generator/pos/set 103.69 -841.09 1635.55
+/run/beamOn 1
+/generator/vtx/set proton -0.44643 0.83566 -0.31995 313.365
+/generator/pos/set 890.32 -1302.34 1815.82
+/run/beamOn 1
+/generator/vtx/set proton -0.58571 -0.03189 0.8099 518.369
+/generator/pos/set 507.86 1411.84 1737.27
+/run/beamOn 1
+/generator/vtx/set proton 0.00743 -0.5003 0.86582 550.96
+/generator/pos/set -354.97 -111.91 1939.31
+/run/beamOn 1
+/generator/vtx/set proton -0.99598 0.04251 -0.0789 207.988
+/generator/pos/set -903.51 -1410.09 1430.05
+/run/beamOn 1
+/generator/vtx/set proton 0.97188 0.07073 -0.22459 72.9902
+/generator/pos/set -264.48 4.18 2390.97
+/run/beamOn 1
+/generator/vtx/set proton 0.34926 0.20363 0.91463 403.591
+/generator/pos/set -281.64 -1465.58 2070.86
+/run/beamOn 1
+/generator/vtx/set proton -0.07759 0.83963 0.53759 283.965
+/generator/pos/set 517.66 -466.48 1722.06
+/run/beamOn 1
+/generator/vtx/set proton 0.86374 0.19102 0.46633 662.626
+/generator/pos/set 519.36 -1000.34 1463.14
+/run/beamOn 1
+/generator/vtx/set proton -0.9553 0.2563 -0.14733 337.413
+/generator/pos/set 788.32 -1116.68 1577.92
+/run/beamOn 1
+/generator/vtx/set proton -0.16467 0.32405 0.9316 1006.66
+/generator/pos/set -326.17 -547.72 2223.74
+/run/beamOn 1
+/generator/vtx/set proton -0.70842 0.65948 0.25145 397.467
+/generator/pos/set 43.23 -799.08 1781.81
+/run/beamOn 1
+/generator/vtx/set proton -0.61638 0.68921 -0.38087 372.058
+/generator/pos/set -18.48 -1362.97 1065.34
+/run/beamOn 1
+/generator/vtx/set proton -0.16292 0.46178 0.8719 330.9
+/generator/pos/set 441.83 339.5 2142.45
+/run/beamOn 1
+/generator/vtx/set proton -0.99241 0.12169 0.01771 280.544
+/generator/pos/set -399.72 -1454.78 2324.7
+/run/beamOn 1
+/generator/vtx/set proton -0.49649 -0.73097 0.46818 557.611
+/generator/pos/set 455.52 -115.66 2291.23
+/run/beamOn 1
+/generator/vtx/set proton -0.57394 0.70077 0.42369 322.481
+/generator/pos/set -962.66 -491.67 1501.68
+/run/beamOn 1
+/generator/vtx/set proton -0.71622 0.05955 0.69533 470.456
+/generator/pos/set -568.49 155.97 1202.04
+/run/beamOn 1
+/generator/vtx/set proton -0.42472 -0.43151 0.79587 440.525
+/generator/pos/set -348.39 -636.9 2460.36
+/run/beamOn 1
+/generator/vtx/set proton 0.52761 -0.14601 0.83685 727.58
+/generator/pos/set -691.25 -112.04 1455.35
+/run/beamOn 1
+/generator/vtx/set proton -0.54759 0.83562 -0.04351 256.565
+/generator/pos/set -319.61 -615.82 1062.5
+/run/beamOn 1
+/generator/vtx/set proton -0.30485 -0.51194 0.80311 994.773
+/generator/pos/set 467.76 -653.88 2201.86
+/run/beamOn 1
+/generator/vtx/set proton -0.41968 -0.81983 0.38956 186.17
+/generator/pos/set -343.35 -1172.96 1029.44
+/run/beamOn 1
+/generator/vtx/set proton -0.08505 0.38648 0.91837 94.5857
+/generator/pos/set 209.93 -237.08 2587.66
+/run/beamOn 1
+/generator/vtx/set proton 0.14283 -0.31801 0.93727 269.277
+/generator/pos/set 833.26 888.43 1606.49
+/run/beamOn 1
+/generator/vtx/set proton -0.08931 -0.18045 0.97952 468.295
+/generator/pos/set -547.35 -871 1968.36
+/run/beamOn 1
+/generator/vtx/set proton 0.31446 -0.85499 0.41245 171.628
+/generator/pos/set -303.57 -1469.28 2003.93
+/run/beamOn 1
+/generator/vtx/set proton -0.11989 -0.13693 0.9833 743.765
+/generator/pos/set 708.35 822.19 1723.78
+/run/beamOn 1
+/generator/vtx/set proton 0.13033 -0.0057 0.99145 993.733
+/generator/pos/set 705.84 733.7 1412.12
+/run/beamOn 1
+/generator/vtx/set proton -0.09059 0.54508 0.83348 360.287
+/generator/pos/set -36.2 -1472.07 1943.06
+/run/beamOn 1
+/generator/vtx/set proton 0.8222 0.55748 0.11494 80.3796
+/generator/pos/set 816.35 -510.81 1516.91
+/run/beamOn 1
+/generator/vtx/set proton 0.22218 0.63766 0.73758 1199.03
+/generator/pos/set -146.08 -200.12 2158.34
+/run/beamOn 1
+/generator/vtx/set proton -0.32899 0.8911 -0.31257 155.14
+/generator/pos/set 470.8 833.71 1173.59
+/run/beamOn 1
+/generator/vtx/set proton 0.01101 -0.9366 0.35022 171.538
+/generator/pos/set 900.78 1244.24 1771.52
+/run/beamOn 1
+/generator/vtx/set proton -0.95329 -0.24499 0.1767 133.012
+/generator/pos/set -486.82 -980.93 972.27
+/run/beamOn 1
+/generator/vtx/set proton 0.92854 0.34251 0.1432 813.677
+/generator/pos/set 51.37 566.36 988.29
+/run/beamOn 1
+/generator/vtx/set proton 0.70716 -0.67049 0.22444 335.334
+/generator/pos/set 957.52 138.72 1626.63
+/run/beamOn 1
+/generator/vtx/set proton -0.67332 0.73935 0.00283 311.567
+/generator/pos/set -263.44 495.02 1125.58
+/run/beamOn 1
+/generator/vtx/set proton 0.28921 0.38236 0.87759 1892.77
+/generator/pos/set -602.16 1102.47 1909.1
+/run/beamOn 1
+/generator/vtx/set proton -0.85275 -0.41919 -0.31161 159.572
+/generator/pos/set 326.44 -606.73 2482.16
+/run/beamOn 1
+/generator/vtx/set proton 0.30424 0.69912 0.64704 423.856
+/generator/pos/set 371.84 990.3 1830.18
+/run/beamOn 1
+/generator/vtx/set proton 0.58274 0.21101 0.78479 1220.87
+/generator/pos/set 389.81 -702.28 2629
+/run/beamOn 1
+/generator/vtx/set proton -0.28529 0.67838 -0.67706 186.358
+/generator/pos/set -354.92 -1332.7 2191.69
+/run/beamOn 1
+/generator/vtx/set proton 0.33403 -0.43227 0.8376 782.327
+/generator/pos/set -538.98 -173.26 1515.73
+/run/beamOn 1
+/generator/vtx/set proton -0.9035 -0.05753 0.42471 298.608
+/generator/pos/set 735.35 678.93 1648.43
+/run/beamOn 1
+/generator/vtx/set proton 0.67094 0.25251 0.69719 51.3243
+/generator/pos/set -327.13 -596.05 1890.33
+/run/beamOn 1
+/generator/vtx/set proton -0.72054 -0.25159 0.64616 937.901
+/generator/pos/set 14.25 424.54 1773.46
+/run/beamOn 1
+/generator/vtx/set proton -0.65295 0.22697 0.72259 413.97
+/generator/pos/set -367.17 1224.94 1158.03
+/run/beamOn 1
+/generator/vtx/set proton -0.20943 0.65964 0.72181 194.86
+/generator/pos/set 812.62 650.83 2089.99
+/run/beamOn 1
+/generator/vtx/set proton -0.43342 0.00508 0.90118 296.886
+/generator/pos/set 812.44 795.46 1979.14
+/run/beamOn 1
+/generator/vtx/set proton -0.06129 -0.05153 0.99679 261.524
+/generator/pos/set -339.5 185.84 2128.31
+/run/beamOn 1
+/generator/vtx/set proton -0.22754 0.90215 0.36652 224.853
+/generator/pos/set 740.85 1281.58 2383.43
+/run/beamOn 1
+/generator/vtx/set proton 0.66099 0.75039 -0.00293 58.9253
+/generator/pos/set 655.63 -1123.89 1628.99
+/run/beamOn 1
+/generator/vtx/set proton -0.1174 -0.29769 0.94742 858.409
+/generator/pos/set -723.05 -57.81 1268.3
+/run/beamOn 1
+/generator/vtx/set proton -0.44153 -0.02328 0.89695 500.137
+/generator/pos/set 405.93 420.64 1192.28
+/run/beamOn 1
+/generator/vtx/set proton -0.42115 -0.89487 0.14781 188.111
+/generator/pos/set 553.99 232.13 2044.08
+/run/beamOn 1
+/generator/vtx/set proton 0.79537 -0.47757 -0.37325 421.174
+/generator/pos/set 330.33 1387.17 872.71
+/run/beamOn 1
+/generator/vtx/set proton 0.44003 -0.76127 -0.47629 247.037
+/generator/pos/set -308.98 312.66 1056.79
+/run/beamOn 1
+/generator/vtx/set proton -0.50769 0.70321 0.49775 182.496
+/generator/pos/set 87.17 -230.96 1517.52
+/run/beamOn 1
+/generator/vtx/set proton -0.57504 0.39973 -0.71382 172.102
+/generator/pos/set 123.17 -24.3 1371.57
+/run/beamOn 1
+/generator/vtx/set proton -0.92827 0.34494 0.13906 218.397
+/generator/pos/set -514.53 1065.58 1961.08
+/run/beamOn 1
+/generator/vtx/set proton 0.97844 -0.15744 0.13364 200.52
+/generator/pos/set -785.23 -378.02 1709.07
+/run/beamOn 1
+/generator/vtx/set proton -0.54973 -0.76637 0.33239 203.251
+/generator/pos/set -206.45 749.49 2443.54
+/run/beamOn 1
+/generator/vtx/set proton 0.31043 -0.94146 0.13146 96.5952
+/generator/pos/set 737.63 -1264.47 1714.61
+/run/beamOn 1
+/generator/vtx/set proton -0.3753 -0.76832 0.51849 601.311
+/generator/pos/set 59.87 -1127.13 1203.33
+/run/beamOn 1
+/generator/vtx/set proton -0.41631 0.9079 0.04898 134.522
+/generator/pos/set 175.58 106.06 1683.66
+/run/beamOn 1
+/generator/vtx/set proton 0.24545 0.11221 -0.96289 305.036
+/generator/pos/set 12.97 905.64 768.6
+/run/beamOn 1
+/generator/vtx/set proton -0.42743 -0.69419 0.57914 168.164
+/generator/pos/set 917.35 1116.18 1368.07
+/run/beamOn 1
+/generator/vtx/set proton -0.56031 -0.67245 0.4836 456.542
+/generator/pos/set 407.93 1224.1 2287.67
+/run/beamOn 1
+/generator/vtx/set proton 0.05157 -0.9429 0.32906 249.601
+/generator/pos/set 879.06 912.81 1667.32
+/run/beamOn 1
+/generator/vtx/set proton 0.2618 -0.84943 0.45818 196.989
+/generator/pos/set -549.82 -1182.31 945.9
+/run/beamOn 1
+/generator/vtx/set proton -0.88877 -0.43801 0.13501 270.475
+/generator/pos/set 649.85 475.8 1708.42
+/run/beamOn 1
+/generator/vtx/set proton 0.6854 -0.6854 0.24587 735.746
+/generator/pos/set -458.49 158.63 2620.37
+/run/beamOn 1
+/generator/vtx/set proton -0.31324 -0.24277 0.91812 729.606
+/generator/pos/set 622.66 -763.65 2178.74
+/run/beamOn 1
+/generator/vtx/set proton 0.52498 -0.29119 0.79975 232.961
+/generator/pos/set 141.22 -90.74 2019.46
+/run/beamOn 1
+/generator/vtx/set proton -0.2209 -0.95641 0.19098 171.498
+/generator/pos/set 735.82 83.51 1803.54
+/run/beamOn 1
+/generator/vtx/set proton -0.3684 0.02173 0.92942 330.253
+/generator/pos/set -975.32 -1471.68 1840.92
+/run/beamOn 1
+/generator/vtx/set proton -0.55617 0.72766 0.40147 336.938
+/generator/pos/set 893.9 -664.19 2096.69
+/run/beamOn 1
+/generator/vtx/set proton 0.62039 -0.09665 0.77831 390.44
+/generator/pos/set -718.01 480.33 1364.39
+/run/beamOn 1
+/generator/vtx/set proton -0.87241 -0.16416 0.46038 160.817
+/generator/pos/set -585.17 633.92 1395.3
+/run/beamOn 1
+/generator/vtx/set proton 0.94186 0.30712 0.13629 168.866
+/generator/pos/set 784.69 -1018.2 1166.55
+/run/beamOn 1
+/generator/vtx/set proton 0.4086 -0.77664 0.47945 240.785
+/generator/pos/set -579.7 -158.48 1423.63
+/run/beamOn 1
+/generator/vtx/set proton -0.92799 0.26359 -0.26334 352.25
+/generator/pos/set 463.66 979.81 1955.66
+/run/beamOn 1
+/generator/vtx/set proton -0.06924 -0.40159 0.9132 886.523
+/generator/pos/set 468.11 -284.45 1421.37
+/run/beamOn 1
+/generator/vtx/set proton -0.1435 0.52256 0.84044 601.51
+/generator/pos/set -0.43 1193.56 989.51
+/run/beamOn 1
+/generator/vtx/set proton -0.22385 0.97387 -0.03829 177.652
+/generator/pos/set 283.16 251.94 1386.55
+/run/beamOn 1
+/generator/vtx/set proton -0.12663 0.02461 0.99165 705.929
+/generator/pos/set -568.51 1372.5 2029.78
+/run/beamOn 1
+/generator/vtx/set proton -0.88097 0.41166 0.2333 407.093
+/generator/pos/set 161.08 -127.96 2227.29
+/run/beamOn 1
+/generator/vtx/set proton 0.4807 -0.22988 0.84621 894.158
+/generator/pos/set 331.38 -501.96 2262.94
+/run/beamOn 1
+/generator/vtx/set proton 0.26951 -0.22066 0.93737 342.586
+/generator/pos/set 244.36 -272.29 1838.81
+/run/beamOn 1
+/generator/vtx/set proton 0.53032 -0.35913 0.76798 330.301
+/generator/pos/set -706.54 -825.24 1340.98
+/run/beamOn 1
+/generator/vtx/set proton 0.46587 -0.85917 -0.21163 52.0284
+/generator/pos/set 621.05 178.81 1897.84
+/run/beamOn 1
+/generator/vtx/set proton 0.17481 -0.71239 0.67966 224.098
+/generator/pos/set -682.75 498.64 1081.82
+/run/beamOn 1
+/generator/vtx/set proton -0.05534 -0.73309 0.67788 303.539
+/generator/pos/set 278.45 -969.97 941.19
+/run/beamOn 1
+/generator/vtx/set proton 0.55039 -0.11768 0.82657 264.901
+/generator/pos/set -432.35 -734.78 1933.53
+/run/beamOn 1
+/generator/vtx/set proton 0.26997 0.33168 0.90394 810.958
+/generator/pos/set -81.01 65.75 2741.75
+/run/beamOn 1
+/generator/vtx/set proton 0.0826 0.36956 0.92553 236.933
+/generator/pos/set -591.95 1365.06 1890.66
+/run/beamOn 1
+/generator/vtx/set proton 0.35884 0.31125 0.87998 141.148
+/generator/pos/set -408.07 -1431.04 2256.37
+/run/beamOn 1
+/generator/vtx/set proton -0.08024 0.03494 0.99616 1016.52
+/generator/pos/set 240.39 -871.03 1157.54
+/run/beamOn 1
+/generator/vtx/set proton -0.57842 0.46195 0.67233 112.704
+/generator/pos/set 881.42 458.36 2118.59
+/run/beamOn 1
+/generator/vtx/set proton -0.69297 0.35066 0.62994 464.552
+/generator/pos/set 672.59 -757.74 1117.04
+/run/beamOn 1
+/generator/vtx/set proton 0.53478 -0.61862 0.57561 201.293
+/generator/pos/set 710.83 -765.17 1261.14
+/run/beamOn 1
+/generator/vtx/set proton -0.12507 -0.98278 -0.13603 94.2757
+/generator/pos/set -347.38 1047.24 1470.87
+/run/beamOn 1
+/generator/vtx/set proton -0.65869 -0.62824 0.41405 145.482
+/generator/pos/set -763.75 1201.03 1853.1
+/run/beamOn 1
+/generator/vtx/set proton -0.1028 -0.73624 0.66887 174.846
+/generator/pos/set -627.77 1060.01 2426.32
+/run/beamOn 1
+/generator/vtx/set proton 0.55535 0.37328 0.74313 214.227
+/generator/pos/set 18.37 -663.15 1521.73
+/run/beamOn 1
+/generator/vtx/set proton -0.50528 -0.19658 0.84027 359.362
+/generator/pos/set 539.4 -80.09 1377.48
+/run/beamOn 1
+/generator/vtx/set proton -0.83591 -0.54066 0.09459 113.61
+/generator/pos/set -409.35 746.79 2334.94
+/run/beamOn 1
+/generator/vtx/set proton 0.00299 0.74417 0.66798 300.748
+/generator/pos/set 672.14 1025.14 1558.16
+/run/beamOn 1
+/generator/vtx/set proton -0.10371 0.8692 0.48346 516.194
+/generator/pos/set -313.74 -465.62 1788.85
+/run/beamOn 1
+/generator/vtx/set proton -0.9773 0.08283 -0.195 691.547
+/generator/pos/set 218.37 -274.19 857.8
+/run/beamOn 1
+/generator/vtx/set proton 0.52178 -0.49449 0.69514 694.921
+/generator/pos/set 92.44 -1457.21 1726.68
+/run/beamOn 1
+/generator/vtx/set proton 0.80265 -0.09693 0.58853 300.72
+/generator/pos/set -513.62 1232.69 1247.01
+/run/beamOn 1
+/generator/vtx/set proton -0.41005 0.68192 0.60568 761.727
+/generator/pos/set -300.28 -407.33 1139
+/run/beamOn 1
+/generator/vtx/set proton 0.92883 -0.31963 0.18736 102.856
+/generator/pos/set 57.86 -128.46 2736.27
+/run/beamOn 1
+/generator/vtx/set proton -0.21892 -0.28146 0.93427 44.1923
+/generator/pos/set -129.71 -612.45 1898.49
+/run/beamOn 1
+/generator/vtx/set proton -0.86248 -0.3707 0.34455 794.076
+/generator/pos/set -327.29 -1256.3 1917.75
+/run/beamOn 1
+/generator/vtx/set proton -0.81557 -0.39591 0.42202 487.657
+/generator/pos/set -535.19 -213.39 1725.47
+/run/beamOn 1
+/generator/vtx/set proton -0.02336 -0.30132 0.95324 210.875
+/generator/pos/set -9.3 -422.16 1253.96
+/run/beamOn 1
+/generator/vtx/set proton -0.21689 -0.51848 0.82712 572.263
+/generator/pos/set -62.8 -220.11 2376.14
+/run/beamOn 1
+/generator/vtx/set proton -0.3379 -0.32044 0.88495 80.6095
+/generator/pos/set 445.87 -706.5 2435.69
+/run/beamOn 1
+/generator/vtx/set proton -0.46658 0.35732 0.80909 361.625
+/generator/pos/set -548.62 -150.73 1335.99
+/run/beamOn 1
+/generator/vtx/set proton 0.68384 -0.72935 0.02053 239.28
+/generator/pos/set -563.53 456.27 2521.86
+/run/beamOn 1
+/generator/vtx/set proton 0.061 0.99804 0.01403 303.54
+/generator/pos/set 732.51 176.88 1878.94
+/run/beamOn 1
+/generator/vtx/set proton -0.74727 0.66164 0.06178 132.439
+/generator/pos/set -537.8 -989.38 1910.32
+/run/beamOn 1
+/generator/vtx/set proton -0.51518 0.34182 0.78597 196.044
+/generator/pos/set 775.14 -1438.32 2170.05
+/run/beamOn 1
+/generator/vtx/set proton -0.70316 -0.35772 0.6145 267.357
+/generator/pos/set -208.83 1332.09 1919.69
+/run/beamOn 1
+/generator/vtx/set proton -0.62955 -0.17333 0.75738 631.609
+/generator/pos/set -537.62 1343.19 1492.38
+/run/beamOn 1
+/generator/vtx/set proton 0.47591 0.73081 0.48932 138.73
+/generator/pos/set 536.02 80.64 1808.33
+/run/beamOn 1
+/generator/vtx/set proton 0.49905 0.63618 0.58841 909.048
+/generator/pos/set 97.79 1001.19 2555.15
+/run/beamOn 1
+/generator/vtx/set proton -0.60359 -0.79235 -0.08868 382.683
+/generator/pos/set -2.59 252.13 2063.97
+/run/beamOn 1
+/generator/vtx/set proton -0.1875 0.55971 0.8072 267.586
+/generator/pos/set 672.33 1340.21 1940.92
+/run/beamOn 1
+/generator/vtx/set proton 0.01221 0.03752 0.99922 330.252
+/generator/pos/set -90.96 710.5 1187.85
+/run/beamOn 1
+/generator/vtx/set proton -0.17233 -0.06882 -0.98263 103.309
+/generator/pos/set 571.78 -734.01 1345.38
+/run/beamOn 1
+/generator/vtx/set proton 0.95246 -0.29722 0.06696 601.944
+/generator/pos/set -319.33 892.89 2477.84
+/run/beamOn 1
+/generator/vtx/set proton -0.46742 -0.07662 0.88071 678.622
+/generator/pos/set 885.9 1301.89 1978.62
+/run/beamOn 1
+/generator/vtx/set proton -0.63628 0.64303 0.42622 574.248
+/generator/pos/set 699.42 -433.78 1735.45
+/run/beamOn 1
+/generator/vtx/set proton -0.02155 -0.72447 -0.68897 219.838
+/generator/pos/set 439.77 -290.9 2044.36
+/run/beamOn 1
+/generator/vtx/set proton -0.47041 0.80795 0.35488 144.067
+/generator/pos/set 939.5 53.26 1450.91
+/run/beamOn 1
+/generator/vtx/set proton -0.81597 0.49015 0.30651 347.96
+/generator/pos/set -312.87 958.93 1312.83
+/run/beamOn 1
+/generator/vtx/set proton 0.81418 0.12187 0.56768 200.042
+/generator/pos/set 482.35 -959.07 1834.87
+/run/beamOn 1
+/generator/vtx/set proton -0.23158 0.76691 0.59851 271.682
+/generator/pos/set 242.01 1344.97 1957.1
+/run/beamOn 1
+/generator/vtx/set proton 0.08649 0.73888 0.66826 166.718
+/generator/pos/set -346.72 569.11 2634.2
+/run/beamOn 1
+/generator/vtx/set proton -0.15767 -0.33227 0.92991 354.045
+/generator/pos/set 113.43 550.7 2723.78
+/run/beamOn 1
+/generator/vtx/set proton 0.24959 0.96666 0.05716 103.288
+/generator/pos/set -757.39 899.5 2047.17
+/run/beamOn 1
+/generator/vtx/set proton 0.08664 0.75345 0.65177 770.977
+/generator/pos/set -292.34 21.72 2667.28
+/run/beamOn 1
+/generator/vtx/set proton -0.88953 0.18229 0.41893 408.601
+/generator/pos/set 109.62 786.95 837.31
+/run/beamOn 1
+/generator/vtx/set proton 0.36793 -0.15665 -0.91656 142.06
+/generator/pos/set -746.59 882.37 1147.07
+/run/beamOn 1
+/generator/vtx/set proton 0.04147 -0.78627 0.6165 538.717
+/generator/pos/set 381.92 83.2 1515.2
+/run/beamOn 1
+/generator/vtx/set proton -0.52675 -0.7914 0.31018 499.674
+/generator/pos/set 117 1300.29 1854.67
+/run/beamOn 1
+/generator/vtx/set proton 0.09362 -0.94688 0.30767 435.158
+/generator/pos/set 505.38 -351.66 1375.64
+/run/beamOn 1
+/generator/vtx/set proton 0.78806 0.06764 0.61188 235.042
+/generator/pos/set 539.87 -1303.81 2097.37
+/run/beamOn 1
+/generator/vtx/set proton -0.8543 0.50911 0.10477 376.852
+/generator/pos/set -65.22 -391.39 1467.73
+/run/beamOn 1
+/generator/vtx/set proton -0.68837 -0.41875 -0.59228 189.427
+/generator/pos/set -925.38 424.24 1657.2
+/run/beamOn 1
+/generator/vtx/set proton -0.05652 -0.13499 0.98923 589.893
+/generator/pos/set 900.63 -810.76 1829.53
+/run/beamOn 1
+/generator/vtx/set proton -0.69152 -0.05955 0.7199 341.251
+/generator/pos/set 615.99 32.5 1646.27
+/run/beamOn 1
+/generator/vtx/set proton -0.764 -0.1123 -0.63537 237.082
+/generator/pos/set 603.54 -1315.72 1489.33
+/run/beamOn 1
+/generator/vtx/set proton 0.70906 0.68096 -0.1831 123.477
+/generator/pos/set -720.25 811.18 1856.03
+/run/beamOn 1
+/generator/vtx/set proton -0.19835 0.29972 0.93318 381.73
+/generator/pos/set 638.3 -755.66 1563.69
+/run/beamOn 1
+/generator/vtx/set proton 0.72413 0.02272 0.68929 293.918
+/generator/pos/set 121.27 127.9 1032.68
+/run/beamOn 1
+/generator/vtx/set proton 0.86362 -0.09156 -0.49576 79.9577
+/generator/pos/set 469.62 -1397.26 1433.56
+/run/beamOn 1
+/generator/vtx/set proton 0.8354 -0.33797 0.43346 237.114
+/generator/pos/set 205.25 311.49 894.19
+/run/beamOn 1
+/generator/vtx/set proton 0.94589 0.31608 0.07342 35.6586
+/generator/pos/set 247.59 -211.7 1411.62
+/run/beamOn 1
+/generator/vtx/set proton 0.71645 0.22938 0.65886 208.413
+/generator/pos/set 678.92 956.81 1085.3
+/run/beamOn 1
+/generator/vtx/set proton 0.6514 0.07526 0.75499 81.8134
+/generator/pos/set -50.83 374.68 2560.15
+/run/beamOn 1
+/generator/vtx/set proton 0.26209 -0.25724 0.93013 953.708
+/generator/pos/set 943.22 -226.04 1874.59
+/run/beamOn 1
+/generator/vtx/set proton 0.20835 -0.47778 0.85342 532.64
+/generator/pos/set 322.94 -548.19 2336.65
+/run/beamOn 1
+/generator/vtx/set proton -0.16652 0.98456 0.05401 277.242
+/generator/pos/set 112.73 -55.53 777.19
+/run/beamOn 1
+/generator/vtx/set proton 0.16683 -0.60905 0.77539 212.281
+/generator/pos/set -524.4 81.04 2431.72
+/run/beamOn 1
+/generator/vtx/set proton -0.05165 -0.43494 0.89898 392.622
+/generator/pos/set -115.23 -641.02 2171.33
+/run/beamOn 1
+/generator/vtx/set proton 0.82079 0.27009 0.50335 370.394
+/generator/pos/set -603.95 -1181.88 1462.29
+/run/beamOn 1
+/generator/vtx/set proton 0.84846 0.31651 0.42419 115.272
+/generator/pos/set -2.93 -1196.69 2275.51
+/run/beamOn 1
+/generator/vtx/set proton -0.2215 0.95966 0.17318 146.05
+/generator/pos/set -434.28 1181.59 1573.67
+/run/beamOn 1
+/generator/vtx/set proton -0.42446 0.11212 -0.89848 182.096
+/generator/pos/set -299.65 -471.73 1087.11
+/run/beamOn 1
+/generator/vtx/set proton -0.04712 0.49445 0.86793 756.933
+/generator/pos/set 659.25 12.75 1730.61
+/run/beamOn 1
+/generator/vtx/set proton -0.33109 0.55867 0.76044 676.563
+/generator/pos/set 837.34 -529.95 2127.02
+/run/beamOn 1
+/generator/vtx/set proton -0.32795 -0.13797 0.93457 796.398
+/generator/pos/set 570.22 1188.49 2277.37
+/run/beamOn 1
+/generator/vtx/set proton 0.46258 0.07672 0.88325 1790.31
+/generator/pos/set 70.16 453.59 2618.08
+/run/beamOn 1
+/generator/vtx/set proton -0.57577 -0.04826 -0.81618 158.882
+/generator/pos/set -175.55 -1287.22 1785.69
+/run/beamOn 1
+/generator/vtx/set proton 0.6685 -0.74291 -0.03448 200.771
+/generator/pos/set -463.91 1073.89 2064.46
+/run/beamOn 1
+/generator/vtx/set proton -0.3104 -0.86106 0.40277 466.81
+/generator/pos/set -159.16 1263.16 1188.29
+/run/beamOn 1
+/generator/vtx/set proton 0.28033 -0.79035 0.54475 190.243
+/generator/pos/set 907.73 19.92 1393.92
+/run/beamOn 1
+/generator/vtx/set proton -0.5492 -0.38566 0.74138 587.127
+/generator/pos/set -338.78 1177.2 2316.57
+/run/beamOn 1
+/generator/vtx/set proton 0.66622 0.69763 0.26357 126.441
+/generator/pos/set -61.31 -344.83 2144.08
+/run/beamOn 1
+/generator/vtx/set proton -0.24432 0.80004 0.54794 756.666
+/generator/pos/set 631.87 850.75 1545.22
+/run/beamOn 1
+/generator/vtx/set proton -0.27636 -0.31249 0.90883 219.976
+/generator/pos/set 44.04 441.34 2201.76
+/run/beamOn 1
+/generator/vtx/set proton -0.01493 -0.04525 0.99886 198.635
+/generator/pos/set -423.44 1306.2 1413.4
+/run/beamOn 1
+/generator/vtx/set proton -0.0334 0.19472 0.98029 495.883
+/generator/pos/set 533.2 -1208.62 1497.18
+/run/beamOn 1
+/generator/vtx/set proton -0.05225 0.35359 0.93394 449.925
+/generator/pos/set 726.59 1031.02 2160.44
+/run/beamOn 1
+/generator/vtx/set proton 0.15479 -0.66263 0.73278 197.761
+/generator/pos/set 718.55 -1220.47 2171.32
+/run/beamOn 1
+/generator/vtx/set proton -0.75134 0.58452 0.3063 118.073
+/generator/pos/set -603.19 -564.71 1920.64
+/run/beamOn 1
+/generator/vtx/set proton -0.39556 0.50658 0.7661 339.09
+/generator/pos/set -746.64 126.66 1360.87
+/run/beamOn 1
+/generator/vtx/set proton -0.82068 0.32562 -0.46953 72.5362
+/generator/pos/set -640.23 656.6 1851.54
+/run/beamOn 1
+/generator/vtx/set proton -0.23226 -0.91232 0.33723 250.406
+/generator/pos/set 811.77 737.05 1439.87
+/run/beamOn 1
+/generator/vtx/set proton -0.84799 -0.50175 0.17078 56.902
+/generator/pos/set -708.67 -183.69 1463.02
+/run/beamOn 1
+/generator/vtx/set proton -0.61823 0.75807 0.20765 212.242
+/generator/pos/set -280.4 1029.3 1601.73
+/run/beamOn 1
+/generator/vtx/set proton 0.84947 -0.50639 -0.14821 371.787
+/generator/pos/set -691.36 883.68 1412.83
+/run/beamOn 1
+/generator/vtx/set proton 0.68223 0.72538 0.09156 406.694
+/generator/pos/set 859.51 409.58 1733.43
+/run/beamOn 1
+/generator/vtx/set proton 0.98392 0.13411 -0.11796 275.764
+/generator/pos/set -593.7 -926.49 2022.24
+/run/beamOn 1
+/generator/vtx/set proton 0.56488 -0.26312 0.7821 279.147
+/generator/pos/set 804.63 773.68 1551.41
+/run/beamOn 1
+/generator/vtx/set proton 0.06063 -0.32325 0.94437 133.166
+/generator/pos/set -337.99 1281.96 1765.64
+/run/beamOn 1
+/generator/vtx/set proton 0.71474 0.38208 0.5858 246.581
+/generator/pos/set 658.54 825.97 1954.62
+/run/beamOn 1
+/generator/vtx/set proton 0.66549 0.16167 0.72869 368.114
+/generator/pos/set -227.59 -809.28 1638.39
+/run/beamOn 1
+/generator/vtx/set proton -0.95277 -0.13462 0.27222 511.044
+/generator/pos/set -56.38 -109.57 1421.36
+/run/beamOn 1
+/generator/vtx/set proton 0.70224 0.55395 0.44722 273.465
+/generator/pos/set -778.38 -1014.03 1438.31
+/run/beamOn 1
+/generator/vtx/set proton -0.4568 0.37701 0.80573 607.541
+/generator/pos/set 498.63 208.34 1611.55
+/run/beamOn 1
+/generator/vtx/set proton 0.06411 0.82098 -0.56734 91.6701
+/generator/pos/set -519.56 -557.43 984.68
+/run/beamOn 1
+/generator/vtx/set proton 0.01484 -0.61739 0.78651 521.097
+/generator/pos/set 326.99 -993.74 1640.91
+/run/beamOn 1
+/generator/vtx/set proton -0.80862 -0.35226 0.47121 324.739
+/generator/pos/set 109.07 -329.1 890.28
+/run/beamOn 1
+/generator/vtx/set proton 0.02109 0.99284 0.11761 241.93
+/generator/pos/set -47.37 -217.23 867.02
+/run/beamOn 1
+/generator/vtx/set proton 0.13653 -0.6283 0.7659 71.4832
+/generator/pos/set -79.48 -473.66 1286.79
+/run/beamOn 1
+/generator/vtx/set proton -0.9143 0.32462 -0.24223 55.6596
+/generator/pos/set 726.22 -87.93 1219.06
+/run/beamOn 1
+/generator/vtx/set proton 0.38113 -0.80083 0.46196 204.59
+/generator/pos/set 39.1 341.1 2320.09
+/run/beamOn 1
+/generator/vtx/set proton 0.41376 -0.35358 0.83892 98.5459
+/generator/pos/set 832.16 -283.88 1929.87
+/run/beamOn 1
+/generator/vtx/set proton 0.46362 0.22385 0.85729 833.429
+/generator/pos/set -323.31 -1425.26 1459.85
+/run/beamOn 1
+/generator/vtx/set proton 0.4655 0.88413 -0.04035 151.107
+/generator/pos/set 596.71 -60.59 1902.59
+/run/beamOn 1
+/generator/vtx/set proton 0.06408 0.99761 -0.02595 158.59
+/generator/pos/set -454.84 667.95 1881.31
+/run/beamOn 1
+/generator/vtx/set proton 0.90266 -0.24825 -0.35153 42.4757
+/generator/pos/set -192.2 634.25 2214.94
+/run/beamOn 1
+/generator/vtx/set proton -0.05131 0.99707 0.05667 97.1725
+/generator/pos/set 61.46 -550.41 1415.03
+/run/beamOn 1
+/generator/vtx/set proton 0.66892 0.65023 0.36021 199.587
+/generator/pos/set 55.41 941.97 1621.36
+/run/beamOn 1
+/generator/vtx/set proton 0.86426 0.40013 0.30488 757.087
+/generator/pos/set 600.05 1028.8 1917.37
+/run/beamOn 1
+/generator/vtx/set proton 0.53313 -0.75643 -0.37892 376.068
+/generator/pos/set 733.95 -994 2334.18
+/run/beamOn 1
+/generator/vtx/set proton -0.39312 0.11295 0.91252 955.639
+/generator/pos/set 206.32 796.89 1587.37
+/run/beamOn 1
+/generator/vtx/set proton 0.27983 -0.72469 0.62969 160.882
+/generator/pos/set -887.99 1283.04 1869.68
+/run/beamOn 1
+/generator/vtx/set proton -0.58951 -0.44927 0.6713 453.452
+/generator/pos/set -498.55 -321.11 2268.21
+/run/beamOn 1
+/generator/vtx/set proton 0.50135 0.78979 0.35338 331.72
+/generator/pos/set 531 1280.52 994.91
+/run/beamOn 1
+/generator/vtx/set proton 0.02438 -0.24622 0.96891 533.427
+/generator/pos/set -92.58 360.8 1969.74
+/run/beamOn 1
+/generator/vtx/set proton -0.76915 -0.05605 0.63661 130.859
+/generator/pos/set -105.29 -428.87 1793.73
+/run/beamOn 1
+/generator/vtx/set proton -0.61285 -0.52081 0.59429 173.735
+/generator/pos/set 665.08 372.07 2209.17
+/run/beamOn 1
+/generator/vtx/set proton -0.16054 0.80428 0.57216 378.833
+/generator/pos/set 119.28 -342.3 2544.27
+/run/beamOn 1
+/generator/vtx/set proton 0.68471 0.00993 0.72875 157.426
+/generator/pos/set -312.68 1122.32 1741.02
+/run/beamOn 1
+/generator/vtx/set proton -0.47672 -0.18546 -0.85927 201.494
+/generator/pos/set -724.78 1143 1097.37
+/run/beamOn 1
+/generator/vtx/set proton 0.97102 -0.11335 0.2104 215.931
+/generator/pos/set -389.61 -1377.42 850.68
+/run/beamOn 1
+/generator/vtx/set proton -0.70134 0.17896 0.69 523.38
+/generator/pos/set 406.85 1283.07 2417.24
+/run/beamOn 1
+/generator/vtx/set proton 0.80633 0.17624 0.5646 91.0174
+/generator/pos/set -260.33 -1369.31 2063.34
+/run/beamOn 1
+/generator/vtx/set proton -0.1666 0.45496 0.87479 781.842
+/generator/pos/set 500.17 378.72 1027.16
+/run/beamOn 1
+/generator/vtx/set proton -0.34773 -0.01887 0.9374 539.776
+/generator/pos/set 221.83 623.59 2355.89
+/run/beamOn 1
+/generator/vtx/set proton -0.25535 -0.2283 0.93951 228.883
+/generator/pos/set 292.02 -326.77 2073.18
+/run/beamOn 1
+/generator/vtx/set proton 0.62475 0.10341 0.77394 719.72
+/generator/pos/set -301.68 -156.87 2388.02
+/run/beamOn 1
+/generator/vtx/set proton -0.97545 -0.09921 0.19659 247.01
+/generator/pos/set -323.86 -1147.87 1047.36
+/run/beamOn 1
+/generator/vtx/set proton -0.65623 0.31594 0.68523 704.887
+/generator/pos/set 107.6 -1282.28 2341.9
+/run/beamOn 1
+/generator/vtx/set proton -0.59619 0.38453 0.70476 320.417
+/generator/pos/set -979.04 -549.45 1794.75
+/run/beamOn 1
+/generator/vtx/set proton -0.647 0.30116 0.70049 213.257
+/generator/pos/set -559.57 630.81 1273.85
+/run/beamOn 1
+/generator/vtx/set proton 0.23449 0.51693 0.82328 168.773
+/generator/pos/set -372.76 -248.28 1421.1
+/run/beamOn 1
+/generator/vtx/set proton 0.87473 0.11112 0.47169 114.174
+/generator/pos/set 49.55 994.45 1279.06
+/run/beamOn 1
+/generator/vtx/set proton -0.02571 -0.89956 0.43603 160.213
+/generator/pos/set -446.62 567.32 1214.9
+/run/beamOn 1
+/generator/vtx/set proton -0.68265 0.17727 0.70892 188.744
+/generator/pos/set 123.26 1029.62 1718.58
+/run/beamOn 1
+/generator/vtx/set proton 0.09333 0.03137 0.99514 340.4
+/generator/pos/set 297.55 181.33 2090.65
+/run/beamOn 1
+/generator/vtx/set proton -0.76562 0.54928 -0.33485 436.098
+/generator/pos/set -375.52 1330.09 2241.71
+/run/beamOn 1
+/generator/vtx/set proton 0.76287 -0.20414 0.61348 180.67
+/generator/pos/set -657.8 378.48 1908.83
+/run/beamOn 1
+/generator/vtx/set proton -0.19731 0.12207 0.97271 194.564
+/generator/pos/set 376.86 554.75 2347.9
+/run/beamOn 1
+/generator/vtx/set proton 0.33181 0.63446 0.69811 84.0633
+/generator/pos/set -32.59 173.78 2708.62
+/run/beamOn 1
+/generator/vtx/set proton 0.60393 -0.26908 0.75024 464.593
+/generator/pos/set -441.73 886.16 1279.05
+/run/beamOn 1
+/generator/vtx/set proton 0.76689 -0.4195 0.48569 167.924
+/generator/pos/set -162.25 488.67 1337.79
+/run/beamOn 1
+/generator/vtx/set proton 0.37163 -0.75167 0.54487 285.946
+/generator/pos/set 266.71 206.41 1011.72
+/run/beamOn 1
+/generator/vtx/set proton -0.06866 0.62315 0.77908 712.995
+/generator/pos/set -809.61 970.37 1255.06
+/run/beamOn 1
+/generator/vtx/set proton 0.97427 -0.07126 0.2138 244.807
+/generator/pos/set -455.26 150.42 1429.56
+/run/beamOn 1
+/generator/vtx/set proton 0.63366 -0.69083 0.34819 321.696
+/generator/pos/set 262.37 -1066.55 1015.67
+/run/beamOn 1
+/generator/vtx/set proton -0.64558 0.06335 0.76106 338.787
+/generator/pos/set -252.57 708.23 1244.25
+/run/beamOn 1
+/generator/vtx/set proton -0.35719 0.75641 0.54796 63.7052
+/generator/pos/set 708.3 -78.93 1644.12
+/run/beamOn 1
+/generator/vtx/set proton 0.41565 0.26635 0.86965 762.325
+/generator/pos/set -93.15 195.45 849.07
+/run/beamOn 1
+/generator/vtx/set proton 0.78528 0.61678 0.05407 236.384
+/generator/pos/set 434.58 -728.91 1677.65
+/run/beamOn 1
+/generator/vtx/set proton 0.16876 0.02038 0.98545 700.529
+/generator/pos/set -69.96 -470.34 2730.42
+/run/beamOn 1
+/generator/vtx/set proton 0.44613 -0.7409 -0.50203 159.759
+/generator/pos/set 529.47 263.21 977.22
+/run/beamOn 1
+/generator/vtx/set proton 0.48413 -0.44741 0.75196 259.036
+/generator/pos/set 342.84 1223.58 2319.44
+/run/beamOn 1
+/generator/vtx/set proton 0.18607 0.9818 -0.03806 221.723
+/generator/pos/set 260.02 415.05 1139.12
+/run/beamOn 1
+/generator/vtx/set proton 0.08561 0.5884 0.80402 327.22
+/generator/pos/set -86.92 443.27 1750.75
+/run/beamOn 1
+/generator/vtx/set proton 0.55901 0.82733 -0.05499 254.548
+/generator/pos/set -322.17 -0.71 2542.88
+/run/beamOn 1
+/generator/vtx/set proton -0.20723 -0.70429 0.67899 321.142
+/generator/pos/set -653.57 346.62 2027.29
+/run/beamOn 1
+/generator/vtx/set proton 0.70506 -0.17859 -0.68629 152.341
+/generator/pos/set 512.85 956.36 2229.26
+/run/beamOn 1
+/generator/vtx/set proton 0.88928 -0.45521 -0.04438 196.403
+/generator/pos/set 40.41 -623.53 832.63
+/run/beamOn 1
+/generator/vtx/set proton -0.68534 0.55365 0.47306 362.189
+/generator/pos/set 853.17 200.89 1855.86
+/run/beamOn 1
+/generator/vtx/set proton -0.4448 -0.15931 0.88135 580.865
+/generator/pos/set 323.7 1202.37 1085.15
+/run/beamOn 1
+/generator/vtx/set proton -0.92742 0.24671 -0.28112 102.298
+/generator/pos/set 53.31 -337.96 1611.22
+/run/beamOn 1
+/generator/vtx/set proton -0.61362 -0.36578 0.69977 470.805
+/generator/pos/set 248.85 -1273.03 1586.21
+/run/beamOn 1
+/generator/vtx/set proton 0.79587 0.60481 0.02834 359.587
+/generator/pos/set 755.57 390.08 2304.41
+/run/beamOn 1
+/generator/vtx/set proton 0.82361 -0.56714 0.00511 258.515
+/generator/pos/set -600.45 1083.69 1570.19
+/run/beamOn 1
+/generator/vtx/set proton 0.87766 -0.0881 -0.47111 118.38
+/generator/pos/set 963.57 -1346.75 1513.96
+/run/beamOn 1
+/generator/vtx/set proton 0.23854 -0.27155 0.93239 470.021
+/generator/pos/set 471.77 -1154.52 2333.11
+/run/beamOn 1
+/generator/vtx/set proton -0.91294 -0.2483 -0.32386 508.227
+/generator/pos/set 558.89 -164.12 1865.36
+/run/beamOn 1
+/generator/vtx/set proton 0.85122 -0.50092 -0.1565 255.096
+/generator/pos/set -346.63 877.68 2563.17
+/run/beamOn 1
+/generator/vtx/set proton 0.27232 0.90725 -0.32054 397.278
+/generator/pos/set -615.08 -1416.25 2528.07
+/run/beamOn 1
+/generator/vtx/set proton 0.54772 -0.80585 -0.22498 476.274
+/generator/pos/set 482.67 -194.39 1658.89
+/run/beamOn 1
+/generator/vtx/set proton -0.67598 -0.50161 0.53985 10.0576
+/generator/pos/set 542.86 -1077.94 1811.23
+/run/beamOn 1
+/generator/vtx/set proton -0.5669 0.28788 0.77185 337.303
+/generator/pos/set -89.1 938.11 1791.34
+/run/beamOn 1
+/generator/vtx/set proton -0.84817 -0.45117 0.27757 125.381
+/generator/pos/set -158.09 -499.07 774.68
+/run/beamOn 1
+/generator/vtx/set proton 0.16726 -0.88296 0.43865 259.76
+/generator/pos/set 407.63 99.32 1986.13
+/run/beamOn 1
+/generator/vtx/set proton 0.78446 -0.15484 -0.60054 415.049
+/generator/pos/set 513.56 -720.79 2468.46
+/run/beamOn 1
+/generator/vtx/set proton 0.62567 -0.41857 0.65828 526.298
+/generator/pos/set -268.49 91.82 1642.77
+/run/beamOn 1
+/generator/vtx/set proton 0.16287 0.41662 0.89437 166.335
+/generator/pos/set 53.01 -62.09 2515.56
+/run/beamOn 1
+/generator/vtx/set proton -0.22898 -0.71148 -0.66435 139.358
+/generator/pos/set 310.64 1278.39 1153.81
+/run/beamOn 1
+/generator/vtx/set proton -0.687 0.02916 -0.72607 94.2828
+/generator/pos/set -136.61 -244.03 2498.76
+/run/beamOn 1
+/generator/vtx/set proton -0.16839 0.30924 0.93596 564.8
+/generator/pos/set 47.81 849.42 1138.09
+/run/beamOn 1
+/generator/vtx/set proton -0.72859 0.09676 -0.67808 378.139
+/generator/pos/set 605.89 448.58 1358.19
+/run/beamOn 1
+/generator/vtx/set proton -0.12765 0.5767 0.80692 608.177
+/generator/pos/set -616.04 1304.11 2294.48
+/run/beamOn 1
+/generator/vtx/set proton 0.49681 -0.60198 0.62513 357.471
+/generator/pos/set 720.75 -83.66 1203.41
+/run/beamOn 1
+/generator/vtx/set proton -0.4906 0.16448 0.85572 147.38
+/generator/pos/set 246.35 -135.02 2598.57
+/run/beamOn 1
+/generator/vtx/set proton 0.1421 -0.50363 0.85215 290.209
+/generator/pos/set 805.23 -1400.79 2206.31
+/run/beamOn 1
+/generator/vtx/set proton 0.92264 -0.3313 -0.19743 417.59
+/generator/pos/set -277.39 -874.88 2217.85
+/run/beamOn 1
+/generator/vtx/set proton 0.67132 0.73557 -0.09096 407.611
+/generator/pos/set 161.81 1197.37 2110.51
+/run/beamOn 1
+/generator/vtx/set proton 0.24253 0.40695 0.88066 332.221
+/generator/pos/set 193.91 -1047.17 2319.01
+/run/beamOn 1
+/generator/vtx/set proton -0.80939 -0.48287 0.33426 350.459
+/generator/pos/set 317.99 -714.34 1686.15
+/run/beamOn 1
+/generator/vtx/set proton -0.30192 0.25685 0.91808 275.034
+/generator/pos/set 95.36 -211.42 2263.84
+/run/beamOn 1
+/generator/vtx/set proton -0.75635 0.03022 0.65347 210.963
+/generator/pos/set -417.04 -640.71 1317.72
+/run/beamOn 1
+/generator/vtx/set proton -0.36498 -0.04135 0.93009 675.533
+/generator/pos/set -448.3 -231.03 1935.73
+/run/beamOn 1
+/generator/vtx/set proton -0.99138 -0.10135 0.08304 568.948
+/generator/pos/set -533.77 18.26 1618.1
+/run/beamOn 1
+/generator/vtx/set proton -0.81281 -0.5061 -0.28844 540.512
+/generator/pos/set 122.92 -1044.08 1189.16
+/run/beamOn 1
+/generator/vtx/set proton 0.51216 0.69596 -0.50332 111.666
+/generator/pos/set 905.64 590.92 1337.53
+/run/beamOn 1
+/generator/vtx/set proton 0.27227 0.84301 -0.46391 352.438
+/generator/pos/set 168.62 -565.11 2003.9
+/run/beamOn 1
+/generator/vtx/set proton -0.28129 0.61477 -0.73684 206.386
+/generator/pos/set -340.89 1178.88 2561.28
+/run/beamOn 1
+/generator/vtx/set proton 0.35969 0.4952 -0.79082 146.17
+/generator/pos/set 265.91 216.17 1849.08
+/run/beamOn 1
+/generator/vtx/set proton -0.488 -0.86824 0.08955 140.602
+/generator/pos/set -507.7 16.32 1018.56
+/run/beamOn 1
+/generator/vtx/set proton -0.79957 0.58429 0.13889 296.213
+/generator/pos/set -128.15 593.37 901.05
+/run/beamOn 1
+/generator/vtx/set proton 0.91467 -0.37231 -0.15734 272.973
+/generator/pos/set -4.79 -848.68 1927.7
+/run/beamOn 1
+/generator/vtx/set proton -0.30658 0.47035 0.82752 1015.41
+/generator/pos/set 692.6 455.53 1536.54
+/run/beamOn 1
+/generator/vtx/set proton -0.49679 0.23302 0.836 267.543
+/generator/pos/set 117.87 1171.06 1686.22
+/run/beamOn 1
+/generator/vtx/set proton 0.10083 0.00848 0.99487 332.226
+/generator/pos/set -866.8 -871.94 1272.24
+/run/beamOn 1
+/generator/vtx/set proton -0.75894 -0.27274 0.59129 539.442
+/generator/pos/set -806.97 342.96 1511.94
+/run/beamOn 1
+/generator/vtx/set proton 0.44014 0.72144 -0.53461 157.805
+/generator/pos/set 94.68 -650.93 2372.08
+/run/beamOn 1
+/generator/vtx/set proton -0.89693 -0.00055 0.44217 136.239
+/generator/pos/set -346.08 753.9 2015.03
+/run/beamOn 1
+/generator/vtx/set proton -0.54222 0.52052 0.65959 451.166
+/generator/pos/set -854.23 1410.69 1386.84
+/run/beamOn 1
+/generator/vtx/set proton 0.13267 -0.05019 -0.98989 65.4978
+/generator/pos/set 601.97 1405.53 989.87
+/run/beamOn 1
+/generator/vtx/set proton -0.47737 -0.16023 0.86397 428.983
+/generator/pos/set -311.48 -1349.93 1435.43
+/run/beamOn 1
+/generator/vtx/set proton 0.73462 -0.48902 -0.47032 140.839
+/generator/pos/set 471.99 -1445.04 1526.94
+/run/beamOn 1
+/generator/vtx/set proton 0.52788 -0.31568 0.78847 95.7409
+/generator/pos/set -490.4 247.05 1577.48
+/run/beamOn 1
+/generator/vtx/set proton -0.58539 0.40205 0.70404 716.758
+/generator/pos/set -687.01 526.87 1362.05
+/run/beamOn 1
+/generator/vtx/set proton 0.24626 0.5182 0.81904 573.014
+/generator/pos/set 737.29 -919.76 2247.41
+/run/beamOn 1
+/generator/vtx/set proton -0.09774 -0.3368 0.93649 764.053
+/generator/pos/set -49.12 287.69 2456.34
+/run/beamOn 1
+/generator/vtx/set proton 0.83071 -0.55625 0.02255 462.602
+/generator/pos/set -185.05 -826.08 1278.74
+/run/beamOn 1
+/generator/vtx/set proton 0.23297 0.20392 0.95086 1496.72
+/generator/pos/set -57.87 511.71 1213.28
+/run/beamOn 1
+/generator/vtx/set proton -0.912 0.40451 0.068 188.364
+/generator/pos/set -25.59 180.11 1938.66
+/run/beamOn 1
+/generator/vtx/set proton 0.35417 -0.83803 0.41506 145.947
+/generator/pos/set 476.68 482.28 1051.57
+/run/beamOn 1
+/generator/vtx/set proton -0.59584 0.7454 0.29892 111.381
+/generator/pos/set 507.42 96.11 1996.71
+/run/beamOn 1
+/generator/vtx/set proton 0.91299 0.07192 0.4016 206.829
+/generator/pos/set -579.4 1154.34 2339.26
+/run/beamOn 1
+/generator/vtx/set proton -0.54282 0.23228 0.80709 496.47
+/generator/pos/set -201.78 -1370.9 1274.35
+/run/beamOn 1
+/generator/vtx/set proton -0.53827 -0.66955 0.51183 154.274
+/generator/pos/set 574.9 1123.75 1028.16
+/run/beamOn 1
+/generator/vtx/set proton 0.78579 -0.25655 0.56277 37.267
+/generator/pos/set -214.46 1250.85 987.9
+/run/beamOn 1
+/generator/vtx/set proton -0.48169 0.30108 0.823 986.162
+/generator/pos/set -686.81 -26.61 2173.14
+/run/beamOn 1
+/generator/vtx/set proton -0.27191 -0.18328 -0.94471 78.1225
+/generator/pos/set -152.01 -955.17 1849.52
+/run/beamOn 1
+/generator/vtx/set proton 0.41504 -0.40625 0.81407 240.555
+/generator/pos/set -392.86 -1119.77 971.63
+/run/beamOn 1
+/generator/vtx/set proton 0.20411 -0.67442 0.70958 153.659
+/generator/pos/set 52.04 -997.26 1688.75
+/run/beamOn 1
+/generator/vtx/set proton 0.08057 0.35942 0.92969 986.374
+/generator/pos/set -410.39 -166.84 1882.32
+/run/beamOn 1
+/generator/vtx/set proton -0.40967 0.53684 0.73754 147.625
+/generator/pos/set 157.8 -837.38 810.69
+/run/beamOn 1
+/generator/vtx/set proton 0.10372 -0.73592 0.66908 618.074
+/generator/pos/set -636.36 322.59 1451.09
+/run/beamOn 1
+/generator/vtx/set proton -0.84841 0.01735 -0.52906 75.2758
+/generator/pos/set -369.13 -846.07 1544.42
+/run/beamOn 1
+/generator/vtx/set proton -0.29568 0.5284 -0.79584 120.061
+/generator/pos/set 25.65 -101.42 2740.45
+/run/beamOn 1
+/generator/vtx/set proton -0.34424 0.24793 0.90555 162.682
+/generator/pos/set 60.78 820.15 1080.88
+/run/beamOn 1
+/generator/vtx/set proton -0.00997 -0.76651 0.64215 456.987
+/generator/pos/set -218.5 117.79 1255.16
+/run/beamOn 1
+/generator/vtx/set proton 0.31412 -0.41647 0.85316 197.417
+/generator/pos/set -327.85 -942.3 2135.97
+/run/beamOn 1
+/generator/vtx/set proton -0.89755 -0.42752 -0.10783 235.259
+/generator/pos/set -335.35 688.75 1572.8
+/run/beamOn 1
+/generator/vtx/set proton -0.51263 -0.64674 0.56475 490.675
+/generator/pos/set -465.92 -1050.37 1762.45
+/run/beamOn 1
+/generator/vtx/set proton 0.43505 -0.26545 0.86039 480.618
+/generator/pos/set 185.57 692.11 1461.09
+/run/beamOn 1
+/generator/vtx/set proton 0.99602 -0.06522 -0.06075 251.878
+/generator/pos/set 120.88 -730.86 1932.99
+/run/beamOn 1
+/generator/vtx/set proton 0.34319 -0.18724 0.92041 426.015
+/generator/pos/set -30.89 -834.43 1966.5
+/run/beamOn 1
+/generator/vtx/set proton 0.69391 0.13521 -0.70725 111.525
+/generator/pos/set -423.29 33.47 1836.52
+/run/beamOn 1
+/generator/vtx/set proton -0.24769 -0.19567 0.94887 509.187
+/generator/pos/set 103.61 797.01 863.27
+/run/beamOn 1
+/generator/vtx/set proton 0.23828 0.31156 0.91987 852.057
+/generator/pos/set 733.11 773.86 1205.7
+/run/beamOn 1
+/generator/vtx/set proton 0.66262 -0.08094 0.74457 273.014
+/generator/pos/set 718.29 292.01 1098.85
+/run/beamOn 1
+/generator/vtx/set proton -0.34693 -0.912 -0.21884 308.688
+/generator/pos/set 597.22 -822.16 1154.38
+/run/beamOn 1
+/generator/vtx/set proton 0.65916 0.71511 -0.23263 181.963
+/generator/pos/set 144.79 -61.16 2091.79
+/run/beamOn 1
+/generator/vtx/set proton 0.68798 0.16307 0.70717 482.474
+/generator/pos/set 332.14 943.14 1206.9
+/run/beamOn 1
+/generator/vtx/set proton 0.08981 -0.56779 0.81826 462.359
+/generator/pos/set -44.4 205.25 1412.62
+/run/beamOn 1
+/generator/vtx/set proton -0.29353 -0.01517 0.95583 304.901
+/generator/pos/set -31.62 -757.89 2691.08
+/run/beamOn 1
+/generator/vtx/set proton -0.34277 0.21588 -0.91428 156.437
+/generator/pos/set -465.5 358.8 1689.62
+/run/beamOn 1
+/generator/vtx/set proton 0.60855 0.13369 0.78217 995.234
+/generator/pos/set -151.6 104.9 1534.31
+/run/beamOn 1
+/generator/vtx/set proton -0.4862 -0.84326 0.22919 555.148
+/generator/pos/set 631.6 298 1946.25
+/run/beamOn 1
+/generator/vtx/set proton 0.61716 0.29592 0.72907 387.724
+/generator/pos/set -423.04 -909.78 1794.67
+/run/beamOn 1
+/generator/vtx/set proton -0.26586 -0.2824 0.92172 236.557
+/generator/pos/set -76.41 1160.26 2336.95
+/run/beamOn 1
+/generator/vtx/set proton -0.00177 0.53512 0.84478 198.678
+/generator/pos/set 273.26 -933.19 1897.41
+/run/beamOn 1
+/generator/vtx/set proton -0.59711 -0.5049 0.62333 343.241
+/generator/pos/set -385.52 204.19 2367.05
+/run/beamOn 1
+/generator/vtx/set proton 0.40822 -0.07749 -0.90959 205.048
+/generator/pos/set 952.29 -872.46 1841.17
+/run/beamOn 1
+/generator/vtx/set proton 0.27721 -0.67158 0.68712 572.85
+/generator/pos/set 139.39 -930.21 1946.84
+/run/beamOn 1
+/generator/vtx/set proton -0.99973 0.01264 0.01937 95.4889
+/generator/pos/set -588.46 -694.16 1392.07
+/run/beamOn 1
+/generator/vtx/set proton 0.50872 -0.04955 0.8595 665.198
+/generator/pos/set -336.09 880.67 2485.98
+/run/beamOn 1
+/generator/vtx/set proton -0.62753 0.51692 0.58224 214.403
+/generator/pos/set -222.95 -909.22 1311.59
+/run/beamOn 1
+/generator/vtx/set proton 0.19214 -0.94011 0.28156 649.277
+/generator/pos/set 414.14 293.06 1377.29
+/run/beamOn 1
+/generator/vtx/set proton 0.84707 0.36952 0.38201 88.9041
+/generator/pos/set 497.02 890.29 2434.48
+/run/beamOn 1
+/generator/vtx/set proton 0.24068 0.15248 0.95855 144.494
+/generator/pos/set -374.26 -1298.43 1896.02
+/run/beamOn 1
+/generator/vtx/set proton -0.74882 -0.15271 0.64494 737.101
+/generator/pos/set 348.21 213.98 1695.21
+/run/beamOn 1
+/generator/vtx/set proton 0.45886 -0.87157 -0.17269 190.448
+/generator/pos/set -656.28 1305.01 1542.7
+/run/beamOn 1
+/generator/vtx/set proton 0.17851 0.8743 0.45136 413.477
+/generator/pos/set 650.44 217.77 2311.85
+/run/beamOn 1
+/generator/vtx/set proton -0.36922 -0.09239 0.92474 269.335
+/generator/pos/set -368.15 -885.26 836.8
+/run/beamOn 1
+/generator/vtx/set proton -0.37908 0.04958 0.92404 290.777
+/generator/pos/set 812.94 -754.06 2247.3
+/run/beamOn 1
+/generator/vtx/set proton -0.67937 0.69972 0.22101 303.848
+/generator/pos/set -384.27 293.05 2588.25
+/run/beamOn 1
+/generator/vtx/set proton -0.78982 -0.03018 0.6126 242.115
+/generator/pos/set -289.9 267.38 2301.16
+/run/beamOn 1
+/generator/vtx/set proton 0.12851 0.24529 0.96089 693.114
+/generator/pos/set -225.75 80.09 2688.2
+/run/beamOn 1
+/generator/vtx/set proton -0.2541 -0.4081 0.87686 224.487
+/generator/pos/set -190.46 653.48 1355.84
+/run/beamOn 1
+/generator/vtx/set proton 0.64137 -0.62676 0.44251 118.832
+/generator/pos/set 794.31 -867.02 1753.52
+/run/beamOn 1
+/generator/vtx/set proton 0.51834 -0.41388 0.74835 226.291
+/generator/pos/set 193.63 -1114.85 2651.15
+/run/beamOn 1
+/generator/vtx/set proton -0.8685 0.0765 0.48976 166.452
+/generator/pos/set 706.95 190.25 1093.13
+/run/beamOn 1
+/generator/vtx/set proton -0.17213 0.13231 -0.97615 311.244
+/generator/pos/set -267.73 1072.94 2330.26
+/run/beamOn 1
+/generator/vtx/set proton 0.93103 -0.36449 -0.01838 145.082
+/generator/pos/set -735.96 -824.76 1454.35
+/run/beamOn 1
+/generator/vtx/set proton 0.73428 0.10201 -0.67114 252.41
+/generator/pos/set 616.66 1318.84 2204.99
+/run/beamOn 1
+/generator/vtx/set proton -0.862 -0.50582 -0.0331 548.071
+/generator/pos/set -162.74 706.12 1948.93
+/run/beamOn 1
+/generator/vtx/set proton -0.06081 -0.42983 0.90086 454.023
+/generator/pos/set -719.48 -1407.09 1745.28
+/run/beamOn 1
+/generator/vtx/set proton 0.39449 0.85359 0.34024 356.369
+/generator/pos/set 78.1 -76.26 1686.53
+/run/beamOn 1
+/generator/vtx/set proton -0.92205 0.27142 0.27595 176.006
+/generator/pos/set 775.43 326.35 1284.66
+/run/beamOn 1
+/generator/vtx/set proton 0.65433 0.55406 -0.51466 78.9103
+/generator/pos/set 544.88 1333.09 1419.08
+/run/beamOn 1
+/generator/vtx/set proton -0.81528 -0.14147 0.56152 445.873
+/generator/pos/set 289.23 -500.41 1791.63
+/run/beamOn 1
+/generator/vtx/set proton 0.02284 0.99407 0.10629 159.657
+/generator/pos/set 327.42 988.09 2037.51
+/run/beamOn 1
+/generator/vtx/set proton 0.02483 -0.98845 -0.1495 182.641
+/generator/pos/set 835.07 1405.53 2291.87
+/run/beamOn 1
+/generator/vtx/set proton -0.24953 -0.68116 0.6883 34.8203
+/generator/pos/set 518.74 -2.82 2386.23
+/run/beamOn 1
+/generator/vtx/set proton 0.32398 -0.39955 0.85755 254.633
+/generator/pos/set -485.23 897.06 2453.3
+/run/beamOn 1
+/generator/vtx/set proton -0.68079 0.57836 0.44946 617.398
+/generator/pos/set 16.06 293.81 1432.82
+/run/beamOn 1
+/generator/vtx/set proton -0.45266 0.24148 0.85837 714.179
+/generator/pos/set 506.81 -619.26 1608.52
+/run/beamOn 1
+/generator/vtx/set proton 0.93507 -0.35343 -0.02696 260.569
+/generator/pos/set 440.69 -1291.09 911.04
+/run/beamOn 1
+/generator/vtx/set proton 0.81312 -0.3449 0.46891 303.423
+/generator/pos/set 314.93 -322.62 1183.99
+/run/beamOn 1
+/generator/vtx/set proton 0.10523 -0.62366 0.77458 276.697
+/generator/pos/set 627.59 -474.26 1403.73
+/run/beamOn 1
+/generator/vtx/set proton -0.25157 -0.75529 0.60519 428.078
+/generator/pos/set -242.28 1373.26 1204.62
+/run/beamOn 1
+/generator/vtx/set proton 0.83226 -0.52487 0.1785 478.438
+/generator/pos/set 713.39 972.65 2045.56
+/run/beamOn 1
+/generator/vtx/set proton -0.68507 0.18852 0.70366 1224.23
+/generator/pos/set -154.13 -274.02 1235.8
+/run/beamOn 1
+/generator/vtx/set proton 0.48259 -0.37445 0.79177 772.608
+/generator/pos/set 892.93 249.19 1868.47
+/run/beamOn 1
+/generator/vtx/set proton -0.56805 0.81358 -0.12417 258.065
+/generator/pos/set -745.29 112.04 1552.93
+/run/beamOn 1
+/generator/vtx/set proton 0.85088 0.00655 0.52532 188.497
+/generator/pos/set -315.1 429.79 2338.55
+/run/beamOn 1
+/generator/vtx/set proton -0.5544 -0.8216 0.1327 324.515
+/generator/pos/set 444.79 -539.99 1353.42
+/run/beamOn 1
+/generator/vtx/set proton 0.80002 0.45869 0.38675 137.03
+/generator/pos/set -69.08 -978.87 2688.43
+/run/beamOn 1
+/generator/vtx/set proton 0.17773 0.40992 0.89464 123.435
+/generator/pos/set 497.19 -121.46 1933.42
+/run/beamOn 1
+/generator/vtx/set proton -0.41631 -0.85481 0.30981 176.388
+/generator/pos/set -374.82 -413.73 1435.94
+/run/beamOn 1
+/generator/vtx/set proton -0.21915 0.64047 -0.73605 311.803
+/generator/pos/set -847.4 102.46 1777.15
+/run/beamOn 1
+/generator/vtx/set proton 0.90169 0.18021 -0.39304 285.625
+/generator/pos/set 666.89 -190.82 2424.71
+/run/beamOn 1
+/generator/vtx/set proton -0.70983 -0.69307 0.12566 415.626
+/generator/pos/set -382.54 452.59 1533.95
+/run/beamOn 1
+/generator/vtx/set proton 0.92137 0.28405 0.26531 203.663
+/generator/pos/set -644.59 -464.18 1407.25
+/run/beamOn 1
+/generator/vtx/set proton 0.26335 0.54258 0.79766 491.763
+/generator/pos/set -556.29 -325.87 2538.32
+/run/beamOn 1
+/generator/vtx/set proton 0.7844 -0.36197 0.50368 536.616
+/generator/pos/set 83.99 -714.26 799.25
+/run/beamOn 1
+/generator/vtx/set proton 0.24337 -0.76509 0.59616 311.609
+/generator/pos/set 152.18 1243.4 2254.58
+/run/beamOn 1
+/generator/vtx/set proton -0.94041 0.10565 0.32322 579.743
+/generator/pos/set -589.3 -562.83 1149.64
+/run/beamOn 1
+/generator/vtx/set proton 0.65704 0.37926 0.65151 619.101
+/generator/pos/set -337.09 429.2 2105.82
+/run/beamOn 1
+/generator/vtx/set proton 0.52943 -0.25043 0.81055 448.82
+/generator/pos/set 500.72 -22.26 1933.66
+/run/beamOn 1
+/generator/vtx/set proton -0.05158 0.00807 0.99864 513.542
+/generator/pos/set -385.65 -1233.68 1585.48
+/run/beamOn 1
+/generator/vtx/set proton -0.69893 0.68524 0.20479 189.83
+/generator/pos/set -290.17 -842.9 1870.79
+/run/beamOn 1
+/generator/vtx/set proton 0.75455 0.51441 0.40747 388.859
+/generator/pos/set 148.89 -238.65 1838.48
+/run/beamOn 1
+/generator/vtx/set proton 0.09035 0.89623 0.4343 161.496
+/generator/pos/set 11.1 -256.67 2062.55
+/run/beamOn 1
+/generator/vtx/set proton 0.20203 -0.8214 0.53337 228.615
+/generator/pos/set 59.82 459.09 1502.68
+/run/beamOn 1
+/generator/vtx/set proton 0.2513 0.93962 -0.2323 97.6193
+/generator/pos/set 525.5 917.15 2128.24
+/run/beamOn 1
+/generator/vtx/set proton 0.23306 0.51264 0.82637 357.198
+/generator/pos/set -360.34 -601.13 1533.38
+/run/beamOn 1
+/generator/vtx/set proton 0.60135 -0.36434 -0.71108 162.16
+/generator/pos/set 472.95 -884.77 2396.52
+/run/beamOn 1
+/generator/vtx/set proton -0.28134 0.48648 0.82715 780.174
+/generator/pos/set 626.87 -1151.51 1273.24
+/run/beamOn 1
+/generator/vtx/set proton 0.29142 -0.61726 0.7308 265.52
+/generator/pos/set -545.22 -1171.95 2052.07
+/run/beamOn 1
+/generator/vtx/set proton -0.87727 -0.37461 0.3001 279.227
+/generator/pos/set -633.53 684.75 2195.12
+/run/beamOn 1
+/generator/vtx/set proton 0.69852 -0.61301 -0.36917 119.425
+/generator/pos/set -801.31 666.93 1493.98
+/run/beamOn 1
+/generator/vtx/set proton -0.32728 0.74566 0.58041 550.638
+/generator/pos/set 325.56 -1204.45 2219.23
+/run/beamOn 1
+/generator/vtx/set proton 0.11655 0.68541 0.71877 134.839
+/generator/pos/set 498.31 1289.15 2298.51
+/run/beamOn 1
+/generator/vtx/set proton -0.82261 0.30609 0.47919 561.601
+/generator/pos/set -161.19 870.66 2244.25
+/run/beamOn 1
+/generator/vtx/set proton -0.35372 0.84659 0.3977 111.308
+/generator/pos/set -269.65 -143.72 2111.91
+/run/beamOn 1
+/generator/vtx/set proton -0.63243 -0.72766 0.26561 129.177
+/generator/pos/set -122.98 -294.92 1934.1
+/run/beamOn 1
+/generator/vtx/set proton 0.07099 0.39981 0.91385 142.468
+/generator/pos/set -169.37 -669.74 1965.38
+/run/beamOn 1
+/generator/vtx/set proton 0.92125 0.28142 0.26852 252.286
+/generator/pos/set -737.8 692.66 2383.87
+/run/beamOn 1
+/generator/vtx/set proton 0.02512 -0.56047 0.82779 963.058
+/generator/pos/set -677.35 105.86 1484.11
+/run/beamOn 1
+/generator/vtx/set proton 0.51077 -0.84505 0.15815 119.423
+/generator/pos/set -252.45 1104.39 904.72
+/run/beamOn 1
+/generator/vtx/set proton -0.46539 -0.76518 0.44488 239.458
+/generator/pos/set 573.33 1113.27 1567.94
+/run/beamOn 1
+/generator/vtx/set proton 0.57513 0.48833 0.65633 539.93
+/generator/pos/set 512.58 -143.46 2467.77
+/run/beamOn 1
+/generator/vtx/set proton -0.39969 0.80256 0.44289 291.107
+/generator/pos/set 96.25 951.94 2296.14
+/run/beamOn 1
+/generator/vtx/set proton -0.65923 0.28312 0.6966 234.876
+/generator/pos/set 204.71 -75.55 1829.89
+/run/beamOn 1
+/generator/vtx/set proton -0.32389 -0.93444 0.14806 84.4028
+/generator/pos/set -549.51 884.21 2484.01
+/run/beamOn 1
+/generator/vtx/set proton -0.18386 0.28785 0.93986 1166.58
+/generator/pos/set 82.01 -379.58 1957.11
+/run/beamOn 1
+/generator/vtx/set proton -0.17035 0.93988 -0.29597 142.112
+/generator/pos/set 365.1 531.14 2456.58
+/run/beamOn 1
+/generator/vtx/set proton -0.75746 0.43641 -0.4856 80.3388
+/generator/pos/set 946.92 -1165.82 1819.95
+/run/beamOn 1
+/generator/vtx/set proton -0.50462 -0.11191 0.85606 165.809
+/generator/pos/set -531.88 716.21 1937.58
+/run/beamOn 1
+/generator/vtx/set proton -0.93105 -0.27912 0.23504 219.155
+/generator/pos/set 373.26 -484.12 1702.38
+/run/beamOn 1
+/generator/vtx/set proton -0.12185 -0.99247 -0.01242 578.177
+/generator/pos/set -361.14 -1020.69 1528.56
+/run/beamOn 1
+/generator/vtx/set proton -0.78849 -0.46441 -0.40325 160.951
+/generator/pos/set 249.98 476.47 2709.24
+/run/beamOn 1
+/generator/vtx/set proton 0.07322 -0.00107 0.99732 1023.58
+/generator/pos/set 740.29 176.35 1732.41
+/run/beamOn 1
+/generator/vtx/set proton -0.20928 0.24606 0.94639 680.462
+/generator/pos/set -383.23 -918.25 2256.37
+/run/beamOn 1
+/generator/vtx/set proton 0.25997 0.68795 0.6776 319.638
+/generator/pos/set -304.05 1237.43 2018
+/run/beamOn 1
+/generator/vtx/set proton -0.29668 0.19244 0.93539 270.79
+/generator/pos/set 51.13 -1032.73 2513.28
+/run/beamOn 1
+/generator/vtx/set proton -0.17541 0.82439 0.53815 734.785
+/generator/pos/set -767.92 -446.8 2246.63
+/run/beamOn 1
+/generator/vtx/set proton 0.30584 0.95119 -0.04122 127.159
+/generator/pos/set -355.39 -1417.78 1985.07
+/run/beamOn 1
+/generator/vtx/set proton 0.41627 -0.51133 0.75184 448.225
+/generator/pos/set 453.15 -614.03 2151.01
+/run/beamOn 1
+/generator/vtx/set proton 0.20434 -0.59251 0.77921 275.339
+/generator/pos/set -253.5 -1221.91 905.43
+/run/beamOn 1
+/generator/vtx/set proton 0.9277 -0.36247 -0.08945 150.534
+/generator/pos/set -390.09 -616.98 1966.67
+/run/beamOn 1
+/generator/vtx/set proton 0.9296 0.1954 -0.31251 367.98
+/generator/pos/set 438.79 1059.41 2537.29
+/run/beamOn 1
+/generator/vtx/set proton 0.84104 0.33677 0.42337 625.268
+/generator/pos/set 501.8 -918.96 1214.8
+/run/beamOn 1
+/generator/vtx/set proton 0.24045 -0.33097 0.91249 1145.54
+/generator/pos/set -594.22 122.09 2169.54
+/run/beamOn 1
+/generator/vtx/set proton -0.22088 0.00243 0.9753 311.793
+/generator/pos/set 263.12 -83.59 1487.22
+/run/beamOn 1
+/generator/vtx/set proton 0.58999 -0.45028 -0.67019 252.146
+/generator/pos/set -730.44 394.77 1346.04
+/run/beamOn 1
+/generator/vtx/set proton -0.82885 -0.53434 -0.16581 297.358
+/generator/pos/set 78.85 -1045.84 934.6
+/run/beamOn 1
+/generator/vtx/set proton -0.91204 0.38362 0.145 128.22
+/generator/pos/set -949.96 1412.54 1601.58
+/run/beamOn 1
+/generator/vtx/set proton 0.66828 0.55055 -0.5003 230.825
+/generator/pos/set -109.59 -260.96 1158.74
+/run/beamOn 1
+/generator/vtx/set proton 0.80838 -0.47565 -0.34681 211.151
+/generator/pos/set -417.83 -291.27 1109.93
+/run/beamOn 1
+/generator/vtx/set proton 0.43513 -0.61538 0.65724 239.61
+/generator/pos/set 606.97 -1465.99 1272.22
+/run/beamOn 1
+/generator/vtx/set proton -0.52947 0.67343 -0.51591 158.345
+/generator/pos/set -429.68 492.66 1826.41
+/run/beamOn 1
+/generator/vtx/set proton -0.17352 0.34677 0.92176 347.502
+/generator/pos/set -371.8 -734.82 2547.07
+/run/beamOn 1
+/generator/vtx/set proton 0.44767 0.05739 -0.89235 100.376
+/generator/pos/set -478.6 863.55 1061.81
+/run/beamOn 1
+/generator/vtx/set proton 0.83971 -0.03831 -0.54168 319.878
+/generator/pos/set 223.86 748.41 1029.13
+/run/beamOn 1
+/generator/vtx/set proton -0.75128 0.65403 -0.08846 161.956
+/generator/pos/set -46.34 -326.89 2379.36
+/run/beamOn 1
+/generator/vtx/set proton 0.19532 -0.65764 0.72757 345.769
+/generator/pos/set -425.01 87.4 2340.02
+/run/beamOn 1
+/generator/vtx/set proton -0.51811 0.05054 0.85382 163.403
+/generator/pos/set -401.6 138.24 1167.26
+/run/beamOn 1
+/generator/vtx/set proton -0.08735 0.98585 0.14308 76.8153
+/generator/pos/set -601.72 1099.03 2478.07
+/run/beamOn 1
+/generator/vtx/set proton -0.51219 -0.78687 0.34423 452.126
+/generator/pos/set -96.23 -584.71 1705.26
+/run/beamOn 1
+/generator/vtx/set proton -0.26027 0.95817 -0.11902 481.225
+/generator/pos/set 28.46 1405.29 1724.33
+/run/beamOn 1
+/generator/vtx/set proton -0.36659 -0.07083 0.92768 217.827
+/generator/pos/set -383.08 -157.64 2444.24
+/run/beamOn 1
+/generator/vtx/set proton 0.47028 -0.41731 0.77762 174.253
+/generator/pos/set -622.3 1179.66 1637.68
+/run/beamOn 1
+/generator/vtx/set proton 0.32131 -0.09956 -0.94173 87.2761
+/generator/pos/set 929.18 -1305.86 1899.58
+/run/beamOn 1
+/generator/vtx/set proton -0.8537 0.4741 0.21545 93.0842
+/generator/pos/set -922.05 -350.12 2115.53
+/run/beamOn 1
+/generator/vtx/set proton -0.41808 -0.87441 -0.2462 432.12
+/generator/pos/set -600.37 1222.67 2174.44
+/run/beamOn 1
+/generator/vtx/set proton 0.80156 0.56969 -0.18152 217.569
+/generator/pos/set 499.78 1058 2078.26
+/run/beamOn 1
+/generator/vtx/set proton 0.68947 -0.62161 -0.3718 104.007
+/generator/pos/set -88.79 -943.07 2722.75
+/run/beamOn 1
+/generator/vtx/set proton -0.06603 -0.99193 -0.10825 224.556
+/generator/pos/set 941.06 -123.39 1998.72
+/run/beamOn 1
+/generator/vtx/set proton -0.55394 0.63672 0.53641 381.024
+/generator/pos/set 696.48 -689.45 1163.81
+/run/beamOn 1
+/generator/vtx/set proton -0.36722 0.2056 0.90713 904.216
+/generator/pos/set -469.77 373.79 2203.64
+/run/beamOn 1
+/generator/vtx/set proton -0.59169 0.76233 0.26222 331.884
+/generator/pos/set -498.65 1022.26 2576.86
+/run/beamOn 1
+/generator/vtx/set proton 0.0042 0.04808 0.99883 349.96
+/generator/pos/set 417.43 979.01 1451.79
+/run/beamOn 1
+/generator/vtx/set proton -0.08238 0.07906 0.99346 785.714
+/generator/pos/set 697.61 741.94 1903.38
+/run/beamOn 1
+/generator/vtx/set proton 0.91219 -0.28569 0.29373 919.937
+/generator/pos/set -143.35 414.45 2161.76
+/run/beamOn 1
+/generator/vtx/set proton 0.79618 0.34198 0.49915 311.463
+/generator/pos/set 352.97 197.83 2256.08
+/run/beamOn 1
+/generator/vtx/set proton -0.53113 -0.817 0.22451 305.439
+/generator/pos/set -119.28 -629.31 759.22
+/run/beamOn 1
+/generator/vtx/set proton 0.74966 -0.64241 0.15912 329.273
+/generator/pos/set 194.51 304.2 2110.58
+/run/beamOn 1
+/generator/vtx/set proton -0.09061 0.13316 0.98694 165.722
+/generator/pos/set -372.12 -917.16 1206.93
+/run/beamOn 1
+/generator/vtx/set proton -0.55931 -0.13149 0.81847 141.447
+/generator/pos/set -86.3 -799.91 1053.14
+/run/beamOn 1
+/generator/vtx/set proton 0.57562 0.46621 -0.67179 389.099
+/generator/pos/set 644.54 740.76 2090.97
+/run/beamOn 1
+/generator/vtx/set proton 0.11021 -0.44939 0.88651 237.498
+/generator/pos/set -514.61 652.01 2486.53
+/run/beamOn 1
+/generator/vtx/set proton -0.82483 0.22493 0.51871 370.665
+/generator/pos/set 878.95 -532.11 1288.8
+/run/beamOn 1
+/generator/vtx/set proton 0.29833 0.36264 0.88289 393.626
+/generator/pos/set 259.91 -1403.52 2432.7
+/run/beamOn 1
+/generator/vtx/set proton -0.58124 -0.06142 0.81141 555.71
+/generator/pos/set 8.12 843.36 1261.33
+/run/beamOn 1
+/generator/vtx/set proton -0.92273 -0.21192 -0.32197 113.557
+/generator/pos/set -900.77 -862.4 1787.2
+/run/beamOn 1
+/generator/vtx/set proton 0.21644 -0.8328 0.50951 110.442
+/generator/pos/set -479.21 -194.96 1217.06
+/run/beamOn 1
+/generator/vtx/set proton -0.54937 -0.3307 0.76735 681.862
+/generator/pos/set 824.53 310.99 1938.4
+/run/beamOn 1
+/generator/vtx/set proton -0.21447 0.9722 -0.09394 97.2295
+/generator/pos/set -619.71 -1175.67 2267.16
+/run/beamOn 1
+/generator/vtx/set proton -0.10881 -0.09331 0.98967 165.589
+/generator/pos/set 426.67 1168.2 1954.54
+/run/beamOn 1
+/generator/vtx/set proton 0.70347 0.6283 -0.33221 171.303
+/generator/pos/set 881.42 458.36 2118.59
+/run/beamOn 1
+/generator/vtx/set proton 0.93919 -0.08688 -0.33224 85.0432
+/generator/pos/set -861.19 1241.41 1894.11
+/run/beamOn 1
+/generator/vtx/set proton 0.99292 0.07535 -0.09184 229.398
+/generator/pos/set 77.98 548.23 2403.2
+/run/beamOn 1
+/generator/vtx/set proton -0.73816 0.2596 -0.62268 79.27
+/generator/pos/set 415.78 829.86 851.28
+/run/beamOn 1
+/generator/vtx/set proton -0.41767 0.86155 0.28859 352.027
+/generator/pos/set -835.59 320.6 1745.44
+/run/beamOn 1
+/generator/vtx/set proton 0.32899 -0.84574 0.42011 202.497
+/generator/pos/set -619.75 -776.49 1234.14
+/run/beamOn 1
+/generator/vtx/set proton -0.36642 -0.58729 -0.72168 154.488
+/generator/pos/set 161.55 -1147.62 1060.76
+/run/beamOn 1
+/generator/vtx/set proton 0.90767 -0.16833 0.38445 130.001
+/generator/pos/set -489.94 662.51 1313.81
+/run/beamOn 1
+/generator/vtx/set proton -0.11659 -0.53619 0.83601 88.5043
+/generator/pos/set 529.03 58.71 1418.3
+/run/beamOn 1
+/generator/vtx/set proton 0.07812 0.04778 0.9958 246.569
+/generator/pos/set 564.2 551.88 1732.46
+/run/beamOn 1
+/generator/vtx/set proton -0.77774 -0.49326 0.38963 262.111
+/generator/pos/set 131.58 -417.05 905.1
+/run/beamOn 1
+/generator/vtx/set proton 0.69069 -0.72227 0.03583 197.59
+/generator/pos/set -500.4 -1401.36 2517.98
+/run/beamOn 1
+/generator/vtx/set proton -0.33592 -0.59582 0.72949 196.271
+/generator/pos/set -720.58 250.42 1103.29
+/run/beamOn 1
+/generator/vtx/set proton -0.55496 0.79899 0.23159 384.569
+/generator/pos/set 31.65 -1354.98 1507.67
+/run/beamOn 1
+/generator/vtx/set proton 0.10412 -0.16745 0.98037 824.155
+/generator/pos/set 223.71 421.82 2130.79
+/run/beamOn 1
+/generator/vtx/set proton -0.57532 0.77068 -0.27395 266.932
+/generator/pos/set -235.85 -28.77 965.86
+/run/beamOn 1
+/generator/vtx/set proton 0.58607 0.34897 0.73126 829.779
+/generator/pos/set 392.63 -497.9 1481.48
+/run/beamOn 1
+/generator/vtx/set proton 0.89725 0.43999 0.03671 256.88
+/generator/pos/set 414.74 1339.29 1543.86
+/run/beamOn 1
+/generator/vtx/set proton 0.12335 -0.79639 0.59207 157.511
+/generator/pos/set 627.61 1405.34 1391.08
+/run/beamOn 1
+/generator/vtx/set proton 0.31365 0.25467 0.91475 297.865
+/generator/pos/set -362.47 8.74 1942.3
+/run/beamOn 1
+/generator/vtx/set proton -0.22532 -0.25794 0.93952 388.375
+/generator/pos/set 865.38 1337.1 2150.86
+/run/beamOn 1
+/generator/vtx/set proton -0.28418 0.14787 0.9473 283.765
+/generator/pos/set -187.79 -514.83 1675
+/run/beamOn 1
+/generator/vtx/set proton 0.09199 0.07213 0.99314 127.274
+/generator/pos/set 424.64 1092.42 1135.57
+/run/beamOn 1
+/generator/vtx/set proton -0.16873 -0.95884 0.22839 318.306
+/generator/pos/set -938.3 411.33 1468.88
+/run/beamOn 1
+/generator/vtx/set proton 0.41057 -0.52959 0.74227 1121.3
+/generator/pos/set 798.62 479.92 1555.33
+/run/beamOn 1
+/generator/vtx/set proton 0.02482 -0.16484 0.98601 972.421
+/generator/pos/set 683.97 661.81 2328.42
+/run/beamOn 1
+/generator/vtx/set proton -0.12017 0.55215 -0.82504 166.497
+/generator/pos/set -462.75 86.67 1537.79
+/run/beamOn 1
+/generator/vtx/set proton 0.97128 -0.23412 -0.04259 213.686
+/generator/pos/set 551.66 -737.12 987.99
+/run/beamOn 1
+/generator/vtx/set proton 0.15077 0.90518 0.3974 144.767
+/generator/pos/set 296.98 785.57 2448.57
+/run/beamOn 1
+/generator/vtx/set proton 0.21064 0.03357 -0.97699 66.3292
+/generator/pos/set 244.49 -175.48 2331.9
+/run/beamOn 1
+/generator/vtx/set proton -0.7267 -0.26881 0.63218 62.8172
+/generator/pos/set -216.39 1143.91 1008.74
+/run/beamOn 1
+/generator/vtx/set proton 0.13527 -0.77184 0.62126 712.55
+/generator/pos/set -552.48 -553.16 1763.34
+/run/beamOn 1
+/generator/vtx/set proton 0.07872 -0.23964 -0.96766 143.278
+/generator/pos/set -621.76 365.77 2297.33
+/run/beamOn 1
+/generator/vtx/set proton 0.67453 -0.72082 0.15947 69.7712
+/generator/pos/set 185.93 -768.72 1108.76
+/run/beamOn 1
+/generator/vtx/set proton -0.18051 0.85117 0.49287 619.542
+/generator/pos/set -89.99 1090.21 1162.81
+/run/beamOn 1
+/generator/vtx/set proton 0.53204 0.46805 0.70559 260.485
+/generator/pos/set -674.18 57.72 2221.06
+/run/beamOn 1
+/generator/vtx/set proton -0.28829 -0.00305 0.95754 1400.37
+/generator/pos/set -37.39 -103.42 1130.25
+/run/beamOn 1
+/generator/vtx/set proton -0.48353 0.44855 0.75167 229.988
+/generator/pos/set -28.05 693.34 2482.91
+/run/beamOn 1
+/generator/vtx/set proton -0.01778 0.72371 0.68988 343.121
+/generator/pos/set 584.33 844.53 1366.13
+/run/beamOn 1
+/generator/vtx/set proton 0.24119 0.01157 0.97041 275.022
+/generator/pos/set -801.86 422.52 1608.11
+/run/beamOn 1
+/generator/vtx/set proton -0.17619 0.65421 -0.7355 264.436
+/generator/pos/set -16.02 -457.74 2180.84
+/run/beamOn 1
+/generator/vtx/set proton 0.00861 -0.96936 0.24548 246.326
+/generator/pos/set -688.05 -441.9 1361.9
+/run/beamOn 1
+/generator/vtx/set proton -0.21505 -0.69042 -0.6907 401.244
+/generator/pos/set -480.85 -1155.79 1644.54
+/run/beamOn 1
+/generator/vtx/set proton 0.84743 0.4918 0.19999 128.679
+/generator/pos/set -222.28 -834.93 1357.61
+/run/beamOn 1
+/generator/vtx/set proton -0.44933 0.10637 0.88701 679.684
+/generator/pos/set -338.09 -762.94 1821.56
+/run/beamOn 1
+/generator/vtx/set proton 0.8208 -0.2989 -0.48677 362.873
+/generator/pos/set 311.45 1247.43 2231.28
+/run/beamOn 1
+/generator/vtx/set proton 0.36699 -0.28285 0.88618 1022.92
+/generator/pos/set -341.32 150.41 1865.41
+/run/beamOn 1
+/generator/vtx/set proton 0.91508 -0.40012 -0.05036 127.532
+/generator/pos/set -95.27 1194.89 1499.28
+/run/beamOn 1
+/generator/vtx/set proton -0.57713 -0.5136 0.63494 378.311
+/generator/pos/set -301.75 -759.45 2438.81
+/run/beamOn 1
+/generator/vtx/set proton 0.34316 -0.51366 0.78638 199.21
+/generator/pos/set 611.84 1103.19 1965.23
+/run/beamOn 1
+/generator/vtx/set proton -0.82124 0.19984 -0.53444 263.296
+/generator/pos/set -140.2 546.64 1223.58
+/run/beamOn 1
+/generator/vtx/set proton 0.11613 0.96476 0.23611 199.071
+/generator/pos/set -411.73 -912.36 1721.9
+/run/beamOn 1
+/generator/vtx/set proton -0.35577 0.07487 0.93157 849.929
+/generator/pos/set -749.69 -606.23 2227.18
+/run/beamOn 1
+/generator/vtx/set proton 0.67832 0.65745 0.32808 183.206
+/generator/pos/set 523.74 -546.09 2144.17
+/run/beamOn 1
+/generator/vtx/set proton -0.4301 -0.81298 0.39253 501.111
+/generator/pos/set 779.64 951.68 2082.74
+/run/beamOn 1
+/generator/vtx/set proton 0.33915 0.22714 0.9129 636.296
+/generator/pos/set -152.05 -191.9 2373.14
+/run/beamOn 1
+/generator/vtx/set proton -0.44009 -0.69401 0.5698 331.102
+/generator/pos/set 15.03 466.88 770.13
+/run/beamOn 1
+/generator/vtx/set proton -0.54067 -0.83703 -0.084 306.701
+/generator/pos/set -161.45 -76.16 986.34
+/run/beamOn 1
+/generator/vtx/set proton 0.57064 0.64037 -0.5141 153.937
+/generator/pos/set 455.43 -454.14 2029.63
+/run/beamOn 1
+/generator/vtx/set proton -0.12126 -0.41067 0.90369 890.885
+/generator/pos/set 200.76 135.71 1368.69
+/run/beamOn 1
+/generator/vtx/set proton 0.38046 0.35369 0.85449 680.587
+/generator/pos/set -219.46 -1006.07 1461.89
+/run/beamOn 1
+/generator/vtx/set proton -0.91654 0.39712 0.04741 665.699
+/generator/pos/set -230.18 -632.32 2186.9
+/run/beamOn 1
+/generator/vtx/set proton 0.89356 0.25078 0.37238 186.434
+/generator/pos/set 31.78 -391.2 903.89
+/run/beamOn 1
+/generator/vtx/set proton 0.08682 0.89667 0.43411 262.345
+/generator/pos/set 497.02 890.29 2434.48
+/run/beamOn 1
+/generator/vtx/set proton -0.71741 0.59557 -0.36141 135.293
+/generator/pos/set -280.59 -153.26 1923.69
+/run/beamOn 1
+/generator/vtx/set proton 0.87298 -0.1961 -0.4466 124.321
+/generator/pos/set 727.86 1278.24 1350.21
+/run/beamOn 1
+/generator/vtx/set proton 0.14248 -0.68726 0.7123 358.223
+/generator/pos/set 138.52 -1287.03 2266.95
+/run/beamOn 1
+/generator/vtx/set proton 0.30256 -0.59626 0.74359 37.7311
+/generator/pos/set 32.03 1292.05 2328.61
+/run/beamOn 1
+/generator/vtx/set proton 0.63747 0.02861 0.76995 342.709
+/generator/pos/set 815.77 912.16 1690.71
+/run/beamOn 1
+/generator/vtx/set proton 0.13318 -0.74075 -0.65845 379.273
+/generator/pos/set -782.87 -95.87 1713.17
+/run/beamOn 1
+/generator/vtx/set proton 0.14272 0.58055 0.80162 498.84
+/generator/pos/set -15.89 -459.39 2364.27
+/run/beamOn 1
+/generator/vtx/set proton -0.1086 -0.47331 0.87417 270.025
+/generator/pos/set 399.8 1394.09 1543.97
+/run/beamOn 1
+/generator/vtx/set proton 0.488 -0.12897 0.86326 540.804
+/generator/pos/set 141.37 -570.46 2630.37
+/run/beamOn 1
+/generator/vtx/set proton 0.42337 0.817 0.39149 113.631
+/generator/pos/set -757.45 147.87 1800.43
+/run/beamOn 1
+/generator/vtx/set proton 0.56529 0.29471 0.77045 391.211
+/generator/pos/set 663.84 891.48 2292.43
+/run/beamOn 1
+/generator/vtx/set proton -0.08214 0.45349 0.88747 152.457
+/generator/pos/set -306.25 -1342.53 1014.88
+/run/beamOn 1
+/generator/vtx/set proton 0.5191 -0.44882 0.72739 655.72
+/generator/pos/set 800.22 483.85 1830.97
+/run/beamOn 1
+/generator/vtx/set proton 0.60244 0.08368 0.79377 92.0312
+/generator/pos/set 471.13 1036.64 992
+/run/beamOn 1
+/generator/vtx/set proton -0.74907 -0.15778 -0.64342 122.721
+/generator/pos/set 278.45 516.97 1844.28
+/run/beamOn 1
+/generator/vtx/set proton -0.29177 0.43661 0.85103 718.423
+/generator/pos/set 480.41 1296.67 2349.48
+/run/beamOn 1
+/generator/vtx/set proton 0.60291 -0.38344 0.69963 313.019
+/generator/pos/set 441.15 -175.49 1113.39
+/run/beamOn 1
+/generator/vtx/set proton -0.34544 -0.80922 0.47522 162.08
+/generator/pos/set 51.04 -1103.7 1295.42
+/run/beamOn 1
+/generator/vtx/set proton 0.23572 -0.12363 0.96392 298.366
+/generator/pos/set -215.05 -941.27 2291.21
+/run/beamOn 1
+/generator/vtx/set proton 0.56092 -0.69779 0.44549 147.334
+/generator/pos/set -116.77 -1141.58 1478.73
+/run/beamOn 1
+/generator/vtx/set proton 0.64612 -0.30886 0.69795 326.635
+/generator/pos/set 12.44 -1401.88 2279.91
+/run/beamOn 1
+/generator/vtx/set proton -0.31499 -0.40005 0.86066 592.909
+/generator/pos/set -781.3 1074.29 1782.16
+/run/beamOn 1
+/generator/vtx/set proton 0.14756 0.88676 0.43805 310.168
+/generator/pos/set -85.59 422.74 1743.67
+/run/beamOn 1
+/generator/vtx/set proton 0.88353 0.19535 0.42568 178.877
+/generator/pos/set -71.64 -1269.97 2309.15
+/run/beamOn 1
+/generator/vtx/set proton 0.81814 -0.49474 0.29304 43.647
+/generator/pos/set -482.89 512.68 2484.53
+/run/beamOn 1
+/generator/vtx/set proton 0.90289 0.28628 0.32066 236.308
+/generator/pos/set -769.1 1155.36 1912.35
+/run/beamOn 1
+/generator/vtx/set proton -0.57408 -0.67164 -0.46833 501.094
+/generator/pos/set -75.75 692.79 1220.98
+/run/beamOn 1
+/generator/vtx/set proton -0.02411 -0.74323 0.6686 278.514
+/generator/pos/set -369.24 -1425.85 1828.61
+/run/beamOn 1
+/generator/vtx/set proton 0.59206 -0.78425 0.18555 188.387
+/generator/pos/set 151.3 -283.54 1958.54
+/run/beamOn 1
+/generator/vtx/set proton 0.08848 -0.10347 -0.99069 150.269
+/generator/pos/set -109.77 27.18 2363.36
+/run/beamOn 1
+/generator/vtx/set proton -0.26304 -0.80959 -0.52476 57.036
+/generator/pos/set 292.18 27.19 1233.31
+/run/beamOn 1
+/generator/vtx/set proton 0.62547 0.32711 -0.70836 311.08
+/generator/pos/set -87.67 -1145.95 807.66
+/run/beamOn 1
+/generator/vtx/set proton -0.54328 -0.57558 -0.61119 250.843
+/generator/pos/set 339.55 -803.67 1434.75
+/run/beamOn 1
+/generator/vtx/set proton 0.01553 -0.82724 -0.56164 325.111
+/generator/pos/set 943.1 1158.65 1908.74
+/run/beamOn 1
+/generator/vtx/set proton 0.56265 0.0273 0.82625 52.3098
+/generator/pos/set -714.75 803.37 1344.31
+/run/beamOn 1
+/generator/vtx/set proton -0.60668 0.75377 0.25252 478.109
+/generator/pos/set -625.1 -521.73 2281.58
+/run/beamOn 1
+/generator/vtx/set proton 0.83826 -0.07602 0.53995 687.003
+/generator/pos/set 448.69 20.67 2552.21
+/run/beamOn 1
+/generator/vtx/set proton -0.0528 0.49237 0.86878 364.611
+/generator/pos/set 877.96 -1218.45 2043.54
+/run/beamOn 1
+/generator/vtx/set proton -0.36732 0.87737 -0.3087 139.953
+/generator/pos/set -340.03 -1311.39 1183.39
+/run/beamOn 1
+/generator/vtx/set proton -0.04742 0.54882 0.83459 495.331
+/generator/pos/set 8.02 1323.57 936.44
+/run/beamOn 1
+/generator/vtx/set proton 0.9461 -0.22166 -0.23614 127.04
+/generator/pos/set 343.51 -1219.22 904.66
+/run/beamOn 1
+/generator/vtx/set proton -0.02013 -0.13552 0.99057 764.177
+/generator/pos/set 274.77 941.62 1371.11
+/run/beamOn 1
+/generator/vtx/set proton 0.68464 0.13973 0.71537 160.695
+/generator/pos/set 683.84 -911.1 1173.55
+/run/beamOn 1
+/generator/vtx/set proton -0.87043 -0.41192 0.26957 137.279
+/generator/pos/set 71.92 1203.61 850.49
+/run/beamOn 1
+/generator/vtx/set proton -0.03059 -0.83504 -0.54934 192.079
+/generator/pos/set 456.72 864.02 2292.25
+/run/beamOn 1
+/generator/vtx/set proton -0.20025 -0.20371 0.95833 449.78
+/generator/pos/set 495.44 -584.6 1130.81
+/run/beamOn 1
+/generator/vtx/set proton -0.78578 0.41925 0.45473 466.883
+/generator/pos/set 346.78 1265.02 1731.98
+/run/beamOn 1
+/generator/vtx/set proton 0.84937 -0.27606 -0.44985 88.4004
+/generator/pos/set 343.08 384.1 1572.7
+/run/beamOn 1
+/generator/vtx/set proton 0.94021 -0.31218 0.13622 455.755
+/generator/pos/set 532.16 -1319.3 2268.12
+/run/beamOn 1
+/generator/vtx/set proton 0.22794 -0.86368 -0.44956 111.87
+/generator/pos/set 280.57 1244.8 1638.57
+/run/beamOn 1
+/generator/vtx/set proton -0.73696 -0.58362 0.34098 614.146
+/generator/pos/set -556.43 1087.91 2176.91
+/run/beamOn 1
+/generator/vtx/set proton 0.41175 0.73579 0.53766 63.2073
+/generator/pos/set -37.34 926.03 955.38
+/run/beamOn 1
+/generator/vtx/set proton 0.06261 -0.38207 0.92201 232.24
+/generator/pos/set 120.04 14.36 1011.8
+/run/beamOn 1
+/generator/vtx/set proton 0.33066 -0.7046 0.62785 1706.65
+/generator/pos/set 245.29 -4.16 943.69
+/run/beamOn 1
+/generator/vtx/set proton 0.95902 -0.26541 -0.0992 351.982
+/generator/pos/set -214.46 1250.85 987.9
+/run/beamOn 1
+/generator/vtx/set proton -0.15722 -0.53947 0.82719 145.999
+/generator/pos/set -123.39 1283.74 1515.86
+/run/beamOn 1
+/generator/vtx/set proton 0.47322 0.88085 0.013 151.463
+/generator/pos/set 223.08 -1382.96 1787.81
+/run/beamOn 1
+/generator/vtx/set proton -0.33655 -0.60578 0.72094 335.733
+/generator/pos/set 120.65 -1325.86 1714.08
+/run/beamOn 1
+/generator/vtx/set proton -0.32429 -0.53903 -0.77736 118.402
+/generator/pos/set -335.52 -1225.86 2421.07
+/run/beamOn 1
+/generator/vtx/set proton 0.40647 0.07023 0.91096 97.1249
+/generator/pos/set 386.32 -655.46 2635.22
+/run/beamOn 1
+/generator/vtx/set proton 0.30053 0.10577 -0.94789 211.232
+/generator/pos/set -427.57 0.6 2082.48
+/run/beamOn 1
+/generator/vtx/set proton -0.367 -0.91297 -0.17833 114.773
+/generator/pos/set 432.33 -331.93 1758.99
+/run/beamOn 1
+/generator/vtx/set proton -0.78762 -0.61415 -0.04971 147.754
+/generator/pos/set -700.62 1353.17 1671.5
+/run/beamOn 1
+/generator/vtx/set proton -0.43266 -0.81189 0.39197 693.526
+/generator/pos/set -554.87 -169.01 2437.38
+/run/beamOn 1
+/generator/vtx/set proton -0.43147 -0.00621 0.90211 704.724
+/generator/pos/set 269.06 -207.2 2525.44
+/run/beamOn 1
+/generator/vtx/set proton -0.28079 -0.00922 0.95972 272.31
+/generator/pos/set -37.55 1018.06 807.44
+/run/beamOn 1
+/generator/vtx/set proton 0.09943 0.24527 0.96434 272.31
+/generator/pos/set -116.77 -902.92 1076.69
+/run/beamOn 1
+/generator/vtx/set proton 0.18907 0.54007 0.82011 295.952
+/generator/pos/set -404.62 -15.25 1459
+/run/beamOn 1
+/generator/vtx/set proton 0.1681 -0.89462 -0.414 225.006
+/generator/pos/set -924.84 1338.66 1765.92
+/run/beamOn 1
+/generator/vtx/set proton 0.7218 0.25712 0.64257 304.615
+/generator/pos/set 794.87 -332.92 2170.25
+/run/beamOn 1
+/generator/vtx/set proton -0.44128 0.76057 0.47624 619.934
+/generator/pos/set 488.58 -1342 1754.51
+/run/beamOn 1
+/generator/vtx/set proton -0.02028 0.06707 0.99754 945.92
+/generator/pos/set -850.85 435.67 1541.22
+/run/beamOn 1
+/generator/vtx/set proton -0.24696 -0.68281 -0.68759 140.997
+/generator/pos/set 312.82 486.27 1676.24
+/run/beamOn 1
+/generator/vtx/set proton 0.77403 0.16379 0.6116 200.607
+/generator/pos/set -298.1 32.24 1381.42
+/run/beamOn 1
+/generator/vtx/set proton 0.31238 0.90987 0.27304 129.351
+/generator/pos/set 637.57 1335.49 1517.99
+/run/beamOn 1
+/generator/vtx/set proton -0.56327 -0.75337 -0.33935 104.197
+/generator/pos/set 73.16 1044.38 2720.63
+/run/beamOn 1
+/generator/vtx/set proton 0.89928 -0.37366 0.22734 114.297
+/generator/pos/set 799.39 -641.06 1936.42
+/run/beamOn 1
+/generator/vtx/set proton -0.67449 -0.50407 0.53942 675.739
+/generator/pos/set 386.91 563.89 1888.93
+/run/beamOn 1
+/generator/vtx/set proton 0.63984 -0.61727 0.45781 91.7615
+/generator/pos/set -319.66 550.29 1878.18
+/run/beamOn 1
+/generator/vtx/set proton -0.52798 -0.09296 0.84416 253.049
+/generator/pos/set -83.95 854.36 1112.52
+/run/beamOn 1
+/generator/vtx/set proton -0.07365 -0.49753 -0.86431 26.5457
+/generator/pos/set -588.46 -1345.99 1992.62
+/run/beamOn 1
+/generator/vtx/set proton -0.15028 0.1363 0.9792 741.334
+/generator/pos/set -151.23 -639.66 2352.68
+/run/beamOn 1
+/generator/vtx/set proton -0.9159 -0.27619 0.29129 263.259
+/generator/pos/set 390.51 -737.19 2256.42
+/run/beamOn 1
+/generator/vtx/set proton -0.26216 -0.43835 0.85972 1106.86
+/generator/pos/set 574.38 353.8 1635.8
+/run/beamOn 1
+/generator/vtx/set proton -0.17699 0.72213 0.66873 178.475
+/generator/pos/set 219.09 285.05 2094.61
+/run/beamOn 1
+/generator/vtx/set proton -0.68381 0.64476 0.34159 149.229
+/generator/pos/set -111.86 -637.92 2192.09
+/run/beamOn 1
+/generator/vtx/set proton -0.21777 -0.89841 -0.38136 222.97
+/generator/pos/set 66.01 -441.23 1943.7
+/run/beamOn 1
+/generator/vtx/set proton 0.92575 -0.22562 0.30344 325.429
+/generator/pos/set -907.35 435.72 2120.12
+/run/beamOn 1
+/generator/vtx/set proton -0.07334 -0.99465 -0.07282 281.721
+/generator/pos/set -358.6 -992.12 2368.58
+/run/beamOn 1
+/generator/vtx/set proton -0.47357 -0.6254 0.62016 115.864
+/generator/pos/set 612.12 798.25 1416.7
+/run/beamOn 1
+/generator/vtx/set proton 0.06139 0.76333 0.64308 784.421
+/generator/pos/set -151.6 1083.63 842.02
+/run/beamOn 1
+/generator/vtx/set proton 0.50246 0.54546 -0.67083 93.1487
+/generator/pos/set -150.61 1122.88 2497.97
+/run/beamOn 1
+/generator/vtx/set proton -0.87658 0.1807 0.44604 198.612
+/generator/pos/set 911.44 127.06 1890.16
+/run/beamOn 1
+/generator/vtx/set proton -0.23868 0.00186 0.9711 548.128
+/generator/pos/set -39.21 -1215.98 836.74
+/run/beamOn 1
+/generator/vtx/set proton 0.59641 0.55339 -0.58143 218.777
+/generator/pos/set 257.77 -223.62 2226.08
+/run/beamOn 1
+/generator/vtx/set proton -0.16179 0.84157 0.51535 913.252
+/generator/pos/set -566.11 -542.67 1463.12
+/run/beamOn 1
+/generator/vtx/set proton -0.52179 -0.66889 0.52946 252.347
+/generator/pos/set -441.65 -699.94 1227.67
+/run/beamOn 1
+/generator/vtx/set proton -0.83158 0.216 0.51168 446.839
+/generator/pos/set -466.68 1232.24 1144.11
+/run/beamOn 1
+/generator/vtx/set proton -0.82919 -0.12494 0.54483 145.441
+/generator/pos/set -542.81 -47.32 1942.81
+/run/beamOn 1
+/generator/vtx/set proton -0.03685 0.94631 -0.32117 158.941
+/generator/pos/set 990.72 250.74 1638.09
+/run/beamOn 1
+/generator/vtx/set proton 0.95289 -0.03965 0.30072 373.819
+/generator/pos/set -687.41 -310.29 2292.18
+/run/beamOn 1
+/generator/vtx/set proton 0.25965 0.34661 0.90136 317.697
+/generator/pos/set 122.88 1044.68 1876.68
+/run/beamOn 1
+/generator/vtx/set proton -0.4472 -0.87224 -0.19801 181.443
+/generator/pos/set 525.5 -539.12 2452.84
+/run/beamOn 1
+/generator/vtx/set proton 0.27023 -0.36193 -0.89218 105.348
+/generator/pos/set 281.94 -1266.81 2096.83
+/run/beamOn 1
+/generator/vtx/set proton 0.6479 0.44089 -0.62116 146.163
+/generator/pos/set 53.01 -62.09 2515.56
+/run/beamOn 1
+/generator/vtx/set proton 0.4747 -0.28902 0.83134 451.421
+/generator/pos/set -806.96 342.96 1510.43
+/run/beamOn 1
+/generator/vtx/set proton 0.63935 0.75909 0.12251 407.799
+/generator/pos/set -490.39 -1191.95 1603.96
+/run/beamOn 1
+/generator/vtx/set proton 0.93271 -0.13469 -0.33452 124.576
+/generator/pos/set 213.92 -1221.38 1316.94
+/run/beamOn 1
+/generator/vtx/set proton 0.37454 0.92715 -0.01041 35.5707
+/generator/pos/set -181.86 1020.13 1102.95
+/run/beamOn 1
+/generator/vtx/set proton 0.26978 -0.937 0.22193 174.589
+/generator/pos/set -69.75 -571.69 2058.91
+/run/beamOn 1
+/generator/vtx/set proton 0.64082 0.74394 0.18948 580.578
+/generator/pos/set 202.93 -1346.18 2475.79
+/run/beamOn 1
+/generator/vtx/set proton -0.75019 0.49971 0.43302 420.27
+/generator/pos/set 245.44 801.88 2014.09
+/run/beamOn 1
+/generator/vtx/set proton -0.56442 0.7123 -0.41719 310.079
+/generator/pos/set 273.06 -511.72 1203.35
+/run/beamOn 1
+/generator/vtx/set proton 0.97987 -0.1954 -0.04094 313.109
+/generator/pos/set -439.22 -816.83 2227.93
+/run/beamOn 1
+/generator/vtx/set proton 0.61299 0.19977 0.76442 196.867
+/generator/pos/set 135.22 676.72 1179.62
+/run/beamOn 1
+/generator/vtx/set proton -0.97536 -0.00456 0.22055 231.428
+/generator/pos/set 378.7 1197.88 2307.43
+/run/beamOn 1
+/generator/vtx/set proton -0.75864 0.59737 -0.26002 204.182
+/generator/pos/set -489.57 1072.16 1105.8
+/run/beamOn 1
