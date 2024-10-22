@@ -8,7 +8,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_b76d01",
 mirror_surface: "mirror",
@@ -33,7 +33,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_d784kflb", //used the 1408 photocathode in SNO+ rat 
 mirror_surface: "mirror",
@@ -61,7 +61,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_r5912_ANNIE",
 mirror_surface: "mirror",
@@ -87,7 +87,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_r5912_hqe_ANNIE",
 mirror_surface: "mirror",
@@ -114,7 +114,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_r7081_ANNIE", 
 mirror_surface: "mirror",
@@ -141,7 +141,7 @@ valid_end: [0,0],
 construction: "toroidal",
 
 dynode_material: "stainless_steel",
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_r7081_hqe_ANNIE", 
 mirror_surface: "mirror",
@@ -170,7 +170,7 @@ construction: "lappd",
 
 //construct_housing: 1.0, // used to build a pvc housing around the LAPPDs, NOT WORKING YET
 
-glass_material: "glass",
+glass_material: "glass_ANNIE",
 lappd_vacuum_material: "pmt_vacuum",
 //window_material: "acrylic", // NOT WORKING YET
 //housing_material: "pvc",// NOT WORKING YET

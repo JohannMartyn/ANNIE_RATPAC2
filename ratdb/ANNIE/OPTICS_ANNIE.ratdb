@@ -405,6 +405,27 @@ ABSLENGTH_value2: [1e-3, 1e-3, ],
 PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 }
 
+
+// tyvek_wrapper_ANNIE
+{
+name: "OPTICS",
+index: "tyvek_wrapper_ANNIE",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+surface: 1,
+finish: "ground",
+model: "glisur",
+type: "dielectric_metal",
+polish: 0.01,
+REFLECTIVITY_option: "wavelength",
+REFLECTIVITY_value1:[60.0, 800.0, ],
+REFLECTIVITY_value2:[0.8000, 0.8000, ], // tyvek_wrapper_ANNIE
+ABSLENGTH_option: "wavelength",
+ABSLENGTH_value1: [60.0, 800.0, ],
+ABSLENGTH_value2: [1e3, 1e3, ],
+PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
+}
+
 // White PVC is reflective and smoother than tyvek
 {
 name: "OPTICS",
@@ -418,15 +439,16 @@ type: "dielectric_metal",
 polish: 0.1,
 //arbitrarily extended properties down to 60nm
 REFLECTIVITY_option: "wavelength",
-REFLECTIVITY_value1: [199.97515,  800.0, ],
-REFLECTIVITY_value2: [0.9, 0.9, ], //made up, white color
+REFLECTIVITY_value1: [60.0,  800.0, ],
+REFLECTIVITY_value2: [0.8000, 0.8000, ], //made up, white color
 ABSLENGTH_option: "wavelength",
-ABSLENGTH_value1: [199.97515,  200.0, 400.0, 600.0, 800.0, ],
+ABSLENGTH_value1: [60.0,  200.0, 400.0, 600.0, 800.0, ],
 ABSLENGTH_value2: [1e-3, 1e-3, 1.6e-1, 2.1e-1, 2.5e-1, ],
 PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 }
 
 // Black PVC is not reflective but smoother than tyvek
+// According to WCSim it is a little bit reflective, with a standard value of 0.7
 {
 name: "OPTICS",
 index: "pvc_black",
@@ -438,10 +460,10 @@ model: "glisur",
 type: "dielectric_metal",
 polish: 0.1,
 REFLECTIVITY_option: "wavelength",
-REFLECTIVITY_value1: [199.97515,  800.0, ],
-REFLECTIVITY_value2: [0.0, 0.0, ],
+REFLECTIVITY_value1: [60.0,  800.0, ],
+REFLECTIVITY_value2: [0.2, 0.2, ],
 ABSLENGTH_option: "wavelength",
-ABSLENGTH_value1: [199.97515,  200.0, 400.0, 600.0, 800.0, ],
+ABSLENGTH_value1: [60.0,  200.0, 400.0, 600.0, 800.0, ],
 ABSLENGTH_value2: [1e-3, 1e-3, 1.6e-1, 2.1e-1, 2.5e-1, ],
 PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 }
@@ -481,21 +503,24 @@ PROPERTY_LIST: ["RINDEX", "SCINTILLATION", "SCINTWAVEFORM", "SCINTWAVEFORMalpha"
 
 //Glass from Raffaela Solveig Busse's Master thesis: "Setup and commissioning of a test stand for detailed investigations of quantum efficiency characteristics of photomultiplier tubes, and initial studies for IceCube-Gen2"
 //She got the inforamtion of Borsilicate glass from the refractive index database. URL http://refractiveindex.info
-//{
-//name: "OPTICS",
-//index: "glass_ANNIE",
-//valid_begin : [0, 0],
-//valid_end : [0, 0],
-//surface: 1,
-//finish: "ground",
-//model: "glisur",
-//type: "dielectric_dielectric",
-//polish: 0.9,
-//RINDEX_option: "wavelength",
-//RINDEX_value1: [199.97515, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 800, ],
-//RINDEX_value2: [1.55, 1.55, 1.55, 1.55, 1.54, 1.54, 1.54, 1.54, 1.54, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, ],
-//ABSLENGTH_option: "wavelength",
-//ABSLENGTH_value1: [60.0, 200.0, 300.0, 330.0, 500.0, 600.0, 770.0, 800.0, ],
-//ABSLENGTH_value2: [0.1e-3, 0.1e-3, 0.1e-3, 1.0e3, 2.0e3, 1.0e3, 0.5e3, 0.1e-3, ],
-//PROPERTY_LIST: ["RINDEX", "ABSLENGTH", ]
-//}
+{
+name: "OPTICS",
+index: "glass_ANNIE",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+surface: 1,
+finish: "ground",
+model: "glisur",
+type: "dielectric_dielectric",
+//polish: 0.01,
+polish: 0.9,
+RINDEX_option: "wavelength",
+//RINDEX_value1: [60.0, 800.0, ],
+//RINDEX_value2: [1.600, 1.600, ],
+RINDEX_value1: [60.0, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 800, ],
+RINDEX_value2: [1.55, 1.55, 1.55, 1.55, 1.54, 1.54, 1.54, 1.54, 1.54, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.53, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.52, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, 1.51, ],
+ABSLENGTH_option: "wavelength",
+ABSLENGTH_value1: [60.0, 200.0, 300.0, 330.0, 500.0, 600.0, 770.0, 800.0, ],
+ABSLENGTH_value2: [0.1e-3, 0.1e-3, 0.1e-3, 1.0e3, 2.0e3, 1.0e3, 0.5e3, 0.1e-3, ],
+PROPERTY_LIST: ["RINDEX", "ABSLENGTH", ]
+}

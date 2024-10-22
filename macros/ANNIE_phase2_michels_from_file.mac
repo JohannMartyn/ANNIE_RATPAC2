@@ -1,28 +1,28 @@
 /rat/db/set DETECTOR experiment "ANNIE" 
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
 /run/initialize
-/rat/proc simpledaq
-/rat/proclast outntuple
-/rat/procset file "ANNIE_michel_line1to10.ntuple.root" 
+/rat/proc splitevdaq
+/rat/proclast outanniecluster
+/rat/procset file "ANNIE_michel_test_0.6xQE_0.8xR_IS_0.8xR_AH_0.2xR_LEH_line1to10.cluster.ntuple.root" 
 /generator/add combo spectrum:point
 /generator/vtx/set e- michel
-/generator/pos/set 527.781 1243.77 559.24
+/generator/pos/set -935.756 808.155 1066.03
 /run/beamOn 1
-/generator/pos/set 648.077 396.021 -630.129
+/generator/pos/set 842.928 519.674 1027.91
 /run/beamOn 1
-/generator/pos/set -148.458 -406.063 870.329
+/generator/pos/set 1049.68 93.5951 1040.87
 /run/beamOn 1
-/generator/pos/set 267.812 -1183.74 51.8569
+/generator/pos/set 418.003 -972.779 2075.4
 /run/beamOn 1
-/generator/pos/set -362.369 1404.99 255.669
+/generator/pos/set -852.894 -1653.41 664.957
 /run/beamOn 1
-/generator/pos/set 593.403 -1167.23 -38.8197
+/generator/pos/set 896.217 -191.526 984.659
 /run/beamOn 1
-/generator/pos/set 54.8854 1221.16 -219.31
+/generator/pos/set -736.927 -296.061 1063.61
 /run/beamOn 1
-/generator/pos/set -90.2633 938.486 120.171
+/generator/pos/set 1332.45 1921.51 1112.09
 /run/beamOn 1
-/generator/pos/set 107.929 -872.386 -288.038
+/generator/pos/set -1152.55 66.4055 2140.23
 /run/beamOn 1
-/generator/pos/set -265.113 -603.036 -710.248
+/generator/pos/set -550.345 759.134 2743.88
 /run/beamOn 1

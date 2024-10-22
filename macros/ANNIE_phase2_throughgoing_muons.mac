@@ -4,7 +4,7 @@
 /tracking/verbose 0
 /event/verbose 0
 
-/tracking/storeTrajectory 0
+/tracking/storeTrajectory 1
 /tracking/discardParticleTrajectory opticalphoton
 
 /rat/proc prune
@@ -18,7 +18,7 @@
 
 /run/initialize
 
-/rat/proc simpledaq
+/rat/proc splitevdaq
 /rat/proc count
 /rat/procset update 10
 /rat/proc fitcentroid
@@ -26,25 +26,18 @@
 #/rat/proclast outroot
 #/rat/procset file "sandi_electron_1MeV.root"
 
-/rat/proclast outntuple
-/rat/procset file "ANNIE_throughgoing_muon_test.ntuple.root"
+/rat/proclast outanniecluster
+/rat/procset file "ANNIE_throughgoing_muon_test_2.ntuple.root"
 
 # RATPAC center position relative to tank pmts: (0.0, -33.8, 1749.4)
-# Another possibility is (0.0 -133.3 1724)
 
 /generator/add combo gun:point
-/generator/vtx/set mu- 0 -1 0 1000.0
-/generator/pos/set 0.0 -133.3 1724
-/run/beamOn 1
+#/generator/vtx/set mu- 0 -1 0 2000.0
+#/generator/pos/set 0.0 -33.8 1749.4
+#/run/beamOn 1
 
-/generator/vtx/set mu- 0 -1 0 1000.0
-/generator/pos/set 0.0 -133.3 1724
-/run/beamOn 1
+/generator/vtx/set mu- -0.01690 -0.03806 0.99913 5047.5
+/generator/pos/set -462.36 -1328.99 63.00
+/run/beamOn 2
 
-/generator/vtx/set mu- 0 -1 0 1000.0
-/generator/pos/set 0.0 -133.3 1724
-/run/beamOn 1
-
-/generator/vtx/set mu- 0 -1 0 1000.0
-/generator/pos/set 0.0 -133.3 1724
-/run/beamOn 1
+   

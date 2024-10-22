@@ -4,17 +4,12 @@
 /tracking/verbose 0
 /event/verbose 0
 
-/tracking/storeTrajectory 0
+/tracking/storeTrajectory 1
 /tracking/discardParticleTrajectory opticalphoton
 
 
 /rat/proc prune
 /rat/procset prune "mc.track:opticalphoton"
-/rat/procset prune "mc.track:e-"
-/rat/procset prune "mc.track:neutron"
-
-
-
 
 /rat/db/set DETECTOR experiment "ANNIE"
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
@@ -26,21 +21,14 @@
 /run/initialize
 
 /rat/proc splitevdaq
-#/rat/proc count
-#/rat/procset update 10
-#/rat/proc fitcentroid
 
-#/rat/proclast outroot
-#/rat/procset file "ANNIE_michel_electron_test.root"
-
-/rat/proclast outntuple
+/rat/proclast outanniecluster
 /rat/procset file "SANDI_neutron_splitevdaq_test.ntuple.root"
 
 /generator/add combo gun:regexfill
 /generator/vtx/set neutron 0 0 0 0.000001
-#/generator/pos/set ^detector*|^ncv*
-/generator/pos/set ^wblsvolume_liquid*
-
+#/generator/pos/set ^detector*|^wblsvolume_liquid*
+/generator/pos/set ^pmt_enclosed*|^wblsvolume_liquid*
 
 #/generator/add combo gun:point
 #/generator/vtx/set neutron 0 0 0 0.000001

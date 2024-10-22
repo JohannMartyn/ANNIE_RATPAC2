@@ -62,7 +62,7 @@ valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "tank",
 type: "tube",
-surface: "pvc_white",
+surface: "pvc_white"
 r_max: 1517.6,
 size_z: 1974.8,
 position: [0.0, 0.0, 0.0],
@@ -82,6 +82,7 @@ type: "tube",
 r_max: 1516.6,
 size_z: 1973.8,
 position: [0.0, 0.0, 0.0],
+//material: "wbls1pct_ly95_SANDI",
 material: "water_gdS_0p2",
 color: [0.6, 0.8, 1.0, 0.1],
 invisible: 1,
@@ -282,7 +283,7 @@ enable_inner_structure: 1, // setting this to 0 enables faster loading but no in
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1981.2],
 inner_structure_rotation_angle: 157.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC
-inner_structure_wrapper_material: "tyvek", //could be something different, which is defined in the OPTICS_ANNIE.ratdb
+inner_structure_wrapper_material: "tyvek_wrapper_ANNIE", //"tyvek", //could be something different, which is defined in the OPTICS_ANNIE.ratdb
 inner_structure_color: [1.0, 0.0, 0.0, 1.0],
 inner_structure_invisible: 0,
 pmt_position_file:"../share/annie/ratdb/ANNIE/PMTPositions_Scan.txt",
