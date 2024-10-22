@@ -13,16 +13,17 @@ fi
 
 infile="ANNIE_RATPAC2/utilities/michel_uniform.txt"
 if [ $selection -eq 1 ]; then
-	infile="ANNIE_RATPAC2/utilities/michel_genie_tracks.txt" 
+	infile="ANNIE_RATPAC2/utilities/michel_genie_tracks_2.txt" 
 fi
 outfile="ANNIE_RATPAC2/macros/ANNIE_phase2_michels_from_file.mac"
 
 echo "/rat/db/set DETECTOR experiment \"ANNIE\" " > "$outfile"
 echo "/rat/db/set DETECTOR geo_file \"ANNIE/ANNIE_run2_config13_scan.geo\" " >> "$outfile"
+echo "/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo " >> "$outfile"
 echo "/run/initialize" >> "$outfile"
 echo "/rat/proc splitevdaq" >> "$outfile"
 echo "/rat/proclast outanniecluster" >> "$outfile"
-echo "/rat/procset file \"ANNIE_michel_line"$sL"to"$eL".cluster.ntuple.root\" " >> "$outfile"
+echo "/rat/procset file \"SANDI_michel_MichelChargeTunedQE_0.8xR_line"$sL"to"$eL".ntuple.root\" " >> "$outfile"
 echo "/generator/add combo spectrum:point" >> "$outfile"
 echo "/generator/vtx/set e- michel" >> "$outfile"
 

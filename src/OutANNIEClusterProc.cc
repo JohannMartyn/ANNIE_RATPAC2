@@ -106,6 +106,16 @@ bool OutANNIEClusterProc::OpenFile(std::string filename) {
   outputTree->Branch("mcw", &mcw);
   outputTree->Branch("mcke", &mcke);
   outputTree->Branch("mct", &mct);
+
+  // Getting the stopping point / end of track of the first particle
+  outputTree->Branch("mcx_firstStep", &mcx_firstStep);
+  outputTree->Branch("mcy_firstStep", &mcy_firstStep);
+  outputTree->Branch("mcz_firstStep", &mcz_firstStep);
+  outputTree->Branch("mcx_lastStep", &mcx_lastStep);
+  outputTree->Branch("mcy_lastStep", &mcy_lastStep);
+  outputTree->Branch("mcz_lastStep", &mcz_lastStep);
+
+
   // Event IDs and trigger time and nhits
   outputTree->Branch("evid", &evid);
   outputTree->Branch("subev", &subev);
@@ -242,6 +252,35 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
   mcw = mcDirz[0];
   mct = mcTime[0];
   mcke = accumulate(mcKEnergies.begin(), mcKEnergies.end(), 0.0);
+
+  mcx_firstStep = -666.0;
+  mcy_firstStep = -666.0;
+  mcz_firstStep = -666.0;
+  mcx_lastStep = -666.0;
+  mcy_lastStep = -666.0;
+  mcz_lastStep = -666.0;
+
+  //Getting the stopping point / end of track of the first particle
+  for (int trk = 0; trk < mc->GetMCTrackCount(); trk++) {
+    DS::MCTrack *track = mc->GetMCTrack(trk);
+
+    //Look only at the primary simulated particle
+    if( track->GetPDGCode() == mcpdg ){
+      info << dformat("OutANNIEClusterProc: track number %d, track pdg code %d, MC pdg code %d \n", trk, track->GetPDGCode(), mcpdg);
+      DS::MCTrackStep *step = track->GetMCTrackStep(0);
+      TVector3 tv = step->GetEndpoint();
+      mcx_firstStep = tv.X();
+      mcy_firstStep = tv.Y();
+      mcz_firstStep = tv.Z();
+      step = track->GetMCTrackStep(track->GetMCTrackStepCount()-1);
+      tv = step->GetEndpoint();
+      mcx_lastStep = tv.X();
+      mcy_lastStep = tv.Y();
+      mcz_lastStep = tv.Z();
+      break;
+    }
+  }
+
   // Tracking
   if (options.tracking) {
     int nTracks = mc->GetMCTrackCount();

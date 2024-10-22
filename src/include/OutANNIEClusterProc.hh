@@ -96,6 +96,11 @@ class OutANNIEClusterProc : public Processor {
   int subev;
   int nhits;
   double triggerTime;
+
+  // Getting the stopping point / end of track of the first particle
+  double mcx_firstStep, mcy_firstStep, mcz_firstStep;
+  double mcx_lastStep, mcy_lastStep, mcz_lastStep;
+
   // MC Summary Information
   double scintEdep;
   double scintEdepQuenched;

@@ -90,6 +90,7 @@ namespace RAT {
             catch (DBNotFoundError &e) {};
             
             G4LogicalSkinSurface* InnerStructureSurface_log = new G4LogicalSkinSurface( "innerStructureSurface", innerstructure_log, Materials::optical_surface[wrapper_material]);               
+
         }
 
         if ( !std::ifstream(pmt_pos_file_name.c_str()).is_open() ){
@@ -188,8 +189,8 @@ namespace RAT {
         //Check the material of the ANNIE holders somewhere!
         //ANNIE holders should be made out of polyethylene
         //Assume white acrylic since it should be similar
-        G4LogicalVolume *logANNIEHolder = new G4LogicalVolume(solidANNIEHolder,G4Material::GetMaterial("acrylic_white"),"WCANNIEHolder",0,0,0);
-        G4LogicalSkinSurface* ANNIEHolderSurface_log = new G4LogicalSkinSurface("ANNIEHolderSurface", logANNIEHolder, Materials::optical_surface["acrylic_white"]);
+        G4LogicalVolume *logANNIEHolder = new G4LogicalVolume(solidANNIEHolder,G4Material::GetMaterial("pvc_white"),"WCANNIEHolder",0,0,0);
+        G4LogicalSkinSurface* ANNIEHolderSurface_log = new G4LogicalSkinSurface("ANNIEHolderSurface", logANNIEHolder, Materials::optical_surface["pvc_white"]);
 
         if (color.size() == 3){  // RGB
             logANNIEHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
