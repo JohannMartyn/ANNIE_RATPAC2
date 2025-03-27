@@ -265,6 +265,26 @@ pos_table: "PMTINFO_config13_scan_side_ring_6",
 orientation: "manual", 
 }
 
+
+//added by MK
+//LAPPDs
+{ 
+name: "GEO", 
+index: "side_ring_lappds", 
+enable: 1,
+valid_begin: [0, 0], 
+valid_end: [0, 0], 
+mother: "detector", 
+type: "pmtarray", 
+pmt_model: "lappd",
+pmt_detector_type: "idpmt",
+sensitive_detector: "/mydet/pmt/inner", 
+//efficiency_correction: 1.000,  
+pos_table: "LAPPDINFO_config13_scan_side_ring",
+orientation: "manual", 
+}
+
+
 /////////////////////////////////////////////////////////////////////
 ///////////********** End of PMT arrays ***********//////////////////
 /////////////////////////////////////////////////////////////////////
