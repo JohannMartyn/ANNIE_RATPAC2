@@ -183,3 +183,51 @@ width: 102.5, //mm, half z
 thick: 5.0, //mm, half z
 }
 
+//added by MK
+{
+name: "PMT",
+index: "lappd",
+
+valid_begin: [0,0],
+valid_end: [0,0],
+
+construction: "lappd",
+
+glass_material: "glass_ANNIE",
+pmt_vacuum_material: "pmt_vacuum",
+photocathode_surface: "photocathode_lappd",
+
+glass_thickness: 1.0, // mm
+
+width: 105.5, //mm  // 28*5.2 + 27*1.7 = 191.5
+thick: 9.25, //mm
+
+noise_rate: 10000.0, // Hz
+}
+
+
+//added by MK
+{
+name: "PMT",
+index: "h11934",
+
+valid_begin: [0,0],
+valid_end: [0,0],
+
+construction: "cubic",
+
+case_material: "acrylic_white",
+glass_material: "glass_ANNIE",
+pmt_vacuum_material: "pmt_vacuum",
+photocathode_surface: "photocathode_H11934",
+mirror_surface: "mirror",
+
+case_thickness: 2.0, // mm
+glass_thickness: 1.0, // mm
+
+pmt_width: 15.0, //mm
+photocathode_width: 11.5, //mm
+
+noise_rate: 10000.0, // Hz
+}
+
