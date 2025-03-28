@@ -262,3 +262,30 @@ dir_z: [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 
 //MIchel charge tuning
 efficiency_corr: [0.0, 0.329601, 0.562257, 0.780689, 1.2281, 0.812487, 0.779715, 0.17975, 0.667788, 0.693786, 0.601264, 0.826848, 0.659419, 0.687199, 0.665639, 0.628201, 0.613479, 1.2156, 0.725044, 0.802707, ], 
 }
+
+//added by MK
+//64-ring 5
+//39-ring 4 , beam direction
+//58-ring3
+{
+  "name": "LAPPDINFO_config13_scan_side_ring",
+  "valid_begin": [0, 0],
+  "valid_end": [0, 0],
+
+  "ID": [39, 58, 64],
+
+  "x": [-0.941, -852.46, 852.55],
+  // The RATPAC y-coordinate corresponds here to the z-coordinate of the PMT position scan.
+  "y": [-1180.12, -892.06, -897.69],
+  // The RATPAC z-coordinate corresponds here to the y-coordinate of the PMT position scan.
+  "z": [1908.645, 1487.81, 2356.98],
+
+  "dir_x": [0.0039595, 0.6545185, -0.649473],
+  // The RATPAC y-coordinate corresponds here to the z-coordinate of the PMT position scan.
+  "dir_y": [0.9244215, 0.6529165, 0.657148],
+  // The RATPAC z-coordinate corresponds here to the y-coordinate of the PMT position scan.
+  "dir_z": [0.0, 0.0, 0.0],
+
+  // Michel charge tuning
+  //"efficiency_corr": [0.617211, 0.509258, 0.72276]
+}
