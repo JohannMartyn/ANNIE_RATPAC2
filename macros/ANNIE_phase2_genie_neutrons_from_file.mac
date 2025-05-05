@@ -1,0 +1,16 @@
+/tracking/storeTrajectory 1
+/tracking/discardParticleTrajectory opticalphoton
+/rat/db/set DETECTOR experiment "ANNIE" 
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
+/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo 
+/run/initialize
+/rat/proc splitevdaq
+/rat/proclast outanniecluster
+/rat/procset file "SANDI_genie_neutrons_untunedQE_0.8xR_event171.ntuple.root" 
+/generator/add combo gun:point
+/generator/vtx/set mu- -0.47709 -0.12502 0.86992 536.699
+/generator/pos/set 519.86 -504.45 1226.56
+/run/beamOn 1
+/generator/vtx/set neutron 0.56610 -0.23932 0.78883 5.88814
+/generator/pos/set 519.86 -504.45 1226.56
+/run/beamOn 1

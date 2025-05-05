@@ -1,0 +1,7 @@
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo
+
+/run/initialize
+
+/geometry/test/run

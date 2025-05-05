@@ -20,11 +20,11 @@
 #/process/eLoss/StepFunction 0.01 0.01 mm
 /run/initialize
 
-/rat/proc splitevdaq
+/rat/proc simpledaq
 
-#/rat/proclast outanniecluster
-/rat/proclast outntuple
-/rat/procset file "SANDI_neutron_outntuple_test_100Energy.ntuple.root"
+/rat/proclast outanniecluster
+#/rat/proclast outntuple
+/rat/procset file "SANDI_muon_neutron_outanniecluster_test.ntuple.root"
 
 #/generator/add combo gun:regexfill
 #/generator/vtx/set neutron 0 0 0 100.0
@@ -32,8 +32,7 @@
 #/generator/pos/set ^pmt_enclosed*|^wblsvolume_liquid*
 #/generator/pos/set ^wblsvolume_liquid*
 
-/generator/add combo gun:point
-/generator/vtx/set neutron 0 0 0 100.0
-/generator/pos/set 0.0 -33.8 1749.4
 
-/run/beamOn 1000
+/generator/add external external:poisson:"../../macros/test.dat"
+
+/run/beamOn 50
