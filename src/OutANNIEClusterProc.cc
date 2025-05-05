@@ -279,6 +279,23 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
       mcz_lastStep = tv.Z();
       break;
     }
+    /*
+    //Primary particle is neutron, save scattered protons...
+    } else if (mcpdg == 2112 && track->GetPDGCode() == 2212){ 
+      info << dformat("OutANNIEClusterProc: track number %d, track pdg code %d, MC pdg code %d \n", trk, track->GetPDGCode(), mcpdg);
+      DS::MCTrackStep *step = track->GetMCTrackStep(0);
+      TVector3 tv = step->GetEndpoint();
+      pdgcodes.push_back(track->GetPDGCode());
+      mcKEnergies.push_back( track->GetDepositedEnergy() );      
+      mcPosx.push_back(tv.X());
+      mcPosy.push_back(tv.Y());
+      mcPosz.push_back(tv.Z());
+      mcDirx.push_back(step->GetGlobalTime());
+      mcDiry.push_back(step->GetLocalTime());
+      mcDirz.push_back(step->GetProperTime());
+      mcTime.push_back(step->GetGlobalTime());
+    }
+    */
   }
 
   // Tracking
