@@ -142,7 +142,7 @@ pmt_model: "r7081_ANNIE", // Watchboy 10 inch
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_1",
+pos_table: "PMTINFO_config13_scan_side_ring_1_TILTED",
 orientation: "manual",
 } 
 
@@ -176,7 +176,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_2_2",
+pos_table: "PMTINFO_config13_scan_side_ring_2_2_TILTED",
 orientation: "manual",
 } 
 
@@ -210,7 +210,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_4_1",
+pos_table: "PMTINFO_config13_scan_side_ring_4_1_TILTED",
 orientation: "manual", 
 } 
 
@@ -227,7 +227,7 @@ pmt_model: "r7081_hqe_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_4_2",
+pos_table: "PMTINFO_config13_scan_side_ring_4_2_TILTED",
 orientation: "manual",  
 } 
 
@@ -261,7 +261,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_6",
+pos_table: "PMTINFO_config13_scan_side_ring_6_TILTED",
 orientation: "manual", 
 }
 
@@ -299,7 +299,7 @@ index: "InnerStructure_Holders_Blacksheets",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "detector",
-enable_inner_structure: 0, // setting this to 0 enables faster loading but no inner structure of course
+enable_inner_structure: 1, // setting this to 0 enables faster loading but no inner structure of course
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1981.2],
 inner_structure_rotation_angle: 157.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC

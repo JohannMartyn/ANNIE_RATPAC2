@@ -392,7 +392,7 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
   if (options.mchits) {
     for (int ipmt = 0; ipmt < mc->GetMCPMTCount(); ipmt++) {
       DS::MCPMT *mcpmt = mc->GetMCPMT(ipmt);
-      mcpmtid.push_back(mcpmt->GetID());
+      mcpmtid.push_back(pmtinfo->GetChannelNumber(mcpmt->GetID()));
       mcpmtnpe.push_back(mcpmt->GetMCPhotonCount());
       mcpmtcharge.push_back(mcpmt->GetCharge());
       TVector3 position = pmtinfo->GetPosition(mcpmt->GetID());
@@ -437,6 +437,10 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
     clusterHitsNPE.clear();
     clusterHitsPMTCharge.clear();
     this->ClusterFinder(mc);
+    for(int iC=0; iC<clusterHitsPMTID.size(); iC++){
+      clusterHitsPMTID[iC] = pmtinfo->GetChannelNumber( clusterHitsPMTID[iC] );
+    }
+    
   }
 
   // EV Branches
@@ -513,7 +517,7 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
 
       for (int pmtc = 0; pmtc < ev->GetPMTCount(); pmtc++) {
         RAT::DS::PMT *pmt = ev->GetPMT(pmtc);
-        hitPMTID.push_back(pmt->GetID());
+        hitPMTID.push_back(pmtinfo->GetChannelNumber(pmt->GetID()));
         hitPMTTime.push_back(pmt->GetTime());
         hitPMTCharge.push_back(pmt->GetCharge());
       }
@@ -713,7 +717,7 @@ bool OutANNIEClusterProc::ClusterFinder(DS::MC *mc){
             v_datalike_time.push_back(mid_time);
             v_datalike_charge.push_back(temp_charges);
             v_datalike_npe.push_back(temp_npe);
-            v_datalike_pmtid.push_back(mcpmt->GetID());           
+            v_datalike_pmtid.push_back( mcpmt->GetID());           
             v_hittimes.push_back(mid_time);
             
             temp_times.clear();
