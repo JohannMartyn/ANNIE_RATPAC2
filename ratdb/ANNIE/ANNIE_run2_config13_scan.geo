@@ -299,7 +299,7 @@ index: "InnerStructure_Holders_Blacksheets",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "detector",
-enable_inner_structure: 1, // setting this to 0 enables faster loading but no inner structure of course
+enable_inner_structure: 0, // setting this to 0 enables faster loading but no inner structure of course
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1981.2],
 inner_structure_rotation_angle: 157.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC
