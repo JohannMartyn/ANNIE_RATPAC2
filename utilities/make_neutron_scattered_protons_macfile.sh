@@ -13,6 +13,10 @@ fi
 
 echo "/tracking/storeTrajectory 1" > "$outfile"
 echo "/tracking/discardParticleTrajectory opticalphoton" >> "$outfile"
+
+echo "/process/had/particle_hp/use_photo_evaporation true" >> "$outfile"
+echo "/process/had/particle_hp/do_not_adjust_final_state true" >> "$outfile"
+
 echo "/rat/db/set DETECTOR experiment \"ANNIE\" " >> "$outfile"
 echo "/rat/db/set DETECTOR geo_file \"ANNIE/ANNIE_run2_config13_scan.geo\" " >> "$outfile"
 #echo "/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo " >> "$outfile"

@@ -7,6 +7,8 @@
 /tracking/storeTrajectory 0
 /tracking/discardParticleTrajectory opticalphoton
 
+/process/had/particle_hp/use_photo_evaporation true
+/process/had/particle_hp/do_not_adjust_final_state true
 
 /rat/proc prune
 /rat/procset prune "mc.track:opticalphoton"
