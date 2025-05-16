@@ -8,18 +8,18 @@
 /process/had/particle_hp/do_not_adjust_final_state true
 
 /rat/db/set DETECTOR experiment "ANNIE" 
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
-/rat/db/load ANNIE/SANDI1_WbLS_Vessel.geo
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan_sandi.geo" 
+/rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
 
 
 /run/initialize
 #/rat/physics/scintillation/meanPhotonsPerSecondary 1
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
-/rat/procset file "SANDI2_LY095_REEMChinaPaper_AmBe_1.00xQE_0.8xR_plus2cm_PMTTiltedMoved_CorrectGammas_D.ntuple.root" 
+/rat/procset file "SANDI2_LY095_REEMAmala_AmBe_1.00xQE_0.8xR_plus2cm_PMTTiltedMoved_CorrectGammas_CorrectSANDI2.ntuple.root" 
 /generator/add combo spectrum:point
 /generator/vtx/set neutron ambe_test
 #/generator/pos/set 0.0 -33.8 1749.4
 /generator/pos/set 0.0 486.2 1749.4
 
-/run/beamOn 1000
+/run/beamOn 10000

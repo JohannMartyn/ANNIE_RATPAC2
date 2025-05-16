@@ -26,7 +26,7 @@ type: "tube",
 size_z: 450.0,
 r_max: 360.0,
 position: [0.0,0.0,0.0],
-material: "wbls1pct_ly95_gdS0p2pct_SANDI",
+material: "wbls1pct_ly95_SANDI",
 color: [0.9, 0.1, 0.4, 0.9],
 drawstyle: "solid", 
 }
