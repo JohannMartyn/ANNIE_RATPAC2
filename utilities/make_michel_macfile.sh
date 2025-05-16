@@ -19,7 +19,7 @@ outfile="ANNIE_RATPAC2/macros/ANNIE_phase2_michels_from_file.mac"
 
 echo "/rat/db/set DETECTOR experiment \"ANNIE\" " > "$outfile"
 echo "/rat/db/set DETECTOR geo_file \"ANNIE/ANNIE_run2_config13_scan.geo\" " >> "$outfile"
-echo "/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo " >> "$outfile"
+echo "/rat/db/load ANNIE/SANDI1_WbLS_Vessel.geo " >> "$outfile"
 echo "/run/initialize" >> "$outfile"
 echo "/rat/proc splitevdaq" >> "$outfile"
 echo "/rat/proclast outanniecluster" >> "$outfile"

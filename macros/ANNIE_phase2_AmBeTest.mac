@@ -9,14 +9,14 @@
 
 /rat/db/set DETECTOR experiment "ANNIE" 
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
-/rat/db/load ANNIE/ANNIE_WbLS_Volume_Johann.geo
+/rat/db/load ANNIE/SANDI1_WbLS_Vessel.geo
 
 
 /run/initialize
 #/rat/physics/scintillation/meanPhotonsPerSecondary 1
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
-/rat/procset file "SANDI2_LY095_REEMChinaPaper_AmBe_1.00xQE_0.8xR_plus2cm_PMTTiltedMoved_A.ntuple.root" 
+/rat/procset file "SANDI2_LY095_REEMChinaPaper_AmBe_1.00xQE_0.8xR_plus2cm_PMTTiltedMoved_CorrectGammas_D.ntuple.root" 
 /generator/add combo spectrum:point
 /generator/vtx/set neutron ambe_test
 #/generator/pos/set 0.0 -33.8 1749.4
