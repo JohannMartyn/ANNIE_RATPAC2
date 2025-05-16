@@ -125,7 +125,7 @@ pmt_model: "d784kflb", //ETEL 11inch
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_topgrid",
+pos_table: "PMTINFO_config13_scan_topgrid_SANDI",
 orientation: "manual",
 } 
 
@@ -306,6 +306,7 @@ inner_structure_rotation_angle: 157.5, // to rotate the structure along the Z (v
 inner_structure_wrapper_material: "tyvek_wrapper_ANNIE", //"tyvek", //could be something different, which is defined in the OPTICS_ANNIE.ratdb
 inner_structure_color: [1.0, 0.0, 0.0, 1.0],
 inner_structure_invisible: 0,
+enable_sandi_configuration: 1,
 pmt_position_file:"../share/annie/ratdb/ANNIE/PMTPositions_Scan.txt",
 enable_annie_holders: 1, //ANNIE holders on the side; code copied from WCSim 
 annie_holders_color: [1.0, 1.0, 1.0, 0.5],

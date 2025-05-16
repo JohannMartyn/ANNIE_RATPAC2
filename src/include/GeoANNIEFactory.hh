@@ -14,7 +14,7 @@ namespace RAT {
             virtual G4VPhysicalVolume *Construct(DBLinkPtr table);
         protected:
             void ConstructANNIEHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible);
-            void ConstructLUXETELHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible);
+            void ConstructLUXETELHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible, const G4int sandi_yes);
             void ConstructBlackSheet(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible);
     };
   

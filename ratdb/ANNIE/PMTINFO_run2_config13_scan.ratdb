@@ -266,6 +266,30 @@ efficiency_corr: [1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000
 }
 
 {
+name: "PMTINFO_config13_scan_topgrid_SANDI",
+//d784kflb 1
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+x: [-152.392, -813.383, 468.804, -478.02, -679.305, -815.81, -685.076, -151.149, -468.627, 483.502, 814.633, 154.679, 813.602, 677.824, 683.524, 150.493, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+y: [-850.524, -185.272, -702.847, -718.966, -511.572, 101.478, 428.513, 778.22, 631.452, 642.697, 108.337, 783.467, -184.082, -509.055, 435.894, -848.342, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+z: [3227.15, 3228.56, 3233.69, 3232.14, 3232.89, 3228.56, 3228.56, 3228.56, 3233.14, 3231.62, 3228.56, 3230.63, 3228.56, 3228.56, 3230.52, 3228.56, ],
+
+dir_x: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ],
+//The RATPAC y-coordinate corresponds here to the z-corrdinate of the PMT position scan.
+dir_y: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, ],
+//The RATPAC z-coordinate corresponds here to the y-corrdinate of the PMT position scan.
+dir_z: [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0,],
+
+channel_number: [352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 365, 366, 367, 369, ],
+
+efficiency_corr: [1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, ],
+
+}
+
+{
 name: "PMTINFO_config13_scan_side_ring_1_TILTED",
 //r7081_ANNIE 0
 valid_begin: [0, 0],

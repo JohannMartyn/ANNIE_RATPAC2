@@ -48,6 +48,8 @@ namespace RAT {
         G4int enable_luxetelholders = dbinfo->GetI("enable_luxetel_holders");
         G4int enable_blacksheets = dbinfo->GetI("enable_black_sheets");
         
+        G4int enable_sandi_configuration = dbinfo->GetI("enable_sandi_configuration");
+
         G4int write_gdml = dbinfo->GetI("write_gdml"); // InnerStructure center
 
         G4GDMLParser parser;
@@ -132,7 +134,7 @@ namespace RAT {
                 invisible = dbinfo->GetI("luxetel_holders_invisible");
             }
             catch (DBNotFoundError &e) {};
-            ConstructLUXETELHolders(motherLog, pmt_pos_file_name, color, invisible);
+            ConstructLUXETELHolders(motherLog, pmt_pos_file_name, color, invisible, enable_sandi_configuration);
         }
         if(enable_blacksheets != 0){
             std::vector<double> color(4);
@@ -264,7 +266,7 @@ namespace RAT {
 
     }
 
-    void GeoANNIEFactory::ConstructLUXETELHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible){
+    void GeoANNIEFactory::ConstructLUXETELHolders(G4LogicalVolume *motherLog, const G4String& file_name, const std::vector<double> &color, const G4int invisible, const G4int sandi_yes){
 
         //Code copied fromWCSim and adopted to RATPAC
 
@@ -406,7 +408,10 @@ namespace RAT {
                     }
                 }
                 //4 holder in the inner ring are rotated by 90CLHEP::degrees w.r.t. the holders in the outer ring
-                if (sqrt(holder_x*holder_x+holder_y*holder_y) < 500.0) holder_rot->rotateZ(90*CLHEP::deg);
+                if (sqrt(holder_x*holder_x+holder_y*holder_y) < 500.0){
+                    if(sandi_yes) continue;
+                    holder_rot->rotateZ(90*CLHEP::deg);
+                }
                 G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
                 G4VPhysicalVolume *physicalHolder = new G4PVPlacement(holder_rot,   //its rotation
                                     HolderPosition,         //its position
