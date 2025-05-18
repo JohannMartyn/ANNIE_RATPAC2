@@ -22,3 +22,15 @@ nmaterials: 4,
 materials: ["lab", "ppo", "water", "gadolinium_sulfate_octahydrate"],
 matprop: [0.009977, 2.3e-05, 0.988, 0.002]
 }
+
+{
+name: "MATERIAL",
+index: "acrylic_SANDI",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.14,
+nelements: 3,
+nmaterials: 0,
+elements: ["Hydrogen", "Carbon", "Oxygen"],
+elemprop: [0.0703, 0.558, 0.3717],
+}
