@@ -267,7 +267,7 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
 
     //Look only at the primary simulated particle
     if( track->GetPDGCode() == mcpdg ){
-      info << dformat("OutANNIEClusterProc: track number %d, track pdg code %d, MC pdg code %d \n", trk, track->GetPDGCode(), mcpdg);
+      //info << dformat("OutANNIEClusterProc: track number %d, track pdg code %d, MC pdg code %d \n", trk, track->GetPDGCode(), mcpdg);
       DS::MCTrackStep *step = track->GetMCTrackStep(0);
       TVector3 tv = step->GetEndpoint();
       mcx_firstStep = tv.X();

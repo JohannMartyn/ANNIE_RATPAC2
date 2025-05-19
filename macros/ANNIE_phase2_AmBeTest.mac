@@ -16,10 +16,11 @@
 #/rat/physics/scintillation/meanPhotonsPerSecondary 1
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
-/rat/procset file "SANDI2_LY190_AcrylAttx3_REEMAmala_AbsNoah_AbsWaterWCSim_AmBe_1.00xQE_0.8xR_plus2cm_PMTTiltedMoved.ntuple.root" 
+/rat/procset file "SANDI2_AmBe_LY095_AcrylAttx1_REEMAmala_AbsNoah_AbsWaterWCSim_NoCable_Exact50cm_1.00xQE_0.8xR.ntuple.root" 
+#/rat/procset file "ANNIE_AmBe_AbsWater2016_1.00xQE_0.8xR.ntuple.root" 
 /generator/add combo spectrum:point
 /generator/vtx/set neutron ambe_test
 #/generator/pos/set 0.0 -33.8 1749.4
-/generator/pos/set 0.0 486.2 1749.4
+/generator/pos/set 0.0 466.2 1749.4
 
 /run/beamOn 10000

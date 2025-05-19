@@ -10,7 +10,7 @@
 /rat/procset prune "mc.track:opticalphoton"
 
 /rat/db/set DETECTOR experiment "ANNIE"
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan_sandi.geo"
 /rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
 
 /run/initialize
