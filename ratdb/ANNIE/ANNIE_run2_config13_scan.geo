@@ -141,7 +141,8 @@ pmt_model: "r7081_ANNIE", // Watchboy 10 inch
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_1_TILTED",
+pos_table: "PMTINFO_config13_scan_side_ring_1_ipmtTILTED",
+//pos_table: "PMTINFO_config13_scan_side_ring_1",
 orientation: "manual",
 } 
 
@@ -175,7 +176,8 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_2_2_TILTED",
+pos_table: "PMTINFO_config13_scan_side_ring_2_2_ipmtTILTED",
+//pos_table: "PMTINFO_config13_scan_side_ring_2_2",
 orientation: "manual",
 } 
 
@@ -209,7 +211,8 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_4_1_TILTED",
+pos_table: "PMTINFO_config13_scan_side_ring_4_1_ipmtTILTED",
+//pos_table: "PMTINFO_config13_scan_side_ring_4_1",
 orientation: "manual", 
 } 
 
@@ -226,7 +229,8 @@ pmt_model: "r7081_hqe_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_4_2_TILTED",
+pos_table: "PMTINFO_config13_scan_side_ring_4_2_ipmtTILTED",
+//pos_table: "PMTINFO_config13_scan_side_ring_4_2",
 orientation: "manual",  
 } 
 
@@ -260,7 +264,8 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config13_scan_side_ring_6_TILTED",
+pos_table: "PMTINFO_config13_scan_side_ring_6_ipmtTILTED",
+//pos_table: "PMTINFO_config13_scan_side_ring_6",
 orientation: "manual", 
 }
 
@@ -317,10 +322,32 @@ enable_black_sheets: 1, //Black sheet for optical insulation; octagonal shape; c
 black_sheet_color: [0.0, 1.0, 0.0, 0.2],
 black_sheet_invisible: 1,
 write_gdml: 0, //Write a gdml file to check the geometry by eye with a CAD program
+enable_superSANDI: 0,
 gdml_out_file: "test_output.gdml",
 type: "annieInnerStructures", //see the geo factory
 }
 
 /////////////////////////////////////////////////////////////////////
 //////////******** End of inner structures ********//////////////////
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+////////////////******** nylon vessel ********///////////////////////
+/////////////////////////////////////////////////////////////////////
+
+{
+name: "SuperSANDIGeo",
+index: "SuperSANDIConfig",
+valid_begin: [0, 0],
+valid_end: [0, 0],
+nylon_vessel_position: [0.0, 0.0, -25.0],
+vessel_invisible: 0,
+nylon_vessel_color: [0.0, 1.0, 0.0, 1.0],
+detection_medium_invisible: 0,
+detmed_color: [0.0, 1.0, 0.5, 0.2],
+detection_medium_material: "wbls1pct_ly95_gdS0p2pct_SANDI",
+}
+
+/////////////////////////////////////////////////////////////////////
+///////////////******** end of nylon vessel ********/////////////////
 /////////////////////////////////////////////////////////////////////

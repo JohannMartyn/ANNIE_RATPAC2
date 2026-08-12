@@ -7,15 +7,8 @@
 /tracking/storeTrajectory 0
 /tracking/discardParticleTrajectory opticalphoton
 
-
-/rat/proc prune
-/rat/procset prune "mc.track:opticalphoton"
-/rat/procset prune "mc.track:e-"
-/rat/procset prune "mc.track:neutron"
-
 /rat/db/set DETECTOR experiment "ANNIE"
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan_sandi.geo"
-/rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan_sandi.geo" 
 
 /run/initialize
 
@@ -23,16 +16,12 @@
 /rat/proc count
 /rat/procset update 10
 
-
-#/rat/proclast outroot
-#/rat/procset file "SANDI_LY127_michel_5.ntuple.root"
-
 /rat/proclast outanniecluster
-/rat/procset file "SANDI_LY127_michel_5.ntuple.root"
+/rat/procset file "SANDI_water_Rh106_BetaSpectrum.ntuple.root"
 
-/generator/add combo spectrum:regexfill
-/generator/vtx/set e- michel
-/generator/pos/set ^detector*
+/generator/add combo spectrum:point
+/generator/vtx/set e- Rh106_BetaSpectrum
+/generator/pos/set 0.0 0.0 1749.4
 
 #/generator/pos/set ^detector*|^ncv*
 
@@ -40,4 +29,4 @@
 #/generator/vtx/set e- michel
 #/generator/pos/set 0.0 -33.8 1749.4
 
-/run/beamOn 10000
+/run/beamOn 30

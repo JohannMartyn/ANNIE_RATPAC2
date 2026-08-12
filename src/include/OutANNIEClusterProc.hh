@@ -4,7 +4,6 @@
 #include <RAT/DS/Run.hh>
 #include <RAT/Processor.hh>
 #include <functional>
-
 //#include <TInterpreter.h>
 
 class TFile;
@@ -68,9 +67,6 @@ class OutANNIEClusterProc : public Processor {
   };
   ClusterSettings clusterSettings;
 
-  void ClusterParameters(std::vector<double> hit_x, std::vector<double> hit_y, std::vector<double> hit_z, std::vector<double> hit_t, std::vector<double> hit_q, std::vector<double> vertex);
-  //std::vector<double> ClusterParameters(std::vector<double> hit_x, std::vector<double> hit_y, std::vector<double> hit_z, std::vector<double> hit_t, std::vector<double> hit_q, std::vector<double> vertex);
-
  protected:
   std::string defaultFilename;
   TFile *outputFile;
@@ -129,7 +125,6 @@ class OutANNIEClusterProc : public Processor {
   std::vector<double> mcpecharge;
   // MCParticles
   int mcpcount;
-  int eventExist;
   std::vector<Int_t> pdgcodes;
   std::vector<double> mcKEnergies;
   std::vector<double> mcPosx;
@@ -172,21 +167,6 @@ class OutANNIEClusterProc : public Processor {
   void SetBranchValue(std::string name, int *value);
   void SetBranchValue(std::string name, bool *value);
 
-  //neutron capture stuff from MC
-  std::vector<std::vector<int>> n_trackPDG;
-  std::vector<std::vector<int>> n_trackID;
-  //std::vector<std::vector<std::string>> n_trackPDG_str;
-  //std::vector<std::vector<std::string>> n_track_nCapVol;
-  std::vector<std::vector<double>> n_trackPosX;
-  std::vector<std::vector<double>> n_trackPosY;
-  std::vector<std::vector<double>> n_trackPosZ;
-  std::vector<std::vector<double>> n_trackMomX;
-  std::vector<std::vector<double>> n_trackMomY;
-  std::vector<std::vector<double>> n_trackMomZ;
-  std::vector<std::vector<double>> n_trackKE;
-  std::vector<std::vector<double>> n_trackTime;
-  int CapInsideSANDI = 0;
-
   //Adapted from ToolAnalysis ClusterFinder
   /*
   int numClusters;
@@ -202,24 +182,14 @@ class OutANNIEClusterProc : public Processor {
   */
   int numClusters;
   double clusterCharge;
-  double clusterChargeRMS;
   double clusterChargeBalance; //double charge_balance  = sqrt((total_QSquared)/(total_Q*total_Q) - (1./121.)); Change 121 to value from ratdb file
   int clusterNPE;
   double clusterTime;
-  double clusterTimeRMS;
   int numClusteredPMTHits;
   std::vector<int> clusterHitsPMTID;
   std::vector<double> clusterHitsPMTTime;
   std::vector<int> clusterHitsNPE;
   std::vector<double> clusterHitsPMTCharge;
-
-  int nPols = 6;
-  std::vector<double> LegPolVals1;
-  std::vector<double> LegPolVals2;
-  std::vector<double> LegPolVals3;
-  std::vector<double> LegPolVals4;
-  std::vector<double> LegPolVals5;
-  std::vector<double> LegPolVals6;
 
   bool ClusterFinder(DS::MC *mc);
   //std::vector<std::vector<double> > v_datalike_time;

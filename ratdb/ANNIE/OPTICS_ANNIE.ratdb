@@ -424,7 +424,7 @@ type: "dielectric_metal",
 polish: 0.01,
 REFLECTIVITY_option: "wavelength",
 REFLECTIVITY_value1:[60.0, 800.0, ],
-REFLECTIVITY_value2:[0.8000, 0.8000, ], // tyvek_wrapper_ANNIE
+REFLECTIVITY_value2:[0.0000, 0.0000, ], // tyvek_wrapper_ANNIE, was 1.0000
 ABSLENGTH_option: "wavelength",
 ABSLENGTH_value1: [60.0, 800.0, ],
 ABSLENGTH_value2: [1e3, 1e3, ],
@@ -445,7 +445,7 @@ polish: 0.1,
 //arbitrarily extended properties down to 60nm
 REFLECTIVITY_option: "wavelength",
 REFLECTIVITY_value1: [60.0,  800.0, ],
-REFLECTIVITY_value2: [0.8000, 0.8000, ], //made up, white color
+REFLECTIVITY_value2: [0.0000, 0.0000, ], //made up, white color, was 1.0000
 ABSLENGTH_option: "wavelength",
 ABSLENGTH_value1: [60.0,  200.0, 400.0, 600.0, 800.0, ],
 ABSLENGTH_value2: [1e-3, 1e-3, 1.6e-1, 2.1e-1, 2.5e-1, ],

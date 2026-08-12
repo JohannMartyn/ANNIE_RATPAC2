@@ -55,6 +55,7 @@ namespace RAT {
     G4GDMLParser parser;
 
     G4int enable_superSANDI = dbinfo->GetI("enable_superSANDI");
+    info << "enable_superSANDI " << enable_superSANDI << newline;
     
     G4ThreeVector StructureCenter(inner_structure_center[0],inner_structure_center[1],inner_structure_center[2]);  
     G4RotationMatrix* rotm = new G4RotationMatrix();
