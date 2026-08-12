@@ -19,6 +19,14 @@
 
 /run/initialize
 
+/geometry/test/tolerance 0 mm
+/geometry/test/verbosity true
+/geometry/test/resolution 100000
+/geometry/test/recursion_start 0
+/geometry/test/recursion_depth -1
+/geometry/test/maximum_errors 1000
+/geometry/test/run
+
 #/rat/proc simpledaq
 #/rat/proc count
 #/rat/procset update 10

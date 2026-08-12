@@ -71,7 +71,7 @@ namespace RAT {
       innerstructure_phys = parser.GetWorldVolume();
 
       innerstructure_log = innerstructure_phys->GetLogicalVolume();
-      innerstructure_phys_placement = new G4PVPlacement(rotm, StructureCenter, innerstructure_log, "innerstructure_phys", motherLog, false, 0, false);
+      innerstructure_phys_placement = new G4PVPlacement(rotm, StructureCenter, innerstructure_log, "innerstructure_phys", motherLog, false, 0, true);
 
 
       try {
@@ -454,7 +454,7 @@ namespace RAT {
                                                           // from blueprints of inner structure diameter is 106.64",
                                                           // hexagonal side is 40.81", 100.57" from face-to-face
                                                           // (note: OUTER dimensions, including steel bar width)
-    G4double WCIDRadius = WCIDDiameter/2.;
+    G4double WCIDRadius = WCIDDiameter/2. + 2.0*CLHEP::cm;
 
     G4double WCBarrelPMTOffset        = 0.415*CLHEP::m;     // offset of first barrel ring from tank caps  0.4 -> .34?
     G4double WCBlackSheetThickness    = 1.01*CLHEP::mm;   // liner is 40 mil. = 40 milli inches. 
@@ -522,13 +522,14 @@ namespace RAT {
 
       G4double capBlackSheetZ[2] = {-WCBlackSheetThickness*zflip, 0.};
       G4double capBlackSheetRmin[2] = {0., 0.};
-      G4double capBlackSheetRmax[2] = {BlackSheetRadius+WCBlackSheetThickness, 
+      G4double capBlackSheetRmax[2] = {BlackSheetRadius+WCBlackSheetThickness,
         BlackSheetRadius+WCBlackSheetThickness};
-      G4VSolid* solidWCCapBlackSheet;
+
+      G4VSolid* solidWCCapBlackSheet = nullptr;
       if(WCBarrelRingNPhi*WCPMTperCellHorizontal == WCBarrelNumPMTHorizontal){
         solidWCCapBlackSheet
           = new G4Polyhedra("WCCapBlackSheet",  // name
-              0.*CLHEP::deg,             // phi start
+              0.*CLHEP::deg,      // phi start
               totalAngle,         // total phi
               WCBarrelRingNPhi,   // NPhi-gon
               2,                  // z-planes
@@ -536,11 +537,19 @@ namespace RAT {
               capBlackSheetRmin,  // min radius at the z planes
               capBlackSheetRmax   // max radius at the Z planes
               );
-        // G4cout << *solidWCCapBlackSheet << G4endl;
+      }
+      if(solidWCCapBlackSheet == nullptr){
+        warn << "GeoANNIEFactory::ConstructBlackSheet: cap blacksheet not built, "
+             << "WCBarrelRingNPhi*WCPMTperCellHorizontal != WCBarrelNumPMTHorizontal" << newline;
+        continue;
       }
 
-      G4LogicalVolume* logicWCCapBlackSheet;
-      G4SubtractionSolid* solidWCCapBlackSheetHole = (G4SubtractionSolid*) solidWCCapBlackSheet;
+      // Every cut below chains onto this pointer, so both caps keep all of them.
+      G4VSolid* solidWCCapBlackSheetHole = solidWCCapBlackSheet;
+
+      //--------------------------------------------------------------------
+      // ETEL PMT holes -- top cap only
+      //--------------------------------------------------------------------
       if (zflip == 1){
         //Select only ETEL + LUX PMTs and propagate their position up-/downwards to get central holder position
         std::ifstream pmt_position_file(file_name.c_str());
@@ -560,35 +569,54 @@ namespace RAT {
 
             G4Tubs *WCCap_Hole = new G4Tubs("WCCap_Hole",0.0*CLHEP::cm,8.414*CLHEP::cm,WCBlackSheetThickness+0.1*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
 
-            //Create combined logical volume of the Box + Tube to get holder with hole (Subtraction Solid)
-
             solidWCCapBlackSheetHole = new G4SubtractionSolid("WCCapBlackSheetHole",
                 solidWCCapBlackSheetHole,
                 WCCap_Hole,
                 0,
                 G4ThreeVector(hole_x,hole_y,0.));
 
-
           }
-
         }
         pmt_position_file.close();
-
-        logicWCCapBlackSheet =
-          new G4LogicalVolume(solidWCCapBlackSheetHole,
-              G4Material::GetMaterial("polyethylene_black"),
-              "WCCapBlackSheet",
-              0,0,0);
-
-      } else {
-
-        logicWCCapBlackSheet =
-          new G4LogicalVolume(solidWCCapBlackSheet,
-              G4Material::GetMaterial("polyethylene_black"),
-              "WCCapBlackSheet",
-              0,0,0);
-
       }
+
+      //--------------------------------------------------------------------
+      // Slots for the 8 legs of the inner structure -- BOTH caps.
+      // The frame is rotated by 157.5 deg = 3.5 x 45 deg, which lands its
+      // legs on the corners of the cap octagon, i.e. phi = k*45 deg here.
+      // TODO: replace the three sizes below with the CAD values.
+      //--------------------------------------------------------------------
+      const G4int    nLegs       = WCBarrelRingNPhi;  // 8
+      const G4double legCentreR  = 136.0*CLHEP::cm;   // radius of the leg centre
+      const G4double legRadius   = 4.0*CLHEP::cm;
+      const G4double legClear    = 2.0*CLHEP::cm;     // clearance on every face
+
+      G4Tubs* legCut = new G4Tubs("WCCap_LegCut",
+          0.0*CLHEP::cm,
+          legRadius + legClear,
+          WCBlackSheetThickness + 2.0*CLHEP::mm,
+          0*CLHEP::deg,
+          360*CLHEP::deg);
+
+      for (G4int leg = 0; leg < nLegs; ++leg){
+        const G4double phi = leg * (360.0*CLHEP::deg / nLegs);
+        G4RotationMatrix* legRot = new G4RotationMatrix();
+        legRot->rotateZ(-phi);   // G4PVPlacement convention: passive rotation
+        solidWCCapBlackSheetHole = new G4SubtractionSolid("WCCapBlackSheetLegHole",
+            solidWCCapBlackSheetHole,
+            legCut,
+            legRot,
+            G4ThreeVector(legCentreR*std::cos(phi), legCentreR*std::sin(phi), 0.));
+      }
+
+      //--------------------------------------------------------------------
+      // Logical volume, built once from whatever cuts were applied
+      //--------------------------------------------------------------------
+      G4LogicalVolume* logicWCCapBlackSheet =
+        new G4LogicalVolume(solidWCCapBlackSheetHole,
+            G4Material::GetMaterial("polyethylene_black"),
+            "WCCapBlackSheet",
+            0,0,0);
 
       if (color.size() == 3){  // RGB
         logicWCCapBlackSheet->SetVisAttributes(G4Color(color[0], color[1], color[2]));
@@ -604,7 +632,9 @@ namespace RAT {
 
       G4double AssemblyHeight = capAssemblyHeight*zflip + InnerStructureCentreOffset - 5.0*CLHEP::cm;
 
-      G4LogicalSkinSurface* WCCapBlackSheetSurface_log = new G4LogicalSkinSurface( "WCCapBlackSheetSurface_log", logicWCCapBlackSheet, Materials::optical_surface["polyethylene_black"]);
+      G4String capSurfName = (zflip > 0) ? "WCCapBlackSheetSurface_top_log"
+                                         : "WCCapBlackSheetSurface_bottom_log";
+      G4LogicalSkinSurface* WCCapBlackSheetSurface_log = new G4LogicalSkinSurface( capSurfName, logicWCCapBlackSheet, Materials::optical_surface["polyethylene_black"]);
 
       G4VPhysicalVolume* physiWCCapBlackSheet =
         new G4PVPlacement(0,
@@ -613,7 +643,7 @@ namespace RAT {
             "WCCapBlackSheet",
             motherLog,
             false,
-            0,
+            (zflip > 0) ? 1 : 0,   // copy no: 0 = bottom, 1 = top
             true);
 
       G4cout<<"constructed cap blacksheet at height "<<AssemblyHeight<<G4endl;
