@@ -60,6 +60,7 @@ namespace RAT {
     G4ThreeVector StructureCenter(inner_structure_center[0],inner_structure_center[1],inner_structure_center[2]);  
     G4RotationMatrix* rotm = new G4RotationMatrix();
     rotm->rotateZ(rot_angle*CLHEP::deg);
+    //rotm->rotateX(90.0*CLHEP::deg);
 
     // Get structure from GDML file
     G4VPhysicalVolume* innerstructure_phys;
@@ -211,7 +212,9 @@ namespace RAT {
     if (invisible != 0) logANNIEHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
 
     //G4double dist_pmt_holder = 10.84;     //Holder is 20cm away from the front face of the ANNIE PMTs, WCSim center is 9.16cm away from front --> 10.84cm distance
-    G4double dist_pmt_holder = 7.84;        //Reduce distance by 3cm to prevent geometry overlaps
+    G4double dist_pmt_holder = 20.0 - 3.0; // Here we read in the Scan_PMT_Glass file, which measures exactly the front face of the ANNIE PMTs
+                                     // so we should keep just this 20cm offset.
+                                     // Hopefully the 20cm have been measured correctly...
 
     //Read in PMT positions again, and project position of holder positions from the PMT positions
 
@@ -221,12 +224,13 @@ namespace RAT {
     G4RotationMatrix *WCBottomCapRotation = new G4RotationMatrix();
     holder_rotation_matrices.push_back(WCBottomCapRotation);
     G4RotationMatrix* WCPMTRotation = new G4RotationMatrix;
-    WCPMTRotation->rotateY(90.*CLHEP::deg);    
+    WCPMTRotation->rotateY(90.*CLHEP::deg);
+
     // Barrel PMTs have panel numbers 1-8
     for(G4int facei=0; facei<WCBarrelRingNPhi; facei++){
       G4RotationMatrix* WCPMTRotationNext = new G4RotationMatrix(*WCPMTRotation);
-      WCPMTRotationNext->rotateX((dPhi*CLHEP::deg*facei)-67.5*CLHEP::deg+180.0*CLHEP::deg);
-      //WCPMTRotationNext->rotateX((dPhi*CLHEP::deg*facei));
+      //WCPMTRotationNext->rotateX((dPhi*CLHEP::deg*facei)-67.5*CLHEP::deg+180.0*CLHEP::deg);
+      WCPMTRotationNext->rotateX(-(dPhi*CLHEP::deg*(facei-1.0))+67.5*CLHEP::deg-45.0*CLHEP::deg );
       holder_rotation_matrices.push_back(WCPMTRotationNext);
     }
     // Top PMTs have panel number 9
@@ -254,8 +258,8 @@ namespace RAT {
         pmt_z += (sin(phi_temp)*dist_pmt_holder);
 
         holder_x = pmt_x*CLHEP::cm;
-        holder_y = (168.1-pmt_z)*CLHEP::cm;
-        holder_z = ((pmt_y+14.45))*CLHEP::cm;
+        holder_z = (pmt_y + 14.45)*CLHEP::cm;
+        holder_y = (pmt_z - 168.1)*CLHEP::cm;
 
         //G4cout <<HolderID <<"\t" << panel_nr <<"\t" << holder_x<<","<<holder_y<<","<<holder_z<<G4endl;
 
@@ -311,8 +315,8 @@ namespace RAT {
         0,0,0);
     G4LogicalSkinSurface* LUXHolderSurface_log = new G4LogicalSkinSurface( "LUXHolderSurface", logLUXHolder, Materials::optical_surface["pvc_black"]);
 
-    //G4double dist_pmt_holder_lux = 6.0;       //LUX center is 11.7CLHEP::cm from glass front surface total distance glass surface-wings = 17.7CLHEP::cm, dist = 6.0CLHEP::cm
-    G4double dist_pmt_holder_lux = 5.5;     //Slightly reduce distance from 6 to 5.5 CLHEP::cm to prevent geometry overlaps
+    //G4double dist_pmt_holder_lux = 6.0; //LUX center is 11.7CLHEP::cm from glass front surface total distance glass surface-wings = 17.7CLHEP::cm, dist = 6.0CLHEP::cm
+    G4double dist_pmt_holder_lux = 17.7 - 1.2; //We read from the PMT_Scan_Glass file, so here we should just set this 17.7cm value
 
     //G4Tubs *ETELHolder_Tube = new G4Tubs("ETELHolder_Tube",0.0*CLHEP::cm,8.41375*CLHEP::cm,5.62*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
     //Distance ETEL holder /PMT: 11.25CLHEP::cm (->5.625CLHEP::cm) + 18CLHEP::cm housing height (->9CLHEP::cm): 14.625CLHEP::cm
@@ -331,7 +335,7 @@ namespace RAT {
 
 
     //G4double dist_pmt_holder_etel = 7.25; //ETEL center is 11.8CLHEP::cm from glass front surface, total distance from glass surface to wings is 19.05CLHEP::cm (7.5") -> dist = 19.05CLHEP::cm-11.8CLHEP::cm = 7.25CLHEP::cm
-    G4double dist_pmt_holder_etel = 11.25;  //Try to get ETEL wings above the top part of the Inner Structure--> increase distance
+    G4double dist_pmt_holder_etel = 19.05 + 5.1;  //We read from the Scan_PMT_Glass file, so we should just set the 19.05cm here
 
 
     //Create Rotation matrix for PMT holders
@@ -368,14 +372,14 @@ namespace RAT {
                                           //Shift the PMT position outwards
 
         G4RotationMatrix *holder_rot = new G4RotationMatrix(*WCPMTRotation);
-        holder_rot->rotateZ((45+90)*CLHEP::deg);
+        holder_rot->rotateZ(45*CLHEP::deg);
         pmt_x -= (pmt_dirx*dist_pmt_holder_lux);
         pmt_y -= (pmt_diry*dist_pmt_holder_lux);
         pmt_z -= (pmt_dirz*dist_pmt_holder_lux);
 
         holder_x = pmt_x*CLHEP::cm;
-        holder_y = (168.1-pmt_z)*CLHEP::cm;
-        holder_z = ((pmt_y+14.45))*CLHEP::cm;
+        holder_z = (pmt_y+14.45)*CLHEP::cm;
+        holder_y = (pmt_z-168.1)*CLHEP::cm;
 
         //G4cout <<"Edited LUX Holder position ("<<holder_x<<","<<holder_y<<","<<holder_z<<")"<<G4endl;
 
@@ -388,6 +392,7 @@ namespace RAT {
             false,              //no boolean operations
             HolderID,           //ID for this PMT (=channelkey in data)
             true);              //check overlaps
+        
       }
       else if (fabs(pmt_diry+1.) < 0.00001) {       //select only ETEL PMTs for the holders (pointing downwards)
 
@@ -396,23 +401,33 @@ namespace RAT {
         pmt_z -= (pmt_dirz*dist_pmt_holder_etel);
 
         holder_x = pmt_x*CLHEP::cm;
-        holder_y = (168.1-pmt_z)*CLHEP::cm;
-        holder_z = ((pmt_y+14.45))*CLHEP::cm;
+        holder_z = (pmt_y+14.45)*CLHEP::cm;
+        holder_y = (pmt_z-168.1)*CLHEP::cm;
 
         //G4cout <<"Edited ETEL Holder position ("<<holder_x<<","<<holder_y<<","<<holder_z<<")"<<G4endl;
 
         G4RotationMatrix *holder_rot = new G4RotationMatrix(*WCPMTRotation);
-        double phi = atan2(holder_x,holder_y);
-        phi = (phi > 0)? phi : 2*CLHEP::pi+phi;
+        //holder_rot->rotateX((90)*CLHEP::deg);
+        
+        // This looks a bit complicated but it works
+        //double phi = atan2(-(sin(-11.0/180.0*CLHEP::pi)*holder_x+cos(-11.0/180.0*CLHEP::pi)*holder_z), 
+          //cos(-11.0/180.0*CLHEP::pi)*holder_x-sin(-11.0/180.0*CLHEP::pi)*holder_z);
+        double phi = atan2(holder_x, holder_y);
+
+        phi = (phi > 0) ? phi : 2*CLHEP::pi+phi;
         //There are 8 different rotations for the top PMT holders, depending on the phi positions of the PMTs
         for (int i_phi = 0; i_phi < 8; i_phi++){
           double lower_phi = i_phi*CLHEP::pi/4.-CLHEP::pi/8.;
           double upper_phi = i_phi*CLHEP::pi/4.+CLHEP::pi/8.;
-          if (lower_phi <= phi && phi <= upper_phi) holder_rot->rotateZ((i_phi*45)*CLHEP::deg);
+          if (lower_phi <= phi && phi <= upper_phi){
+            holder_rot->rotateZ((i_phi*45)*CLHEP::deg);
+          }
           else {
             lower_phi += 2*CLHEP::pi;
             upper_phi += 2*CLHEP::pi;
-            if (lower_phi <= phi && phi <= upper_phi) holder_rot->rotateZ((i_phi*45)*CLHEP::deg);
+            if (lower_phi <= phi && phi <= upper_phi){
+              holder_rot->rotateZ((i_phi*45)*CLHEP::deg);
+            }
           }
         }
         //4 holder in the inner ring are rotated by 90CLHEP::degrees w.r.t. the holders in the outer ring
@@ -420,6 +435,7 @@ namespace RAT {
           if(sandi_yes) continue;
           holder_rot->rotateZ(90*CLHEP::deg);
         }
+        
         G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
         G4VPhysicalVolume *physicalHolder = new G4PVPlacement(holder_rot,   //its rotation
             HolderPosition,         //its position
@@ -429,6 +445,7 @@ namespace RAT {
             false,              //no boolean operations
             HolderID,           //ID for this PMT (=channelkey in data)
             true);              //check overlaps
+
       }
 
     }
@@ -445,7 +462,6 @@ namespace RAT {
     G4int WCBarrelNumPMTHorizontal = 16;      // this + WCPMTperCellHorizontal define num detector sides
     G4int WCPMTperCellHorizontal   = 2;       // ^ for octagonal inner structure it must produce 8
     G4int WCBarrelRingNPhi         = 8;       // number of faces in the inner structure
-    G4int numhatchpmts = 4;
 
     // Offsets and positioning
     G4double WCIDHeight               = 3.96*CLHEP::m;    // full height
@@ -454,12 +470,11 @@ namespace RAT {
                                                           // from blueprints of inner structure diameter is 106.64",
                                                           // hexagonal side is 40.81", 100.57" from face-to-face
                                                           // (note: OUTER dimensions, including steel bar width)
-    G4double WCIDRadius = WCIDDiameter/2. + 2.0*CLHEP::cm;
+    G4double WCIDRadius = WCIDDiameter/2.;
 
     G4double WCBarrelPMTOffset        = 0.415*CLHEP::m;     // offset of first barrel ring from tank caps  0.4 -> .34?
     G4double WCBlackSheetThickness    = 1.01*CLHEP::mm;   // liner is 40 mil. = 40 milli inches. 
     G4double InnerStructureCentreOffset = -5.6*CLHEP::cm;   // centre of inner structure is closer to the ground
-
 
     G4double WCBarrelCellStartPhi = 0.0*CLHEP::deg;
     G4double totalAngle = 360.0*CLHEP::deg;
@@ -475,7 +490,7 @@ namespace RAT {
       BlackSheetRadius+WCBlackSheetThickness};
     G4double annulusBlackSheetRmin[2] = {(BlackSheetRadius),
       BlackSheetRadius};
-    G4double mainAnnulusHeight = WCIDHeight -2.*WCBarrelPMTOffset;
+    G4double mainAnnulusHeight = WCIDHeight -2.*WCBarrelPMTOffset + 6*CLHEP::mm;
     mainAnnulusHeight += 30*CLHEP::cm; //WCBlackSheet needs to extend to above ETEL holders and below LUX housings to match reality
     G4double mainAnnulusZ[2] = {-mainAnnulusHeight/2., mainAnnulusHeight/2};
 
@@ -513,7 +528,15 @@ namespace RAT {
           motherLog, //logicWCBarrel,
           false,
           0,true);
-    G4cout<<"Constructed barrel cell blacksheet with radius "<<WCIDRadius<<" to "<<(WCIDRadius+WCBlackSheetThickness)<<G4endl;
+    G4cout<<"Constructed barrel cell blacksheet with radius "<<BlackSheetRadius<<" to "<<(BlackSheetRadius+WCBlackSheetThickness)<<G4endl;
+
+    //The cap blacksheet is an NPhi-gon as well, so it only makes sense if the
+    //number of faces matches the number of PMT cells around the barrel
+    if(WCBarrelRingNPhi*WCPMTperCellHorizontal != WCBarrelNumPMTHorizontal){
+      warn << "GeoANNIEFactory::ConstructBlackSheet: cap blacksheet not built, "
+           << "WCBarrelRingNPhi*WCPMTperCellHorizontal != WCBarrelNumPMTHorizontal" << newline;
+      return;
+    }
 
     for(G4int zflip = -1; zflip<=1; zflip+=2){
       //--------------------------------------------------------------------
@@ -522,59 +545,56 @@ namespace RAT {
 
       G4double capBlackSheetZ[2] = {-WCBlackSheetThickness*zflip, 0.};
       G4double capBlackSheetRmin[2] = {0., 0.};
-      G4double capBlackSheetRmax[2] = {BlackSheetRadius+WCBlackSheetThickness,
+      G4double capBlackSheetRmax[2] = {BlackSheetRadius+WCBlackSheetThickness, 
         BlackSheetRadius+WCBlackSheetThickness};
 
-      G4VSolid* solidWCCapBlackSheet = nullptr;
-      if(WCBarrelRingNPhi*WCPMTperCellHorizontal == WCBarrelNumPMTHorizontal){
-        solidWCCapBlackSheet
-          = new G4Polyhedra("WCCapBlackSheet",  // name
-              0.*CLHEP::deg,      // phi start
-              totalAngle,         // total phi
-              WCBarrelRingNPhi,   // NPhi-gon
-              2,                  // z-planes
-              capBlackSheetZ,     // position of the Z planes
-              capBlackSheetRmin,  // min radius at the z planes
-              capBlackSheetRmax   // max radius at the Z planes
-              );
-      }
-      if(solidWCCapBlackSheet == nullptr){
-        warn << "GeoANNIEFactory::ConstructBlackSheet: cap blacksheet not built, "
-             << "WCBarrelRingNPhi*WCPMTperCellHorizontal != WCBarrelNumPMTHorizontal" << newline;
-        continue;
-      }
+      G4VSolid* solidWCCapBlackSheet
+        = new G4Polyhedra("WCCapBlackSheet",  // name
+            0.*CLHEP::deg,      // phi start
+            totalAngle,         // total phi
+            WCBarrelRingNPhi,   // NPhi-gon
+            2,                  // z-planes
+            capBlackSheetZ,     // position of the Z planes
+            capBlackSheetRmin,  // min radius at the z planes
+            capBlackSheetRmax   // max radius at the Z planes
+            );
 
-      // Every cut below chains onto this pointer, so both caps keep all of them.
-      G4VSolid* solidWCCapBlackSheetHole = solidWCCapBlackSheet;
+      //Every cut below chains onto this pointer, so the cuts accumulate and both
+      //caps keep the ones that apply to them. The cuts are made in the LOCAL
+      //frame of the cap, which is the same as the mother frame here because the
+      //cap is placed without a rotation.
+      G4VSolid* capSolid = solidWCCapBlackSheet;
 
       //--------------------------------------------------------------------
       // ETEL PMT holes -- top cap only
       //--------------------------------------------------------------------
       if (zflip == 1){
-        //Select only ETEL + LUX PMTs and propagate their position up-/downwards to get central holder position
+
+        //the same cutter is used for every PMT, so build it once
+        G4Tubs *WCCap_Hole = new G4Tubs("WCCap_Hole",0.0*CLHEP::cm,8.414*CLHEP::cm,
+            WCBlackSheetThickness+0.1*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
+
         std::ifstream pmt_position_file(file_name.c_str());
-        std::string next_pmt;
         double pmt_x, pmt_y, pmt_z, pmt_dirx, pmt_diry, pmt_dirz;
-        double hole_x, hole_y, hole_z;
+        double hole_x, hole_y;
         int panel_nr, pmt_type;
         int HolderID;
         while (!pmt_position_file.eof()){
           pmt_position_file >> HolderID >> panel_nr >> pmt_x >> pmt_y >> pmt_z >> pmt_dirx >> pmt_diry >> pmt_dirz >> pmt_type;
           if (pmt_position_file.eof()) break;
-          if (fabs(pmt_diry+1.) < 0.00001) {       //select only ETEL PMTs for the holders (pointing downwards)
+          if (fabs(pmt_diry+1.) < 0.00001) {   //select only ETEL PMTs (pointing downwards)
 
             hole_x = pmt_x*CLHEP::cm;
-            hole_y = (168.1-pmt_z)*CLHEP::cm;
-            hole_z = ((pmt_y+14.45))*CLHEP::cm;
+            hole_y = (pmt_z - 168.1)*CLHEP::cm;
+            //the height, (pmt_y+14.45), is not needed here: the cutter is longer
+            //than the sheet is thick, so the hole is cut straight through at the
+            //local z of the cap
 
-            G4Tubs *WCCap_Hole = new G4Tubs("WCCap_Hole",0.0*CLHEP::cm,8.414*CLHEP::cm,WCBlackSheetThickness+0.1*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
-
-            solidWCCapBlackSheetHole = new G4SubtractionSolid("WCCapBlackSheetHole",
-                solidWCCapBlackSheetHole,
+            capSolid = new G4SubtractionSolid("WCCapBlackSheetHole",
+                capSolid,
                 WCCap_Hole,
                 0,
                 G4ThreeVector(hole_x,hole_y,0.));
-
           }
         }
         pmt_position_file.close();
@@ -582,14 +602,15 @@ namespace RAT {
 
       //--------------------------------------------------------------------
       // Slots for the 8 legs of the inner structure -- BOTH caps.
-      // The frame is rotated by 157.5 deg = 3.5 x 45 deg, which lands its
-      // legs on the corners of the cap octagon, i.e. phi = k*45 deg here.
+      // The frame is turned by 157.5 deg = 3.5 x 45 deg, which lands its corner
+      // posts on the corners of the cap octagon, i.e. phi = k*45 deg here.
+      // The cutter is a full cylinder, so it needs no rotation of its own.
       // TODO: replace the three sizes below with the CAD values.
       //--------------------------------------------------------------------
-      const G4int    nLegs       = WCBarrelRingNPhi;  // 8
-      const G4double legCentreR  = 136.0*CLHEP::cm;   // radius of the leg centre
-      const G4double legRadius   = 4.0*CLHEP::cm;
-      const G4double legClear    = 2.0*CLHEP::cm;     // clearance on every face
+      const G4int    nLegs      = WCBarrelRingNPhi;   // 8
+      const G4double legCentreR = 136.0*CLHEP::cm;    // radius of the leg centre
+      const G4double legRadius  = 4.0*CLHEP::cm;      // radius of one leg
+      const G4double legClear   = 2.0*CLHEP::cm;      // clearance on every face
 
       G4Tubs* legCut = new G4Tubs("WCCap_LegCut",
           0.0*CLHEP::cm,
@@ -600,20 +621,18 @@ namespace RAT {
 
       for (G4int leg = 0; leg < nLegs; ++leg){
         const G4double phi = leg * (360.0*CLHEP::deg / nLegs);
-        G4RotationMatrix* legRot = new G4RotationMatrix();
-        legRot->rotateZ(-phi);   // G4PVPlacement convention: passive rotation
-        solidWCCapBlackSheetHole = new G4SubtractionSolid("WCCapBlackSheetLegHole",
-            solidWCCapBlackSheetHole,
+        capSolid = new G4SubtractionSolid("WCCapBlackSheetLegHole",
+            capSolid,
             legCut,
-            legRot,
-            G4ThreeVector(legCentreR*std::cos(phi), legCentreR*std::sin(phi), 0.));
+            0,
+            G4ThreeVector(legCentreR*cos(phi), legCentreR*sin(phi), 0.));
       }
 
       //--------------------------------------------------------------------
       // Logical volume, built once from whatever cuts were applied
       //--------------------------------------------------------------------
       G4LogicalVolume* logicWCCapBlackSheet =
-        new G4LogicalVolume(solidWCCapBlackSheetHole,
+        new G4LogicalVolume(capSolid,
             G4Material::GetMaterial("polyethylene_black"),
             "WCCapBlackSheet",
             0,0,0);
@@ -632,6 +651,7 @@ namespace RAT {
 
       G4double AssemblyHeight = capAssemblyHeight*zflip + InnerStructureCentreOffset - 5.0*CLHEP::cm;
 
+      //the two caps are different logical volumes, so they need different surface names
       G4String capSurfName = (zflip > 0) ? "WCCapBlackSheetSurface_top_log"
                                          : "WCCapBlackSheetSurface_bottom_log";
       G4LogicalSkinSurface* WCCapBlackSheetSurface_log = new G4LogicalSkinSurface( capSurfName, logicWCCapBlackSheet, Materials::optical_surface["polyethylene_black"]);
@@ -643,7 +663,7 @@ namespace RAT {
             "WCCapBlackSheet",
             motherLog,
             false,
-            (zflip > 0) ? 1 : 0,   // copy no: 0 = bottom, 1 = top
+            (zflip > 0) ? 1 : 0,   //copy no: 0 = bottom, 1 = top, so overlap messages say which
             true);
 
       G4cout<<"constructed cap blacksheet at height "<<AssemblyHeight<<G4endl;
@@ -737,4 +757,3 @@ namespace RAT {
   }
 
 } // namespace RAT
-

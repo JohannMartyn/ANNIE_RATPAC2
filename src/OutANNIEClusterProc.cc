@@ -478,9 +478,9 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
         fitvalids["validtime" + name] = new bool(fit->GetValidTime());
       }
       // Figures of merit are now all stored as doubles in a single map
-      for (auto const &[label, value] : fit->figuresOfMerit) {
-        doubleFOMs[label + "_" + name] = new double(value);
-      }
+      //for (auto const &[label, value] : fit->figuresOfMerit) {
+      //  doubleFOMs[label + "_" + name] = new double(value);
+      //}
     }
     // Write fitter values into TTree
     for (auto const &[label, value] : fitvalues) {

@@ -33,6 +33,9 @@
 // drawstyle: "solid",
 // }
 
+// Beam direction in Data: +Z, Tank height axis: Y
+// Beam direction in MC: +Y, Tank height axis: Z
+
 {
 name: "GEO",
 index: "AmBe_housing_body",
@@ -43,7 +46,8 @@ mother: "detector",
 type: "tube",
 r_max: 35.0,
 size_z: 68.5,
-position: [0.0, 0.0, 64.55], //Center (AmBe source not housing) is [0.0, 0.0, 64.55], Axis are [+MITPC/-stairs;+FMV/-MRD;+top/-bottom]
+position: [1000.0, 0.0, 53.0], //Center (AmBe source not housing) is [0.0, 0.0, -53.0], Axis are [+MITPC/-stairs;+FMV/-MRD;+top/-bottom]
+//rotation: [90.0, 0.0, 0.0], 
 material: "acrylic_uvt", 
 surface: "ptfe",
 color: [0.0, 1.0, 1.0, 0.1],
@@ -131,7 +135,7 @@ drawstyle: "solid",
 
 {
 name: "GEO",
-index: "AmBe_source",
+index: "AmBeSource",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "AmBe_case",
