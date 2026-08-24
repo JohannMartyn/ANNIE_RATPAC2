@@ -3,6 +3,7 @@ add_library( annieobj OBJECT
   Annie.cc
   GeoANNIEFactory.cc
   OutANNIEClusterProc.cc
+  ANNIEInnerStructureMembers.cc
 )
 
 target_include_directories( annieobj PUBLIC

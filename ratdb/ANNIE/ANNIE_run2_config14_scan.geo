@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////
 // ANNIE detector geometry for Phase 2 
 // 
-// Config 13: 	- 20 LUX 10inch PMTs at bottom 
+// Config 14: 	- 20 LUX 10inch PMTs at bottom 
 //	     	- 48 10inch Watchboy, 40 8inch hqe, 4 10inch HQE Watchman
 //          	- 20 11 inch ETEL PMT on top 
 //		- PMT positions based on laser scan file from WCSim
@@ -143,7 +143,7 @@ pmt_model: "r7081_ANNIE", // Watchboy 10 inch
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_1",
+pos_table: "PMTINFO_config14_scan_side_ring_1_TILTED_OFFSET",
 //pos_table: "PMTINFO_config14_scan_side_ring_1",
 orientation: "manual",
 } 
@@ -178,7 +178,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_2_2",
+pos_table: "PMTINFO_config14_scan_side_ring_2_2_TILTED_OFFSET",
 //pos_table: "PMTINFO_config14_scan_side_ring_2_2",
 orientation: "manual",
 } 
@@ -213,7 +213,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_4_1",
+pos_table: "PMTINFO_config14_scan_side_ring_4_1_TILTED_OFFSET",
 //pos_table: "PMTINFO_config14_scan_side_ring_4_1",
 orientation: "manual", 
 } 
@@ -231,7 +231,7 @@ pmt_model: "r7081_hqe_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_4_2",
+pos_table: "PMTINFO_config14_scan_side_ring_4_2_TILTED_OFFSET",
 //pos_table: "PMTINFO_config14_scan_side_ring_4_2",
 orientation: "manual",  
 } 
@@ -266,7 +266,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_6",
+pos_table: "PMTINFO_config14_scan_side_ring_6_TILTED_OFFSET",
 //pos_table: "PMTINFO_config14_scan_side_ring_6",
 orientation: "manual", 
 }
@@ -304,7 +304,11 @@ index: "InnerStructure_Holders_Blacksheets",
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "detector",
-enable_inner_structure: 1, // setting this to 0 enables faster loading but no inner structure of course
+// enable_inner_structure: 0 => no inner structure
+// enable_inner_structure: 1 => inner structure made from primitives based on gdml
+// enable_inner_structure: 2 => inner structure loaded from gdml
+enable_inner_structure: 1, 
+inner_structure_visualise: 0, // when enable_inner_structure: 1 is set. 
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1968.0],
 inner_structure_rotation_angle: 67.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC
@@ -321,7 +325,7 @@ luxetel_holders_color: [1.0, 1.0, 1.0, 0.5],
 luxetel_holders_invisible: 0,
 enable_black_sheets: 1, //Black sheet for optical insulation; octagonal shape; code copied from WCSim
 black_sheet_color: [0.0, 1.0, 0.0, 1.0],
-black_sheet_invisible: 1,
+black_sheet_invisible: 0,
 write_gdml: 0, //Write a gdml file to check the geometry by eye with a CAD program
 enable_superSANDI: 0,
 gdml_out_file: "test_output.gdml",

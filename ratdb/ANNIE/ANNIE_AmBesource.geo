@@ -46,7 +46,8 @@ mother: "detector",
 type: "tube",
 r_max: 35.0,
 size_z: 68.5,
-position: [1000.0, 0.0, 53.0], //Center (AmBe source not housing) is [0.0, 0.0, -53.0], Axis are [+MITPC/-stairs;+FMV/-MRD;+top/-bottom]
+position: [0.0, 1020.0, -947.0],
+//Center (AmBe source not housing) is [0.0, 0.0, -53.0], Axis are [+MITPC/-stairs;+FMV/-MRD;+top/-bottom]
 //rotation: [90.0, 0.0, 0.0], 
 material: "acrylic_uvt", 
 surface: "ptfe",

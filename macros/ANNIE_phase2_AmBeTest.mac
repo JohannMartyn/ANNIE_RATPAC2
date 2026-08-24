@@ -18,14 +18,15 @@
 /rat/proclast outanniecluster
 #/rat/proclast outntuple
 #/rat/procset file "ANNIE_AmBePointTest_P3_yM102_wTyvek100_wPVC100_bPE000_bPVC000.ntuple.root" 
-/rat/procset file "ANNIE_AmBeSourceTest.ntuple.root" 
+/rat/procset file "ANNIE_MultiUnionIS_AmBeSource_TiltedOffset_P3_yM100_wTyvek090_wPVC090_bPE020_bPVC020_2.ntuple.root" 
 
 #/generator/add combo spectrum:point
 #/generator/vtx/set neutron ambe_neutron_spectrum
-#/generator/pos/set 100.0 200.0 300.0
+#/generator/pos/set 0.0 -100.0 -200.0
 
 /generator/add combo spectrum:regexfill
 /generator/vtx/set neutron ambe_neutron_spectrum
 /generator/pos/set ^AmBeSource*
 
-/run/beamOn 100
+/run/beamOn 105770
+#/run/beamOn 107750

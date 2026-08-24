@@ -21,6 +21,9 @@
 #include <G4Color.hh>
 #include <vector>
 
+#include "G4MultiUnion.hh"
+#include "ANNIEInnerStructureMembers.hh"
+
 #include <fstream>
 
 using namespace std;
@@ -62,18 +65,86 @@ namespace RAT {
     rotm->rotateZ(rot_angle*CLHEP::deg);
     //rotm->rotateX(90.0*CLHEP::deg);
 
-    // Get structure from GDML file
-    G4VPhysicalVolume* innerstructure_phys;
-    G4LogicalVolume* innerstructure_log;
-    G4VPhysicalVolume* innerstructure_phys_placement;
+    G4LogicalVolume*   innerstructure_log            = nullptr;
+    G4VPhysicalVolume* innerstructure_phys_placement = nullptr;
 
-    if(enable_inner_structure != 0){
+    // ---- Inner structure: primitive rebuild (see members.cc / members.hh) ----
+    if (enable_inner_structure == 1) {
+      // Material. The GDML used to define "StainlessSteel" itself; that name is
+      // gone now, so take one from RAT's material table instead.
+      std::string is_matname = "stainless_steel";
+      try { is_matname = dbinfo->GetS("inner_structure_material"); }
+      catch (DBNotFoundError &e) {};
+      G4Material* is_mat = G4Material::GetMaterial(is_matname);
+      if (is_mat == nullptr) {
+        Log::Die("GeoANNIEFactory: inner_structure_material '" + is_matname +
+                 "' not found in the material table");
+      }
+
+      // Optical surface. std::map::operator[] silently inserts a nullptr on a
+      // typo, which would give you a skin surface with no properties and
+      // default Fresnel behaviour, with no error anywhere. Look it up safely.
+      auto surf_it = Materials::optical_surface.find(wrapper_material);
+      if (surf_it == Materials::optical_surface.end() || surf_it->second == nullptr) {
+        Log::Die("GeoANNIEFactory: optical surface '" + wrapper_material +
+                 "' not found in OPTICS");
+      }
+      G4OpticalSurface* is_surf = surf_it->second;
+
+      // Builds the G4MultiUnion (358 members, Voxelize() called inside) and
+      // attaches the G4LogicalSkinSurface. Do NOT add a second skin surface.
+      //innerstructure_log = MakeANNIEInnerStructureLV(is_mat, is_surf);
+
+      int vis_mode = 0;
+      try { vis_mode = dbinfo->GetI("inner_structure_visualise"); }
+      catch (DBNotFoundError &e) {};
+
+      if (vis_mode != 0) {
+        // Visualisation: 358 separate placements. Each is a plain G4Box /
+        // G4SubtractionSolid, so it polyhedronises instantly. Expect ~226
+        // member-member overlap warnings -- harmless here, but this geometry
+        // must NOT be used for physics.
+        std::vector<G4VPhysicalVolume*> placed =
+            BuildANNIEInnerStructureAsPlacements(motherLog, rotm, StructureCenter,
+                                                 is_mat, is_surf);
+        innerstructure_phys_placement = placed.empty() ? nullptr : placed[0];
+        warn << "GeoANNIEFactory: inner structure built as " << placed.size()
+             << " separate placements (VISUALISATION ONLY)" << newline;
+      }
+      else {
+        innerstructure_log = MakeANNIEInnerStructureLV(is_mat, is_surf);
+        innerstructure_phys_placement = new G4PVPlacement(
+            rotm, StructureCenter, innerstructure_log,
+            "innerstructure_phys", motherLog, false, 0, true);
+      }
+
+      try {
+        std::vector<double> color = dbinfo->GetDArray("inner_structure_color");
+        if (color.size() != 3 && color.size() != 4) {
+          warn << "GeoANNIEFactory error: " << dbinfo->GetName() << "["
+               << dbinfo->GetIndex() << "].color must have 3 or 4 components" << newline;
+        }
+        else if (innerstructure_log != nullptr) {
+          // The opacity==1 restriction was a GDML/tessellated-solid quirk; with
+          // a G4MultiUnion you can try color[3] here if it is supplied.
+          innerstructure_log->SetVisAttributes(G4Color(color[0], color[1], color[2], 1.0));
+        }
+      }
+      catch (DBNotFoundError &e) {};
+
+      try {
+        int invisible = dbinfo->GetI("inner_structure_invisible");
+        if (invisible != 0) {
+          if (innerstructure_log != nullptr) innerstructure_log->SetVisAttributes(G4VisAttributes::GetInvisible());
+        }
+      }
+      catch (DBNotFoundError &e) {};
+    } // ---- Inner structure: gdml build ----
+    else if (enable_inner_structure != 0){
       parser.Read(gdml_file);
-      innerstructure_phys = parser.GetWorldVolume();
 
-      innerstructure_log = innerstructure_phys->GetLogicalVolume();
+      innerstructure_log = parser.GetWorldVolume()->GetLogicalVolume();
       innerstructure_phys_placement = new G4PVPlacement(rotm, StructureCenter, innerstructure_log, "innerstructure_phys", motherLog, false, 0, true);
-
 
       try {
         std::vector<double> color = dbinfo->GetDArray("inner_structure_color");
@@ -747,7 +818,6 @@ namespace RAT {
     }
 
     G4RotationMatrix *nv_rot = new G4RotationMatrix;
-    nv_rot = nullptr;
 
     G4VPhysicalVolume *superSANDIvessel_phys = new G4PVPlacement(nv_rot,nv_position,nv_logic,"superSANDIvessel",motherLog, false, 0, true);
     G4VPhysicalVolume *superSANDIDetMed_phys = new G4PVPlacement(nv_rot,nv_position,detmed_logic,"superSANDIDetMed",motherLog, false, 0, true);
