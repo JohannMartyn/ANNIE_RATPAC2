@@ -12,12 +12,9 @@ class G4Material;
 class G4OpticalSurface;
 class G4VPhysicalVolume;
 
-// One G4MultiUnion holding all 358 members. Calls Voxelize() before returning.
-G4MultiUnion* BuildANNIEInnerStructureSolid(const G4String& name);
-
-// Ready-to-place logical volume; attaches the G4LogicalSkinSurface itself.
-G4LogicalVolume* MakeANNIEInnerStructureLV(G4Material* steel,
-                                           G4OpticalSurface* wrapper);
+G4MultiUnion* BuildANNIEInnerStructureSolid(const G4String& name);      // nested
+G4MultiUnion* BuildANNIEInnerStructureSolidFlat(const G4String& name);  // 2199 flat nodes
+G4LogicalVolume* MakeANNIEInnerStructureLV(G4Material*, G4OpticalSurface*, bool nested = true);
 
 // VISUALISATION PATH: one placement per member, so each is a plain G4Box /
 // G4SubtractionSolid that polyhedronises instantly.  G4MultiUnion CANNOT be
@@ -34,5 +31,7 @@ BuildANNIEInnerStructureAsPlacements(G4LogicalVolume* mother,
                                      const G4ThreeVector& structCentre,
                                      G4Material* steel,
                                      G4OpticalSurface* wrapper);
+
+
 
 #endif

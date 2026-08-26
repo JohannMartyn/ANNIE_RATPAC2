@@ -140,7 +140,7 @@ namespace RAT {
       }
       catch (DBNotFoundError &e) {};
     } // ---- Inner structure: gdml build ----
-    else if (enable_inner_structure != 0){
+    else if (enable_inner_structure > 1){
       parser.Read(gdml_file);
 
       innerstructure_log = parser.GetWorldVolume()->GetLogicalVolume();

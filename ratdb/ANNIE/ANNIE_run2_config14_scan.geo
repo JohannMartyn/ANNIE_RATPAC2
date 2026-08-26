@@ -311,7 +311,7 @@ enable_inner_structure: 1,
 inner_structure_visualise: 0, // when enable_inner_structure: 1 is set. 
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1968.0],
-inner_structure_rotation_angle: 67.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl file and 90° from x-y difference in RATPAC
+inner_structure_rotation_angle: 67.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl
 inner_structure_wrapper_material: "tyvek_wrapper_ANNIE", //"tyvek", //could be something different, which is defined in the OPTICS_ANNIE.ratdb
 inner_structure_color: [1.0, 0.0, 0.0, 0.0],
 inner_structure_invisible: 0,
