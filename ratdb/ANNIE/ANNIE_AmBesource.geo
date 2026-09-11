@@ -1,38 +1,6 @@
 ////// AmBe source geometry
 // The source (beryllium) is enclosed in a case (stainless steel)
 
-// {
-// name: "GEO",
-// index: "fake_volume_cosmics",
-// enable: 1,
-// valid_begin: [0, 0],
-// valid_end: [0, 0],
-// mother: "detector",
-// type: "tube",
-// r_max: 150.0,
-// size_z: 1.0,
-// position: [0.0, 0.0, 300.0], // position is housing body position + 30 cm in Z
-// material: "water_gdS_0p2", 
-// color: [0.0, 1.0, 1.0, 0.1],
-// drawstyle: "solid",
-// }
-
-// {
-// name: "GEO",
-// index: "AmBe_wires_bag", //represents the black bag with the wires inside
-// enable: 1,
-// valid_begin: [0, 0],
-// valid_end: [0, 0],
-// mother: "detector",
-// type: "tube",
-// r_max: 15.0,
-// size_z: 100.0,
-// position: [0.0, 0.0, 190.0], // position is housing body position + 19 cm in Z
-// material: "acrylic_black", 
-// color: [0.0, 1.0, 1.0, 0.1],
-// drawstyle: "solid",
-// }
-
 // Beam direction in Data: +Z, Tank height axis: Y
 // Beam direction in MC: +Y, Tank height axis: Z
 
@@ -46,10 +14,9 @@ mother: "detector",
 type: "tube",
 r_max: 35.0,
 size_z: 68.5,
-position: [0.0, 1020.0, -947.0],
+position: [0.0, -750.0, 1060.7],
 //Center (AmBe source not housing) is [0.0, 0.0, -53.0], Axis are [+MITPC/-stairs;+FMV/-MRD;+top/-bottom]
-//rotation: [90.0, 0.0, 0.0], 
-material: "acrylic_uvt", 
+material: "pvc_white",
 surface: "ptfe",
 color: [0.0, 1.0, 1.0, 0.1],
 drawstyle: "solid",
@@ -66,7 +33,7 @@ type: "tube",
 r_max: 25.0,
 size_z: 56.0,
 position: [0.0, 0.0, 0.0],
-material: "air", 
+material: "air",
 color: [0.0, 1.0, 1.0, 0.1],
 drawstyle: "solid",
 }
@@ -74,6 +41,7 @@ drawstyle: "solid",
 {
 name: "GEO",
 index: "AmBe_housing_cap", //represents the cap of the housing
+enable: 1,
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "AmBe_housing_air",
@@ -82,7 +50,7 @@ r_max: [25.0, 25.0, 35.0, 35.0, 20.0],
 r_min: [0.0, 0.0, 0.0, 0.0, 0.0],
 z: [0.0, 15.0, 15.1, 20.0, 45.0],
 position: [0.0, 0.0, 53.5],
-material: "acrylic_uvt", 
+material: "acrylic_uvt",
 surface: "ptfe",
 color: [0.0, 1.0, 1.0, 0.1],
 drawstyle: "solid",
@@ -107,6 +75,7 @@ drawstyle: "solid",
 {
 name: "GEO",
 index: "AmBe_placer",
+enable: 1,
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "AmBe_housing_air",
@@ -122,6 +91,7 @@ drawstyle: "solid",
 {
 name: "GEO",
 index: "AmBe_case",
+enable: 1,
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "AmBe_placer",
@@ -137,6 +107,7 @@ drawstyle: "solid",
 {
 name: "GEO",
 index: "AmBeSource",
+enable: 1,
 valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "AmBe_case",
