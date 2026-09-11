@@ -9,8 +9,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -4095.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -3074.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -21,8 +21,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -4085.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -3064.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -33,8 +33,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3785.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2764.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -45,8 +45,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3775.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2754.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -57,8 +57,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3475.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2454.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -69,8 +69,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3465.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2444.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -81,8 +81,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3165.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2144.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -93,8 +93,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -3155.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -2134.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -105,8 +105,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2855.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1834.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -117,8 +117,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2845.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1824.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -129,8 +129,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2545.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1524.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -141,8 +141,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2535.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1514.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -153,8 +153,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2235.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1214.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -165,8 +165,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -2225.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1204.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -177,8 +177,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1925.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -904.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -189,8 +189,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1915.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -894.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -201,8 +201,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1615.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -594.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -213,8 +213,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1605.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -584.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -225,8 +225,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1305.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -284.7, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -237,8 +237,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -1295.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -274.7, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -249,8 +249,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -995.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 25.3, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -261,8 +261,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -985.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 35.3, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -273,8 +273,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -685.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 335.3, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -285,8 +285,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -675.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 345.3, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -297,8 +297,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -375.0, -2832.3],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 645.3, -3949.8],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -309,8 +309,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
-position: [0.0, -365.0, -2806.9],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, 655.3, -3924.4],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 
@@ -327,7 +327,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 679.2],
+position: [0.0, -1214.7, -438.3],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -339,8 +339,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -351,8 +351,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -363,8 +363,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -375,8 +375,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -387,8 +387,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -399,8 +399,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -411,8 +411,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -423,8 +423,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -435,8 +435,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -447,8 +447,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -459,8 +459,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -471,8 +471,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -483,8 +483,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -495,8 +495,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -507,8 +507,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -519,8 +519,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -531,8 +531,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -543,8 +543,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -555,8 +555,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -567,8 +567,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -579,8 +579,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -591,8 +591,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -603,8 +603,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -615,8 +615,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -627,8 +627,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -639,8 +639,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 707.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, -409.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -651,7 +651,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 786.8],
+position: [0.0, -1214.7, -330.7],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -663,8 +663,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1050.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1050.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -675,8 +675,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1050.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1050.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -687,8 +687,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-900.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-900.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -699,8 +699,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-900.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-900.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -711,8 +711,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-750.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-750.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -723,8 +723,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-750.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-750.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -735,8 +735,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-600.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -747,8 +747,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-600.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -759,8 +759,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-450.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-450.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -771,8 +771,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-450.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-450.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -783,8 +783,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-300.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-300.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -795,8 +795,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-300.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-300.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -807,8 +807,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-150.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-150.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -819,8 +819,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-150.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-150.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -831,8 +831,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [0.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -843,8 +843,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [0.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -855,8 +855,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [150.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [150.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -867,8 +867,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [150.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [150.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -879,8 +879,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [300.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [300.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -891,8 +891,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [300.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [300.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -903,8 +903,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [450.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [450.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -915,8 +915,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [450.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [450.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -927,8 +927,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [600.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -939,8 +939,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [600.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -951,8 +951,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [750.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [750.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -963,8 +963,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [750.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [750.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -975,8 +975,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [900.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [900.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -987,8 +987,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [900.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [900.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -999,8 +999,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1050.0, -2925.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1050.0, -1904.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1011,8 +1011,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1050.0, -1545.0, 819.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1050.0, -524.7, -298.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1023,7 +1023,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 902.4],
+position: [0.0, -1214.7, -215.1],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -1035,8 +1035,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1047,8 +1047,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1059,8 +1059,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1071,8 +1071,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1083,8 +1083,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1095,8 +1095,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1107,8 +1107,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1119,8 +1119,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1131,8 +1131,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1143,8 +1143,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1155,8 +1155,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1167,8 +1167,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1179,8 +1179,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1191,8 +1191,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1203,8 +1203,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1215,8 +1215,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1227,8 +1227,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1239,8 +1239,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1251,8 +1251,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1263,8 +1263,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1275,8 +1275,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1287,8 +1287,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1299,8 +1299,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1311,8 +1311,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1323,8 +1323,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1335,8 +1335,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 930.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, -186.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1347,7 +1347,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 991.6],
+position: [0.0, -1214.7, -125.9],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -1359,8 +1359,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1200.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1371,8 +1371,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1200.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1383,8 +1383,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1050.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1050.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1395,8 +1395,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-1050.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1050.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1407,8 +1407,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-900.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-900.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1419,8 +1419,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-900.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-900.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1431,8 +1431,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-750.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-750.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1443,8 +1443,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-750.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-750.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1455,8 +1455,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-600.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1467,8 +1467,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-600.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1479,8 +1479,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-450.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-450.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1491,8 +1491,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-450.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-450.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1503,8 +1503,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-300.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-300.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1515,8 +1515,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-300.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-300.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1527,8 +1527,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-150.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-150.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1539,8 +1539,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [-150.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-150.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1551,8 +1551,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [0.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1563,8 +1563,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [0.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1575,8 +1575,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [150.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [150.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1587,8 +1587,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [150.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [150.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1599,8 +1599,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [300.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [300.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1611,8 +1611,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [300.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [300.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1623,8 +1623,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [450.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [450.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1635,8 +1635,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [450.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [450.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1647,8 +1647,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [600.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1659,8 +1659,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [600.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1671,8 +1671,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [750.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [750.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1683,8 +1683,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [750.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [750.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1695,8 +1695,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [900.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [900.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1707,8 +1707,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [900.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [900.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1719,8 +1719,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1050.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1050.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1731,8 +1731,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1050.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1050.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1743,8 +1743,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1200.0, -2925.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -1904.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1755,8 +1755,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
-position: [1200.0, -1545.0, 1024.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -524.7, -93.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1767,7 +1767,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1107.2],
+position: [0.0, -1214.7, -10.3],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -1779,8 +1779,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1791,8 +1791,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1803,8 +1803,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1815,8 +1815,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1827,8 +1827,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1839,8 +1839,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1851,8 +1851,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1863,8 +1863,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1875,8 +1875,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1887,8 +1887,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1899,8 +1899,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1911,8 +1911,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1923,8 +1923,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1935,8 +1935,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1947,8 +1947,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1959,8 +1959,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1971,8 +1971,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1983,8 +1983,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -1995,8 +1995,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2007,8 +2007,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2019,8 +2019,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2031,8 +2031,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2043,8 +2043,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2055,8 +2055,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2067,8 +2067,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2079,8 +2079,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 1135.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, 18.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2091,7 +2091,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1193.4],
+position: [0.0, -1214.7, 75.9],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -2103,8 +2103,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2115,8 +2115,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2127,8 +2127,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2139,8 +2139,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2151,8 +2151,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2163,8 +2163,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2175,8 +2175,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2187,8 +2187,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2199,8 +2199,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2211,8 +2211,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2223,8 +2223,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2235,8 +2235,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2247,8 +2247,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2259,8 +2259,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2271,8 +2271,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2283,8 +2283,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2295,8 +2295,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2307,8 +2307,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2319,8 +2319,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2331,8 +2331,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2343,8 +2343,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2355,8 +2355,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2367,8 +2367,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2379,8 +2379,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2391,8 +2391,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -2925.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -1904.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2403,8 +2403,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -1545.0, 1222.8],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -524.7, 105.3],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2415,7 +2415,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1303.0],
+position: [0.0, -1214.7, 185.5],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -2427,8 +2427,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2439,8 +2439,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2451,8 +2451,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2463,8 +2463,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2475,8 +2475,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2487,8 +2487,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2499,8 +2499,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2511,8 +2511,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2523,8 +2523,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2535,8 +2535,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2547,8 +2547,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2559,8 +2559,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2571,8 +2571,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2583,8 +2583,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2595,8 +2595,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2607,8 +2607,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2619,8 +2619,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2631,8 +2631,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2643,8 +2643,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2655,8 +2655,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2667,8 +2667,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2679,8 +2679,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2691,8 +2691,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2703,8 +2703,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2715,8 +2715,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2727,8 +2727,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 1331.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, 213.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2739,7 +2739,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1389.2],
+position: [0.0, -1214.7, 271.7],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -2751,8 +2751,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1400.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1400.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2763,8 +2763,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1400.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1400.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2775,8 +2775,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2787,8 +2787,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2799,8 +2799,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2811,8 +2811,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2823,8 +2823,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2835,8 +2835,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2847,8 +2847,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2859,8 +2859,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2871,8 +2871,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2883,8 +2883,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2895,8 +2895,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2907,8 +2907,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2919,8 +2919,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2931,8 +2931,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2943,8 +2943,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2955,8 +2955,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2967,8 +2967,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2979,8 +2979,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -2991,8 +2991,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3003,8 +3003,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3015,8 +3015,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3027,8 +3027,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3039,8 +3039,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3051,8 +3051,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3063,8 +3063,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3075,8 +3075,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3087,8 +3087,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1400.0, -2925.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1400.0, -1904.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3099,8 +3099,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1400.0, -1545.0, 1418.6],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1400.0, -524.7, 301.1],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3111,7 +3111,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1498.8],
+position: [0.0, -1214.7, 381.3],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -3123,8 +3123,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3135,8 +3135,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3147,8 +3147,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3159,8 +3159,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3171,8 +3171,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3183,8 +3183,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3195,8 +3195,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3207,8 +3207,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3219,8 +3219,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3231,8 +3231,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3243,8 +3243,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3255,8 +3255,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3267,8 +3267,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3279,8 +3279,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3291,8 +3291,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3303,8 +3303,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3315,8 +3315,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3327,8 +3327,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3339,8 +3339,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3351,8 +3351,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3363,8 +3363,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3375,8 +3375,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3387,8 +3387,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3399,8 +3399,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3411,8 +3411,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3423,8 +3423,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 1527.2],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, 409.7],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3435,7 +3435,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1585.0],
+position: [0.0, -1214.7, 467.5],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -3447,8 +3447,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1400.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1400.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3459,8 +3459,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1400.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1400.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3471,8 +3471,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3483,8 +3483,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1200.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1200.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3495,8 +3495,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3507,8 +3507,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-1000.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-1000.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3519,8 +3519,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3531,8 +3531,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-800.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-800.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3543,8 +3543,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3555,8 +3555,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-600.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-600.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3567,8 +3567,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3579,8 +3579,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-400.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-400.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3591,8 +3591,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3603,8 +3603,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [-200.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-200.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3615,8 +3615,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3627,8 +3627,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [0.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [0.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3639,8 +3639,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3651,8 +3651,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [200.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [200.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3663,8 +3663,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3675,8 +3675,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [400.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [400.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3687,8 +3687,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3699,8 +3699,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [600.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [600.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3711,8 +3711,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3723,8 +3723,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [800.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [800.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3735,8 +3735,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3747,8 +3747,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1000.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1000.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3759,8 +3759,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3771,8 +3771,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1200.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1200.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3783,8 +3783,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1400.0, -2925.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1400.0, -1904.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3795,8 +3795,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
-position: [1400.0, -1545.0, 1614.4],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [1400.0, -524.7, 496.9],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3807,7 +3807,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
-position: [0.0, -2235.0, 1694.6],
+position: [0.0, -1214.7, 577.1],
 color: [0.8, 0.4, 0.0, 0.5],
 material: "steel",
 }
@@ -3819,8 +3819,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3831,8 +3831,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3843,8 +3843,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3855,8 +3855,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3867,8 +3867,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -3035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -2014.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3879,8 +3879,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -3035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -2014.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3891,8 +3891,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2835.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1814.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3903,8 +3903,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2835.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1814.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3915,8 +3915,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2635.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1614.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3927,8 +3927,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2635.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1614.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3939,8 +3939,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3951,8 +3951,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3963,8 +3963,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3975,8 +3975,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3987,8 +3987,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -2035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -1014.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -3999,8 +3999,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -2035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -1014.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4011,8 +4011,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1835.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -814.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4023,8 +4023,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1835.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -814.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4035,8 +4035,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1635.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -614.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4047,8 +4047,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1635.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -614.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4059,8 +4059,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4071,8 +4071,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1435.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -414.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4083,8 +4083,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4095,8 +4095,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1235.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -214.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4107,8 +4107,8 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [-775.0, -1035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [-775.0, -14.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }
 {
@@ -4119,7 +4119,7 @@ valid_end: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
-position: [775.0, -1035.0, 1723.0],
-color: [0.2, 0.8, 0.2, 0.5],
+position: [775.0, -14.7, 605.5],
+color: [0.0, 0.4, 0.8, 0.5],
 material: "polystyrene",
 }

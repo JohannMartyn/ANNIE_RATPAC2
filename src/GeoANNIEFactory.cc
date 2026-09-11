@@ -391,7 +391,13 @@ namespace RAT {
 
     //G4Tubs *ETELHolder_Tube = new G4Tubs("ETELHolder_Tube",0.0*CLHEP::cm,8.41375*CLHEP::cm,5.62*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
     //Distance ETEL holder /PMT: 11.25CLHEP::cm (->5.625CLHEP::cm) + 18CLHEP::cm housing height (->9CLHEP::cm): 14.625CLHEP::cm
-    G4Tubs *ETELHolder_Tube = new G4Tubs("ETELHolder_Tube",0.0*CLHEP::cm,8.41375*CLHEP::cm,14.62*CLHEP::cm,0*CLHEP::deg,360*CLHEP::deg);
+    G4Tubs *ETELHolder_Tube = new G4Tubs("ETELHolder_Tube",
+      0.0*CLHEP::cm,
+      8.41375*CLHEP::cm,
+      14.62*CLHEP::cm,
+      0*CLHEP::deg,
+      360*CLHEP::deg);
+
     G4UnionSolid *solidETELHolder = new G4UnionSolid("ETELHolder",
         LUXHolder_Box,
         ETELHolder_Tube,
@@ -405,6 +411,27 @@ namespace RAT {
     G4LogicalSkinSurface* ETELHolderSurface_log = new G4LogicalSkinSurface( "ETELHolderSurface", logETELHolder, Materials::optical_surface["pvc_black"]);
 
 
+    G4Tubs *ETELHolder_shortTube = new G4Tubs("ETELHolder_shortTube",
+      0.0*CLHEP::cm,
+      8.41375*CLHEP::cm,
+      10.52*CLHEP::cm,
+      0*CLHEP::deg,
+      360*CLHEP::deg);
+
+    G4UnionSolid *solidShortETELHolder = new G4UnionSolid("ShortETELHolder",
+        LUXHolder_Box,
+        ETELHolder_shortTube,
+        0,
+        G4ThreeVector(0.,0.,7.375*CLHEP::cm));
+
+    G4LogicalVolume *logShortETELHolder = new G4LogicalVolume(solidShortETELHolder,
+        G4Material::GetMaterial("pvc_black"),
+        "WCShortETELHolder",
+        0,0,0);
+    G4LogicalSkinSurface* ShortETELHolderSurface_log = new G4LogicalSkinSurface( "ShortETELHolderSurface", logShortETELHolder, Materials::optical_surface["pvc_black"]);
+
+
+
     //G4double dist_pmt_holder_etel = 7.25; //ETEL center is 11.8CLHEP::cm from glass front surface, total distance from glass surface to wings is 19.05CLHEP::cm (7.5") -> dist = 19.05CLHEP::cm-11.8CLHEP::cm = 7.25CLHEP::cm
     G4double dist_pmt_holder_etel = 19.05 + 5.1;  //We read from the Scan_PMT_Glass file, so we should just set the 19.05cm here
 
@@ -415,14 +442,17 @@ namespace RAT {
     if (color.size() == 3){  // RGB
       logLUXHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
       logETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
+      logShortETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2]));
     }
     else if (color.size() == 4){ // RGBA
       logLUXHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
       logETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
+      logShortETELHolder->SetVisAttributes(G4Color(color[0], color[1], color[2], color[3]));
     }
     if (invisible != 0){
       logLUXHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
       logETELHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
+      logShortETELHolder->SetVisAttributes(G4VisAttributes::GetInvisible());
     }
 
 
@@ -505,18 +535,27 @@ namespace RAT {
         if (sqrt(holder_x*holder_x+holder_y*holder_y) < 500.0){
           if(sandi_yes) continue;
           holder_rot->rotateZ(90*CLHEP::deg);
+          G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
+          G4VPhysicalVolume *physicalShortHolder = new G4PVPlacement(holder_rot,   //its rotation
+              HolderPosition,         //its position
+              logShortETELHolder,          //its logical volume
+              "ShortETELHolder",          //its name
+              motherLog,          //its mother volume
+              false,              //no boolean operations
+              HolderID,           //ID for this PMT (=channelkey in data)
+              true);              //check overlaps
+        } else {
+          G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
+          G4VPhysicalVolume *physicalHolder = new G4PVPlacement(holder_rot,   //its rotation
+              HolderPosition,         //its position
+              logETELHolder,          //its logical volume
+              "ETELHolder",          //its name
+              motherLog,          //its mother volume
+              false,              //no boolean operations
+              HolderID,           //ID for this PMT (=channelkey in data)
+              true);              //check overlaps
         }
         
-        G4ThreeVector HolderPosition(holder_x,holder_y,holder_z);
-        G4VPhysicalVolume *physicalHolder = new G4PVPlacement(holder_rot,   //its rotation
-            HolderPosition,         //its position
-            logETELHolder,          //its logical volume
-            "ETELHolder",          //its name
-            motherLog,          //its mother volume
-            false,              //no boolean operations
-            HolderID,           //ID for this PMT (=channelkey in data)
-            true);              //check overlaps
-
       }
 
     }

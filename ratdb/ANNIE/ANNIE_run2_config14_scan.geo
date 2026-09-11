@@ -28,7 +28,8 @@ valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "world", 
 type: "box",
-size: [3910.0, 2845.0, 4250.0], // mm, half-length
+//size: [3910.0, 2845.0, 4250.0], // mm, half-length
+size: [3910.0, 3055.0, 4250.0], // mm, half-length
 position: [0.0, 2268.8, -1070.2],
 color: [0.5, 1.0, 0.0, 0.1],
 material: "air",
@@ -90,6 +91,23 @@ drawstyle: "solid",
 }
 
 
+{
+name: "GEO",
+index: "white_ring_top",
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector", 
+type: "tube",
+r_max: 460.0,
+r_min: 340.0, 
+size_z: 10.0,
+position: [0.0, 0.0, 1556.0],
+material: "pvc_white",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+
 /////////////////////////////////////////////////////////////////////
 ///////////********** End of tank volumes ***********////////////////
 /////////////////////////////////////////////////////////////////////
@@ -143,7 +161,7 @@ pmt_model: "r7081_ANNIE", // Watchboy 10 inch
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_1_TILTED_OFFSET",
+pos_table: "PMTINFO_config14_scan_side_ring_1",
 //pos_table: "PMTINFO_config14_scan_side_ring_1",
 orientation: "manual",
 } 
@@ -178,7 +196,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_2_2_TILTED_OFFSET",
+pos_table: "PMTINFO_config14_scan_side_ring_2_2",
 //pos_table: "PMTINFO_config14_scan_side_ring_2_2",
 orientation: "manual",
 } 
@@ -213,7 +231,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_4_1_TILTED_OFFSET",
+pos_table: "PMTINFO_config14_scan_side_ring_4_1",
 //pos_table: "PMTINFO_config14_scan_side_ring_4_1",
 orientation: "manual", 
 } 
@@ -231,7 +249,7 @@ pmt_model: "r7081_hqe_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_4_2_TILTED_OFFSET",
+pos_table: "PMTINFO_config14_scan_side_ring_4_2",
 //pos_table: "PMTINFO_config14_scan_side_ring_4_2",
 orientation: "manual",  
 } 
@@ -266,7 +284,7 @@ pmt_model: "r7081_ANNIE",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner", 
 //efficiency_correction: 1.000,  
-pos_table: "PMTINFO_config14_scan_side_ring_6_TILTED_OFFSET",
+pos_table: "PMTINFO_config14_scan_side_ring_6",
 //pos_table: "PMTINFO_config14_scan_side_ring_6",
 orientation: "manual", 
 }
@@ -325,7 +343,7 @@ luxetel_holders_color: [1.0, 1.0, 1.0, 0.5],
 luxetel_holders_invisible: 0,
 enable_black_sheets: 1, //Black sheet for optical insulation; octagonal shape; code copied from WCSim
 black_sheet_color: [0.0, 1.0, 0.0, 1.0],
-black_sheet_invisible: 0,
+black_sheet_invisible: 1,
 write_gdml: 0, //Write a gdml file to check the geometry by eye with a CAD program
 enable_superSANDI: 0,
 gdml_out_file: "test_output.gdml",
