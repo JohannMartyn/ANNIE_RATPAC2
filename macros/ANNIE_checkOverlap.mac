@@ -1,0 +1,33 @@
+# check_overlaps.mac
+# Geometry overlap check for the ANNIE detector
+
+/tracking/verbose 0
+/control/verbose 1
+
+# Load the same detector configuration as the visualization macro
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
+/rat/db/load ANNIE/ANNIE_AmBesource.geo
+
+/run/initialize
+
+# ---- Overlap test settings ----
+# Number of random surface points generated per volume (default 10000).
+# Higher = more sensitive but slower.
+/geometry/test/resolution 100000
+
+# Ignore overlaps smaller than this (0 = report everything)
+/geometry/test/tolerance 0 mm
+
+# Print details (points, distances) for every detected overlap
+/geometry/test/verbosity true
+
+# Maximum number of overlap reports per volume before moving on
+/geometry/test/maximum_errors 1
+
+# Start at the world volume and descend through the full hierarchy
+/geometry/test/recursion_start 0
+/geometry/test/recursion_depth -1
+
+# ---- Run the test ----
+/geometry/test/run
