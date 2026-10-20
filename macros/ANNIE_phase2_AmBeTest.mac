@@ -12,7 +12,7 @@
 /rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
 # AmBe source 2.0 at port 2, Z = 0 mm: both top-level volumes have their origin at the
 # AmBe pellet, so they get the same position = pellet position.
-/rat/db/set GEO[AmBe_housing_body] position [0.0,750.0,-42.30]
+/rat/db/set GEO[AmBe_housing_body] position [0.0,750.0,0.0]
 /rat/nCapPhysics/setnCaptureModel ANNRI
 
 /run/initialize
@@ -30,4 +30,4 @@
 /generator/vtx/set neutron AmBe_neutron_with_gamma
 /generator/pos/set ^AmBeSource$
 
-/run/beamOn 22860
+/run/beamOn 1000

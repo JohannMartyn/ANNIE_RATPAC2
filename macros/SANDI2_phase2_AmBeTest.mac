@@ -8,7 +8,7 @@
 /process/had/particle_hp/do_not_adjust_final_state true
 
 /rat/db/set DETECTOR experiment "ANNIE"
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
+/rat/db/set DETECTOR geo_file "ANNIE/SANDI_run2_config14_scan.geo"
 /rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
 # AmBe source 2.0 at port 2, Z = 0 mm: both top-level volumes have their origin at the
 # AmBe pellet, so they get the same position = pellet position.
