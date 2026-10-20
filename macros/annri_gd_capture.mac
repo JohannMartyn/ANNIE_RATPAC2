@@ -1,0 +1,56 @@
+# annri_gd_capture.mac
+#
+# Simulates Gd neutron-capture cascades from the ANNRI-Gd model directly
+# at a chosen vertex, with no neutron transport.
+# Cascade table produced by make_cascade_table.C (ANNRI_Gd.ratdb / ANNRI_Gd.hepevt).
+
+# --- Replace the default DICEBOX cascades with the ANNRI ones -------------
+# Same table name/index as ratdb/DICEBOX158GD.ratdb, so this load overrides it.
+# The log should show: "DB: Replacing default DICEBOX158GD[158gd] in database."
+/rat/db/load ANNRI_Gd.ratdb
+
+# --- Your detector ---------------------------------------------------------
+# /rat/db/set DETECTOR geo_file "<your geometry>.geo"
+
+/tracking/verbose 0
+/event/verbose 0
+
+/tracking/storeTrajectory 1
+/tracking/discardParticleTrajectory opticalphoton
+
+/process/had/particle_hp/use_photo_evaporation true
+/process/had/particle_hp/do_not_adjust_final_state true
+
+/rat/db/set DETECTOR experiment "ANNIE"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
+/rat/db/load ANNIE/ANNIE_AmBesource.geo
+/rat/nCapPhysics/setnCaptureModel ANNRI
+
+/run/initialize
+
+# --- Processors ------------------------------------------------------------
+/rat/proc count
+/rat/procset update 1000
+
+/rat/proclast outanniecluster
+/rat/procset include_mcparticles 1   # the cascade particles are the primaries (mcpdgs, mckes)
+/rat/procset file "ANNIE_UseANNRISpectrum_2.ntuple.root"
+
+# --- Generator: option A, built-in "gd" cascade generator (recommended) ------
+# Syntax: gd <label>:<position generator>[:<time generator>]
+# "158" is only a label; the table holds whatever the ANNRI run produced
+# (the natural 155Gd/157Gd mix).
+/generator/add gd 158:point
+/generator/pos/set 0.0 0.0 0.0
+
+# Uniformly inside a volume instead:
+# /generator/add gd 158:fill
+# /generator/pos/set <volume_name>
+
+# --- Generator: option B, replay the HEPEvt file one cascade per event --
+# Use this instead of option A to replay each cascade exactly once, in order
+# (the run stops at the end of the file).
+# /generator/add external point:poisson:ANNRI_Gd.hepevt
+# /generator/pos/set 0.0 0.0 0.0
+
+/run/beamOn 10000
