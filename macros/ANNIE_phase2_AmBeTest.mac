@@ -2,14 +2,17 @@
 /event/verbose 0
 
 /tracking/storeTrajectory 0
-/tracking/discardParticleTrajectory opticalphoton
+#/tracking/discardParticleTrajectory opticalphoton
 
 /process/had/particle_hp/use_photo_evaporation true
 /process/had/particle_hp/do_not_adjust_final_state true
 
-/rat/db/set DETECTOR experiment "ANNIE" 
+/rat/db/set DETECTOR experiment "ANNIE"
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
-/rat/db/load ANNIE/ANNIE_AmBesource.geo
+/rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
+# AmBe source 2.0 at port 2, Z = 0 mm: both top-level volumes have their origin at the
+# AmBe pellet, so they get the same position = pellet position.
+/rat/db/set GEO[AmBe_housing_body] position [0.0,750.0,-42.30]
 /rat/nCapPhysics/setnCaptureModel ANNRI
 
 /run/initialize
@@ -17,16 +20,14 @@
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
 #/rat/proclast outntuple
-#/rat/procset file "ANNIE_AmBePointTest_P3_yM102_wTyvek100_wPVC100_bPE000_bPVC000.ntuple.root" 
-/rat/procset file "ANNIE_MultiUnionIS_AmBeSource_TiltedOffset_P3_yM100_wTyvek090_wPVC090_bPE020_bPVC020_2.ntuple.root" 
+/rat/procset file "ANNIE_AmBesource3_QEx1_v11SourceV3_Minus5cm_P2_yP000_wTyvek090_wPE050_wPVC000_bPE010_bPVC010_1.ntuple.root"
 
 #/generator/add combo spectrum:point
 #/generator/vtx/set neutron ambe_neutron_spectrum
-#/generator/pos/set 0.0 -100.0 -200.0
+#/generator/pos/set 0.0 750.0 -42.30
 
 /generator/add combo spectrum:regexfill
-/generator/vtx/set neutron ambe_neutron_spectrum
-/generator/pos/set ^AmBeSource*
+/generator/vtx/set neutron AmBe_neutron_with_gamma
+/generator/pos/set ^AmBeSource$
 
-/run/beamOn 105770
-#/run/beamOn 107750
+/run/beamOn 22860
