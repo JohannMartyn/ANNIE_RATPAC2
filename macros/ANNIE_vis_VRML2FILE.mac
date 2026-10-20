@@ -9,10 +9,13 @@
 
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
 #/rat/db/load ANNIE/ANNIE_MRD_FACC.geo
+
 /rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
-/rat/db/set GEO[AmBe_housing_body] position [0.0,0.0,1007.70]
+/rat/db/set GEO[AmBe_housing_body] position [47.7,0.0,513.4]
+
 #/rat/db/load ANNIE/BIGSANDI_WbLS_Vessel.geo
-#/rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
+
+/rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
 
 /run/initialize
 

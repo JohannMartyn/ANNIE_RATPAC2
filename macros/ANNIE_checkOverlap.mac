@@ -7,7 +7,11 @@
 # Load the same detector configuration as the visualization macro
 /rat/db/set DETECTOR experiment "ANNIE"
 /rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config14_scan.geo"
-/rat/db/load ANNIE/ANNIE_AmBesource.geo
+
+/rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
+/rat/db/set GEO[AmBe_housing_body] position [47.7,0.0,513.4]
+
+/rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
 
 /run/initialize
 
