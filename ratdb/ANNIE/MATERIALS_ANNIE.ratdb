@@ -176,7 +176,7 @@ density: 1.0,
 nelements: 0,
 nmaterials: 2,
 materials: ["water","gadolinium_sulfate_octahydrate"],
-matprop: [0.998, 0.002],
+matprop: [0.9983, 0.0017],
 }
 
 // Gd-loaded water (pure Gd), 0.2% in mass
@@ -327,6 +327,18 @@ elemprop: [1.0],
 {
 name: "MATERIAL",
 index: "polyethylene_black",
+run_range : [0, 0],
+density: 0.855, 
+nelements: 2,
+nmaterials: 0,
+elements: ["Hydrogen", "Carbon"],
+elemprop: [0.1437, 0.8563],  // chemical formula is C3H6, fractional weight same as polyethylene 
+}
+
+// Material of the ANNIE PMT holders
+{
+name: "MATERIAL",
+index: "polyethylene_white",
 run_range : [0, 0],
 density: 0.855, 
 nelements: 2,

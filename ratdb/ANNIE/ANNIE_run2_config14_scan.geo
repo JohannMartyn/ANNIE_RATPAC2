@@ -64,11 +64,10 @@ valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "tank",
 type: "tube",
-surface: "pvc_white"
 r_max: 1517.6,
 size_z: 1974.8,
 position: [0.0, 0.0, 0.0],
-material: "pvc_white",
+material: "acrylic_black",
 color: [1.0, 0.5, 0.5, 0.1],
 invisible: 1,
 drawstyle: "solid",
@@ -102,9 +101,11 @@ r_max: 460.0,
 r_min: 340.0, 
 size_z: 10.0,
 position: [0.0, 0.0, 1556.0],
-material: "pvc_white",
+material: "polyethylene_white",
+surface: "polyethylene_white",
 color: [1.0, 0.0, 0.0, 0.1],
 invisible: 0,
+enable: 1,
 drawstyle: "solid",
 }
 
@@ -310,6 +311,107 @@ orientation: "manual",
 
 /////////////////////////////////////////////////////////////////////
 ///////////********** End of PMT arrays ***********//////////////////
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+///////////** Start of Watchman/boy holder rings **//////////////////
+/////////////////////////////////////////////////////////////////////
+
+{
+name: "GEO",
+index: "holder_ring_config14_scan_side_ring_1",
+enable: 1,
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector",
+type: "tubearray",
+r_max: 134.0,
+r_min: 107.0,
+size_z: 3.1,
+pos_table: "RINGINFO_config14_scan_side_ring_1",
+orientation: "manual",
+material: "acrylic_uvt_good",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+{
+name: "GEO",
+index: "holder_ring_config14_scan_side_ring_2_2",
+enable: 1,
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector",
+type: "tubearray",
+r_max: 134.0,
+r_min: 107.0,
+size_z: 3.1,
+pos_table: "RINGINFO_config14_scan_side_ring_2_2",
+orientation: "manual",
+material: "acrylic_uvt_good",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+{
+name: "GEO",
+index: "holder_ring_config14_scan_side_ring_4_1",
+enable: 1,
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector",
+type: "tubearray",
+r_max: 134.0,
+r_min: 107.0,
+size_z: 3.1,
+pos_table: "RINGINFO_config14_scan_side_ring_4_1",
+enable: 1,
+orientation: "manual",
+material: "acrylic_uvt_good",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+{
+name: "GEO",
+index: "holder_ring_config14_scan_side_ring_4_2",
+enable: 1,
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector",
+type: "tubearray",
+r_max: 134.0,
+r_min: 107.0,
+size_z: 3.1,
+pos_table: "RINGINFO_config14_scan_side_ring_4_2",
+enable: 1,
+orientation: "manual",
+material: "acrylic_uvt_good",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+{
+name: "GEO",
+index: "holder_ring_config14_scan_side_ring_6",
+enable: 1,
+valid_begin: [0, 0],
+valid_end: [0, 0],
+mother: "detector",
+type: "tubearray",
+r_max: 134.0,
+r_min: 107.0,
+size_z: 3.1,
+pos_table: "RINGINFO_config14_scan_side_ring_6",
+orientation: "manual",
+material: "acrylic_uvt_good",
+color: [1.0, 0.0, 0.0, 0.1],
+invisible: 0,
+drawstyle: "solid",
+}
+
+/////////////////////////////////////////////////////////////////////
+///////////*** End of Watchman/boy holder rings ***//////////////////
 /////////////////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////////////////
