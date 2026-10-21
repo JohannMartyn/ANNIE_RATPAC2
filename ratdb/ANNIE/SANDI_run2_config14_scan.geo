@@ -105,7 +105,7 @@ material: "polyethylene_white",
 surface: "polyethylene_white",
 color: [1.0, 0.0, 0.0, 0.1],
 invisible: 0,
-enable: 1,
+enable: 0,
 drawstyle: "solid",
 }
 
@@ -413,7 +413,7 @@ mother: "detector",
 // enable_inner_structure: 1 => inner structure made from primitives based on gdml
 // enable_inner_structure: 2 => inner structure loaded from gdml
 enable_inner_structure: 1, 
-inner_structure_visualise: 0, // when enable_inner_structure: 1 is set. 
+inner_structure_visualise: 1, // when enable_inner_structure: 1 is set. 
 inner_structure_gdml_file: "../share/annie/ratdb/ANNIE/annie_phase2_structure.gdml",
 inner_structure_center: [0.0, 0.0, -1968.0],
 inner_structure_rotation_angle: 67.5, // to rotate the structure along the Z (vertical) axis. 67.5° from stl
