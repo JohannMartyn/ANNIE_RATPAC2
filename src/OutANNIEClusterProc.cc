@@ -171,6 +171,11 @@ bool OutANNIEClusterProc::OpenFile(std::string filename) {
     outputTree->Branch("mcPEx", &mcpex);
     outputTree->Branch("mcPEy", &mcpey);
     outputTree->Branch("mcPEz", &mcpez);
+    // Photon hit position in local PMT coordinates (mm): origin at the bulb equator,
+    // +z along the PMT direction. Dark hits are (0,0,0).
+    outputTree->Branch("mcPEHitX", &mcpehitx);
+    outputTree->Branch("mcPEHitY", &mcpehity);
+    outputTree->Branch("mcPEHitZ", &mcpehitz);
     outputTree->Branch("mcPECharge", &mcpecharge);
   }
   if (options.tracking) {
@@ -385,6 +390,9 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
   mcpex.clear();
   mcpey.clear();
   mcpez.clear();
+  mcpehitx.clear();
+  mcpehity.clear();
+  mcpehitz.clear();
   mcpecharge.clear();
 
   mcnhits = mc->GetMCPMTCount();
@@ -404,6 +412,10 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
         mcpex.push_back(position.X());
         mcpey.push_back(position.Y());
         mcpez.push_back(position.Z());
+        TVector3 hitpos = mcph->GetPosition();
+        mcpehitx.push_back(hitpos.X());
+        mcpehity.push_back(hitpos.Y());
+        mcpehitz.push_back(hitpos.Z());
         mcpecharge.push_back(mcph->GetCharge());
         if (mcph->IsDarkHit()) {
           mcpeprocess.push_back(noise);

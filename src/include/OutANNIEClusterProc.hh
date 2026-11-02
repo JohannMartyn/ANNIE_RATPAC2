@@ -122,6 +122,9 @@ class OutANNIEClusterProc : public Processor {
   std::vector<double> mcpex;
   std::vector<double> mcpey;
   std::vector<double> mcpez;
+  std::vector<double> mcpehitx;
+  std::vector<double> mcpehity;
+  std::vector<double> mcpehitz;
   std::vector<double> mcpecharge;
   // MCParticles
   int mcpcount;
