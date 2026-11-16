@@ -9,8 +9,7 @@
 {
 name: "ELEMENT",
 index: "Gadolinium",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 SYMBOL: "Gd",
 z: 64,
 isotopes: [152,154,155,156,157,158,160],
@@ -20,8 +19,7 @@ isotopes_frac: [0.0020,0.0218,0.1480,0.2047,0.1565,0.2484,0.2186],
 {
 name: "ELEMENT",
 index: "Beryllium",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 
 SYMBOL: "Be",
 z: 4,
@@ -31,8 +29,7 @@ a: 9.012,
 {
 name: "ELEMENT",
 index: "Bismuth",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 
 SYMBOL: "Bi",
 z: 83,
@@ -42,11 +39,23 @@ a: 208.980,
 {
 name: "ELEMENT",
 index: "Germanium",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 
 SYMBOL: "Ge",
 z: 32,
 a: 72.630,
+}
+
+// Hydrogen bound in water: same as RAT's Hydrogen, but Geant4 recognises this name and uses the
+// thermal scattering law S(alpha,beta) of H in H2O below 4 eV (G4NDL ThermalScattering h_water)
+// instead of the free-gas model. Used by MATERIAL[water] in MATERIALS_ANNIE.ratdb.
+{
+name: "ELEMENT",
+index: "TS_H_of_Water",
+run_range: [0, 0],
+
+SYMBOL: "H",
+z: 1,
+a: 1.008,
 }
 

@@ -1,8 +1,8 @@
 /tracking/verbose 0
 /event/verbose 0
 
-/tracking/storeTrajectory 0
-#/tracking/discardParticleTrajectory opticalphoton
+/tracking/storeTrajectory 1
+/tracking/discardParticleTrajectory opticalphoton
 
 /process/had/particle_hp/use_photo_evaporation true
 /process/had/particle_hp/do_not_adjust_final_state true
@@ -12,15 +12,25 @@
 /rat/db/load ANNIE/ANNIE_AmBesource_v2.geo
 # AmBe source 2.0 at port 2, Z = 0 mm: both top-level volumes have their origin at the
 # AmBe pellet, so they get the same position = pellet position.
-/rat/db/set GEO[AmBe_housing_body] position [0.0,750.0,0.0]
-/rat/nCapPhysics/setnCaptureModel ANNRI
+/rat/db/set GEO[AmBe_housing_body] position [0.0,0.0,0.0]
+
+/annie/physics/annriGd true  
+/annie/physics/annriGdCascade full
+
+#/annie/physics/hpCaptureIsotopeFix true|false          # unchanged, default true
+#/annie/physics/annriGd true|false                      # default true; false = previous behaviour (DICEBOX)
+#/annie/physics/annriGdCascade full|discrete|continuum  # default full
 
 /run/initialize
 #/rat/physics/scintillation/meanPhotonsPerSecondary 1
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
 #/rat/proclast outntuple
-/rat/procset file "ANNIE_AmBesource3_QEx1_v11SourceV3_Minus5cm_P2_yP000_wTyvek090_wPE050_wPVC000_bPE010_bPVC010_1.ntuple.root"
+/rat/procset file "ANNIE_neutrons_IsotopeFixDICEBOX_1.root"
+
+#/generator/add combo gun:point
+#/generator/vtx/set neutron 0.0 0.0 0.0 1.0
+#/generator/pos/set 0.0 0.0 0.0
 
 #/generator/add combo spectrum:point
 #/generator/vtx/set neutron ambe_neutron_spectrum
@@ -30,4 +40,4 @@
 /generator/vtx/set neutron AmBe_neutron_with_gamma
 /generator/pos/set ^AmBeSource$
 
-/run/beamOn 1000
+/run/beamOn 5000

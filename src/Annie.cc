@@ -1,4 +1,5 @@
 #include <Annie.hh>
+#include <NeutronCapture.hh>
 
 namespace ANNIE {
 Annie::Annie(RAT::AnyParse *p, int argc, char **argv)
@@ -13,6 +14,8 @@ Annie::Annie(RAT::AnyParse *p, int argc, char **argv)
   new RAT::GeoANNIEFactory();
   // Include a new type of processor
   RAT::ProcBlockManager::AppendProcessor<RAT::OutANNIEClusterProc>();
+  // Neutron capture: Geant4 >= 11.4 isotope fix and ANNRI-Gd cascades; macro switches /annie/physics/
+  new NeutronCapture();
   //procAllocators["outanniecluster"] = new ProcAllocatorTmpl<OutANNIEClusterProc>;
   // Add a unique component to the datastructure
 }

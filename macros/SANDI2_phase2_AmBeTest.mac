@@ -17,8 +17,6 @@
 /rat/db/load ANNIE/SANDI2_WbLS_Vessel.geo
 
 
-/rat/nCapPhysics/setnCaptureModel ANNRI
-
 /run/initialize
 #/rat/physics/scintillation/meanPhotonsPerSecondary 1
 /rat/proc splitevdaq

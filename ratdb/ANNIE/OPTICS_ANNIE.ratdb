@@ -17,8 +17,7 @@
 {
 name: "OPTICS",
 index: "wbls_1pct_0420", 
-valid_begin : [0, 0],
-valid_end : [0, 0], 
+run_range: [0, 0],
 LIGHT_YIELD: 100.000000,
 
 RSLENGTH_option: "wavelength",
@@ -80,8 +79,7 @@ PROPERTY_LIST: ["LIGHT_YIELD", "SCINTWAVEFORM", "SCINT_RISE_TIME", "SCINTWAVEFOR
 {
 name: "OPTICS",
 index: "ej335",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 LIGHT_YIELD: 9570.000000,
 NEUTRON_CAPTURE_TIME_value1: [0.0, 1.0, ],
 NEUTRON_CAPTURE_TIME_value2: [15000.0, 15000.0, ],
@@ -121,8 +119,7 @@ PROPERTY_LIST: ["LIGHT_YIELD", "NEUTRON_CAPTURE_TIME", "NEUTRON_SLOW_DIFFUSION_C
 {
 name: "OPTICS",
 index: "BGO_scint",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -154,8 +151,7 @@ PROPERTY_LIST: ["LIGHT_YIELD", "RINDEX", "SCINTILLATION", "SCINTWAVEFORM", "SCIN
 {
 name: "OPTICS",
 index: "water_gdS_0p2",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 //LIGHT_YIELD: 0.000000,
 //SCINTILLATION_value1: [380.0, 480.0, 550.0, ],
 //SCINTILLATION_value2: [0.000, 0.000, 0.000, ],
@@ -195,8 +191,7 @@ PROPERTY_LIST: [ "RINDEX", "ABSLENGTH", "RSLENGTH", ]
 {
 name: "OPTICS",
 index: "photocathode_b76d01",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -229,8 +224,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_d784kflb",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -262,8 +256,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_r5912_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -295,8 +288,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_r5912_hqe_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -328,8 +320,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_r7081_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -361,8 +352,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_r7081_hqe_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -395,8 +385,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "tyvek_wrapper_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -415,8 +404,7 @@ PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "polyethylene_white",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -435,8 +423,7 @@ PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "pvc_white",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -458,8 +445,7 @@ PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "pvc_black",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -478,8 +464,7 @@ PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "polyethylene_black",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -499,8 +484,7 @@ PROPERTY_LIST: ["REFLECTIVITY", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "plastic_scint",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 RINDEX_option: "wavelength",
 RINDEX_value1: [200.0, 300.0, 400.0, 500.0, 600.0, 700.0, 800.0, ],
 RINDEX_value2: [1.700, 1.650, 1.620, 1.604, 1.590, 1.583, 1.578, ], // from https://refractiveindex.info, extrapolation below 400 nm
@@ -533,8 +517,7 @@ PROPERTY_LIST: ["RINDEX", "SCINTILLATION", "SCINTWAVEFORM", "SCINTWAVEFORMalpha"
 {
 name: "OPTICS",
 index: "glass_ANNIE",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 surface: 1,
 finish: "ground",
 model: "glisur",
@@ -557,8 +540,7 @@ PROPERTY_LIST: ["RINDEX", "ABSLENGTH", ]
 {
 name: "OPTICS",
 index: "photocathode_lappd",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",
@@ -590,8 +572,7 @@ PROPERTY_LIST: ["EFFICIENCY", "RINDEX", "KINDEX", "THICKNESS", ]
 {
 name: "OPTICS",
 index: "photocathode_H11934",
-valid_begin : [0, 0],
-valid_end : [0, 0],
+run_range: [0, 0],
 photocathode: 1,
 
 EFFICIENCY_option: "wavelength",

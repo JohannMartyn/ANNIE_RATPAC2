@@ -2,8 +2,7 @@
 {
 name: "PMT",
 index: "b76d01",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -27,8 +26,7 @@ noise_rate: 10000.0, // Hz
 {
 name: "PMT",
 index: "d784kflb",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -69,8 +67,7 @@ noise_rate: 3000.0, // Hz,
 {
 name: "PMT",
 index: "r5912_ANNIE",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -102,8 +99,7 @@ noise_rate: 10000.0, // Hz
 {
 name: "PMT",
 index: "r5912_hqe_ANNIE",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -134,8 +130,7 @@ noise_rate: 3000.0, // Hz
 {
 name: "PMT",
 index: "r7081_ANNIE",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -166,8 +161,7 @@ noise_rate: 3000.0, // Hz
 {
 name: "PMT",
 index: "r7081_hqe_ANNIE",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "toroidal",
 
@@ -199,8 +193,7 @@ noise_rate: 8000.0, // Hz
 name: "PMT",
 index: "lappd_basic",
 
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "lappd",
 
@@ -224,8 +217,7 @@ thick: 5.0, //mm, half z
 name: "PMT",
 index: "lappd",
 
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "lappd",
 
@@ -247,8 +239,7 @@ noise_rate: 10000.0, // Hz
 name: "PMT",
 index: "h11934",
 
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 
 construction: "cubic",
 

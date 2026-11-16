@@ -82,8 +82,7 @@ matprop: [0.012, 0.204, 0.432, 0.334, 0.018,],
 {
 name: "MATERIAL",
 index: "wbls_1pct_0420",
-valid_begin: [0,0],
-valid_end: [0,0],
+run_range: [0, 0],
 density: 1.0,
 nelements: 0,
  
@@ -141,6 +140,20 @@ elements: ["Gadolinium","Chlorine"],
 elemprop: [0.5919, 0.4081],
 }
 
+// Pseudocumene (C9H12), copied from old rat-pac MATERIALS.ratdb; ratpac-two no longer ships it, ej335 needs it
+{
+name: "MATERIAL",
+index: "pseudocumene",
+run_range: [0, 0],
+density: 0.8758,
+nelements: 2,
+nmaterials: 0,
+elements: ["Carbon","Hydrogen"],
+elemprop: [0.8994, 0.1006,],
+formula: "AROMATIC",
+mol: 7.50142e23,
+}
+
 // NCV liquid
 // Exact proportions are unknown, some infos taken from Nucifer's Geant4
 // Eljen told me: about 45% of PC, 45% of mineral oil and that's it. The rest is probably made of some other fluors
@@ -153,6 +166,22 @@ nelements: 0,
 nmaterials: 4,
 materials: ["gadolinium","mineral_oil","pseudocumene", "ppo",],
 matprop: [0.0025, 0.495, 0.495, 0.0075],
+}
+
+// Water: replaces RAT's MATERIAL[water] (ratpac-two ratdb/MATERIALS.ratdb) with the hydrogen as
+// TS_H_of_Water (ELEMENTS_ANNIE.ratdb), so neutrons below 4 eV scatter on bound hydrogen (S(alpha,beta))
+// instead of a free gas. All materials made from water (Gd-water, WbLS) inherit it.
+// Free gas again, before /run/initialize (no spaces in the array): /rat/db/set MATERIAL[water] elements ["Hydrogen","Oxygen"]
+{
+name: "MATERIAL",
+index: "water",
+run_range : [0, 0],
+density: 1.0,
+temperature: 292.15, // 19 degC tank temperature
+nelements: 2,
+nmaterials: 0,
+elements: ["TS_H_of_Water", "Oxygen"],
+elemprop: [0.1119, 0.8881],
 }
 
 // Gd-loaded water (pure Gd), 0.1% in mass
@@ -173,6 +202,7 @@ name: "MATERIAL",
 index: "water_gdS_0p2",
 run_range : [0, 0],
 density: 1.0,
+temperature: 292.15, // 19 degC tank temperature (not inherited from water)
 nelements: 0,
 nmaterials: 2,
 materials: ["water","gadolinium_sulfate_octahydrate"],

@@ -4,8 +4,7 @@
 {
 name: "GEO",
 index: "FACC_paddle_z0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -16,8 +15,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -28,8 +26,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -40,8 +37,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -52,8 +48,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -64,8 +59,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -76,8 +70,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -88,8 +81,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -100,8 +92,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -112,8 +103,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -124,8 +114,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -136,8 +125,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -148,8 +136,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -160,8 +147,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -172,8 +158,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -184,8 +169,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -196,8 +180,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -208,8 +191,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -220,8 +202,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -232,8 +213,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -244,8 +224,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -256,8 +235,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -268,8 +246,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -280,8 +257,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -292,8 +268,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -304,8 +279,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "FACC_paddle_z1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1610.0, 155.0, 12.7], // mm, half-length
@@ -322,8 +296,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -334,8 +307,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -346,8 +318,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -358,8 +329,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -370,8 +340,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -382,8 +351,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -394,8 +362,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -406,8 +373,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -418,8 +384,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -430,8 +395,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -442,8 +406,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -454,8 +417,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -466,8 +428,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -478,8 +439,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -490,8 +450,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -502,8 +461,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -514,8 +472,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -526,8 +483,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -538,8 +494,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -550,8 +505,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -562,8 +516,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -574,8 +527,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -586,8 +538,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -598,8 +549,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -610,8 +560,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -622,8 +571,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -634,8 +582,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z2_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -646,8 +593,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -658,8 +604,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -670,8 +615,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -682,8 +626,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -694,8 +637,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -706,8 +648,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x2_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -718,8 +659,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x2_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -730,8 +670,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x3_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -742,8 +681,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x3_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -754,8 +692,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x4_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -766,8 +703,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x4_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -778,8 +714,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x5_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -790,8 +725,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x5_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -802,8 +736,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x6_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -814,8 +747,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x6_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -826,8 +758,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x7_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -838,8 +769,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x7_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -850,8 +780,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x8_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -862,8 +791,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x8_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -874,8 +802,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x9_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -886,8 +813,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x9_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -898,8 +824,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x10_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -910,8 +835,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x10_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -922,8 +846,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x11_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -934,8 +857,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x11_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -946,8 +868,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x12_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -958,8 +879,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x12_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -970,8 +890,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x13_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -982,8 +901,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x13_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -994,8 +912,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x14_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1006,8 +923,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z3_x14_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1018,8 +934,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -1030,8 +945,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1042,8 +956,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1054,8 +967,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1066,8 +978,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1078,8 +989,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1090,8 +1000,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1102,8 +1011,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1114,8 +1022,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1126,8 +1033,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1138,8 +1044,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1150,8 +1055,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1162,8 +1066,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1174,8 +1077,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1186,8 +1088,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1198,8 +1099,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1210,8 +1110,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1222,8 +1121,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1234,8 +1132,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1246,8 +1143,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1258,8 +1154,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1270,8 +1165,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1282,8 +1176,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1294,8 +1187,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1306,8 +1198,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1318,8 +1209,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1330,8 +1220,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z4_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1342,8 +1231,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -1354,8 +1242,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1366,8 +1253,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1378,8 +1264,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1390,8 +1275,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1402,8 +1286,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x2_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1414,8 +1297,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x2_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1426,8 +1308,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x3_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1438,8 +1319,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x3_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1450,8 +1330,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x4_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1462,8 +1341,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x4_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1474,8 +1352,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x5_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1486,8 +1363,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x5_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1498,8 +1374,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x6_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1510,8 +1385,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x6_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1522,8 +1396,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x7_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1534,8 +1407,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x7_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1546,8 +1418,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x8_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1558,8 +1429,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x8_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1570,8 +1440,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x9_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1582,8 +1451,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x9_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1594,8 +1462,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x10_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1606,8 +1473,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x10_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1618,8 +1484,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x11_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1630,8 +1495,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x11_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1642,8 +1506,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x12_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1654,8 +1517,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x12_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1666,8 +1528,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x13_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1678,8 +1539,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x13_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1690,8 +1550,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x14_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1702,8 +1561,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x14_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1714,8 +1572,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x15_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1726,8 +1583,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x15_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1738,8 +1594,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x16_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1750,8 +1605,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z5_x16_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [75.0, 690.0, 7.0], // mm, half-length
@@ -1762,8 +1616,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -1774,8 +1627,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1786,8 +1638,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1798,8 +1649,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1810,8 +1660,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1822,8 +1671,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1834,8 +1682,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1846,8 +1693,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1858,8 +1704,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1870,8 +1715,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1882,8 +1726,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1894,8 +1737,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1906,8 +1748,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1918,8 +1759,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1930,8 +1770,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1942,8 +1781,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1954,8 +1792,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1966,8 +1803,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1978,8 +1814,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -1990,8 +1825,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2002,8 +1836,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2014,8 +1847,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2026,8 +1858,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2038,8 +1869,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2050,8 +1880,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2062,8 +1891,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2074,8 +1902,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z6_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2086,8 +1913,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -2098,8 +1924,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2110,8 +1935,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2122,8 +1946,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2134,8 +1957,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2146,8 +1968,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x2_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2158,8 +1979,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x2_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2170,8 +1990,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x3_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2182,8 +2001,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x3_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2194,8 +2012,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x4_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2206,8 +2023,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x4_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2218,8 +2034,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x5_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2230,8 +2045,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x5_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2242,8 +2056,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x6_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2254,8 +2067,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x6_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2266,8 +2078,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x7_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2278,8 +2089,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x7_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2290,8 +2100,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x8_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2302,8 +2111,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x8_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2314,8 +2122,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x9_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2326,8 +2133,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x9_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2338,8 +2144,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x10_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2350,8 +2155,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x10_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2362,8 +2166,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x11_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2374,8 +2177,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x11_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2386,8 +2188,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x12_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2398,8 +2199,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z7_x12_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2410,8 +2210,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -2422,8 +2221,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2434,8 +2232,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2446,8 +2243,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2458,8 +2254,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2470,8 +2265,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2482,8 +2276,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2494,8 +2287,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2506,8 +2298,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2518,8 +2309,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2530,8 +2320,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2542,8 +2331,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2554,8 +2342,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2566,8 +2353,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2578,8 +2364,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2590,8 +2375,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2602,8 +2386,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2614,8 +2397,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2626,8 +2408,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2638,8 +2419,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2650,8 +2430,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2662,8 +2441,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2674,8 +2452,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2686,8 +2463,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2698,8 +2474,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2710,8 +2485,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2722,8 +2496,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z8_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -2734,8 +2507,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -2746,8 +2518,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2758,8 +2529,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2770,8 +2540,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2782,8 +2551,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2794,8 +2562,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x2_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2806,8 +2573,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x2_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2818,8 +2584,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x3_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2830,8 +2595,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x3_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2842,8 +2606,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x4_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2854,8 +2617,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x4_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2866,8 +2628,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x5_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2878,8 +2639,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x5_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2890,8 +2650,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x6_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2902,8 +2661,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x6_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2914,8 +2672,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x7_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2926,8 +2683,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x7_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2938,8 +2694,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x8_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2950,8 +2705,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x8_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2962,8 +2716,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x9_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2974,8 +2727,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x9_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2986,8 +2738,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x10_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -2998,8 +2749,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x10_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3010,8 +2760,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x11_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3022,8 +2771,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x11_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3034,8 +2782,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x12_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3046,8 +2793,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x12_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3058,8 +2804,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x13_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3070,8 +2815,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x13_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3082,8 +2826,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x14_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3094,8 +2837,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z9_x14_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3106,8 +2848,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -3118,8 +2859,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3130,8 +2870,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3142,8 +2881,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3154,8 +2892,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3166,8 +2903,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3178,8 +2914,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3190,8 +2925,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3202,8 +2936,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3214,8 +2947,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3226,8 +2958,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3238,8 +2969,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3250,8 +2980,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3262,8 +2991,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3274,8 +3002,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3286,8 +3013,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3298,8 +3024,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3310,8 +3035,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3322,8 +3046,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3334,8 +3057,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3346,8 +3068,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3358,8 +3079,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3370,8 +3090,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3382,8 +3101,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3394,8 +3112,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3406,8 +3123,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3418,8 +3134,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z10_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3430,8 +3145,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -3442,8 +3156,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3454,8 +3167,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3466,8 +3178,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3478,8 +3189,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3490,8 +3200,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x2_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3502,8 +3211,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x2_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3514,8 +3222,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x3_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3526,8 +3233,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x3_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3538,8 +3244,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x4_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3550,8 +3255,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x4_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3562,8 +3266,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x5_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3574,8 +3277,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x5_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3586,8 +3288,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x6_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3598,8 +3299,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x6_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3610,8 +3310,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x7_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3622,8 +3321,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x7_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3634,8 +3332,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x8_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3646,8 +3343,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x8_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3658,8 +3354,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x9_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3670,8 +3365,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x9_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3682,8 +3376,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x10_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3694,8 +3387,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x10_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3706,8 +3398,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x11_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3718,8 +3409,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x11_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3730,8 +3420,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x12_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3742,8 +3431,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x12_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3754,8 +3442,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x13_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3766,8 +3453,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x13_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3778,8 +3464,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x14_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3790,8 +3475,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z11_x14_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [100.0, 690.0, 4.0], // mm, half-length
@@ -3802,8 +3486,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_steel_plate_11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [1525.0, 1370.0, 25.4], // mm, half-length
@@ -3814,8 +3497,7 @@ material: "steel",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3826,8 +3508,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y0",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3838,8 +3519,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3850,8 +3530,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y1",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3862,8 +3541,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3874,8 +3552,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y2",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3886,8 +3563,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3898,8 +3574,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y3",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3910,8 +3585,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3922,8 +3596,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y4",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3934,8 +3607,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3946,8 +3618,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y5",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3958,8 +3629,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3970,8 +3640,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y6",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3982,8 +3651,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -3994,8 +3662,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y7",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4006,8 +3673,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4018,8 +3684,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y8",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4030,8 +3695,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4042,8 +3706,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y9",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4054,8 +3717,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4066,8 +3728,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y10",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4078,8 +3739,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4090,8 +3750,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y11",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4102,8 +3761,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x0_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length
@@ -4114,8 +3772,7 @@ material: "polystyrene",
 {
 name: "GEO",
 index: "MRD_paddle_z12_x1_y12",
-valid_begin: [0, 0],
-valid_end: [0, 0],
+run_range: [0, 0],
 mother: "hall",
 type: "box",
 size: [775.0, 100.0, 3.0], // mm, half-length

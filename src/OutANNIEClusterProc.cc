@@ -513,13 +513,14 @@ Processor::Result OutANNIEClusterProc::DSEvent(DS::Root *ds) {
       hitPMTDigitizedCharge.clear();
       hitPMTNCrossings.clear();
 
-      for (int pmtc = 0; pmtc < ev->GetPMTCount(); pmtc++) {
+      // PMTs are stored by PMT ID: loop over the stored IDs (GetOrCreate*PMT with an index would add empty PMTs)
+      for (int pmtc : ev->GetAllPMTIDs()) {
         RAT::DS::PMT *pmt = ev->GetOrCreatePMT(pmtc);
         hitPMTID.push_back(pmtinfo->GetChannelNumber(pmt->GetID()));
         hitPMTTime.push_back(pmt->GetTime());
         hitPMTCharge.push_back(pmt->GetCharge());
       }
-      for (int pmtc = 0; pmtc < ev->GetDigitPMTCount(); pmtc++) {
+      for (int pmtc : ev->GetAllDigitPMTIDs()) {
         RAT::DS::DigitPMT *digitpmt = ev->GetOrCreateDigitPMT(pmtc);
         hitPMTDigitizedTime.push_back(digitpmt->GetDigitizedTime());
         hitPMTDigitizedCharge.push_back(digitpmt->GetDigitizedCharge());
