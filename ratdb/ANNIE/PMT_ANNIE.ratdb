@@ -7,12 +7,12 @@ valid_end: [0,0],
 
 construction: "toroidal",
 
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_b76d01",
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 
 dynode_radius: 2.0, // wild guess in mm
 dynode_top:   -100.375, // wild guess in mm was -20.625
@@ -32,14 +32,14 @@ valid_end: [0,0],
 
 construction: "toroidal",
 
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_d784kflb", //used the 1408 photocathode in SNO+ rat 
 photocathode_MINrho: 121.7,
 photocathode_MAXrho: 136.7,
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 
 // Unmeasured parameters retained from the supplied R5912 model.
 dynode_radius: 27.5, // mm; fits inside the rear bulb, above the neck
@@ -63,14 +63,14 @@ valid_end: [0,0],
 
 construction: "toroidal",
 
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_r5912_ANNIE",
 photocathode_MINrho: 95.0,
 photocathode_MAXrho: 98.0,
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 
 dynode_radius: 27.5, // mm
 dynode_top:   -6.0, // mm
@@ -92,14 +92,14 @@ valid_end: [0,0],
 
 construction: "toroidal",
 
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum", // dilute air
 photocathode_surface: "photocathode_r5912_hqe_ANNIE",
 photocathode_MINrho: 95.0,
 photocathode_MAXrho: 98.0,
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 
 dynode_radius: 27.5, // mm
 dynode_top:   -6.0, // mm
@@ -120,14 +120,14 @@ index: "r7081_ANNIE",
 valid_begin: [0,0],
 valid_end: [0,0],
 construction: "toroidal",
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_r7081_ANNIE",
 photocathode_MINrho: 110.0,
 photocathode_MAXrho: 123.5,
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 dynode_radius: 27.5, // mm
 dynode_top:   -5.0, // mm
 wall_thickness: 3.0, // mm
@@ -148,14 +148,14 @@ valid_end: [0,0],
 
 construction: "toroidal",
 
-dynode_material: "stainless_steel_ANNIE",
+dynode_material: "stainless_steel",
 glass_material: "glass_ANNIE",
 pmt_vacuum_material: "pmt_vacuum",
 photocathode_surface: "photocathode_r7081_hqe_ANNIE", 
 photocathode_MINrho: 110.0,
 photocathode_MAXrho: 123.5,
 mirror_surface: "mirror",
-dynode_surface: "stainless_steel_ANNIE",
+dynode_surface: "stainless_steel",
 dynode_radius: 27.5, // mm
 dynode_top:   -5.0, // mm
 wall_thickness: 3.0, // mm
