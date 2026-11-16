@@ -2,7 +2,7 @@
 #/glg4debug/glg4param omit_hadronic_processes  1.0
 
 /rat/db/set DETECTOR experiment "ANNIE"
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo"
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_scan.geo"
 #/rat/db/load ANNIE/SANDI1_WbLS_Vessel.geo
 #/rat/db/load ANNIE/ANNIE_MRD_FACC.geo
 

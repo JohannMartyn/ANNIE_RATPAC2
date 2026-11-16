@@ -1,5 +1,5 @@
 /rat/db/set DETECTOR experiment "ANNIE" 
-/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_config13_scan.geo" 
+/rat/db/set DETECTOR geo_file "ANNIE/ANNIE_run2_scan.geo" 
 /run/initialize
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
