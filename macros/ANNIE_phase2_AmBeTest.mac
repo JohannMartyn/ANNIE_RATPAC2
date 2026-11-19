@@ -26,7 +26,7 @@
 /rat/proc splitevdaq
 /rat/proclast outanniecluster
 #/rat/proclast outntuple
-/rat/procset file "ANNIE_neutrons_IsotopeFixDICEBOX_1.root"
+/rat/procset file "ANNIE_neutrons_fullPhysics_singularityTest_2.root"
 
 #/generator/add combo gun:point
 #/generator/vtx/set neutron 0.0 0.0 0.0 1.0
@@ -40,4 +40,4 @@
 /generator/vtx/set neutron AmBe_neutron_with_gamma
 /generator/pos/set ^AmBeSource$
 
-/run/beamOn 5000
+/run/beamOn 35000
